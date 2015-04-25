@@ -70,68 +70,9 @@ qda.table
 ####################################
 
 ##Not sure (at all) if I've done the CV right here
-
-set.seed(16)
-randoms = sample(1:nrow(dmatrix), nrow(dmatrix))
-train1 = dmatrix[randoms[1:95],]
-train2 = dmatrix[randoms[96:190],]
-train3 = dmatrix[randoms[191:285],]
-train4 = dmatrix[randoms[286:380],]
-train5 = dmatrix[randoms[381:nrow(dmatrix)],]
-
-##CV FOLD 1
-train = rbind(train2, train3, train4, train5)
-train$healthcat = as.factor(train$healthcat)
-test.x = train1[,c(1:8)]
-test.y = train1[,9]
-test.y = as.factor(test.y)
-
-rf1 = randomForest(healthcat~., train, xtest = test.x, ytest = test.y, mtry=2)
-cv1 <- colMeans(as.data.frame(rf1$err.rate))
-
-##CV FOLD 2
-train = rbind(train2, train3, train4, train1)
-train$healthcat = as.factor(train$healthcat)
-test.x = train5[,c(1:8)]
-test.y = train5[,9]
-test.y = as.factor(test.y)
-
-rf2 = randomForest(healthcat~., train, xtest = test.x, ytest = test.y, mtry=2)
-cv2 <- colMeans(as.data.frame(rf2$err.rate))
-
-##CV FOLD 3
-train = rbind(train5, train3, train4, train1)
-train$healthcat = as.factor(train$healthcat)
-test.x = train2[,c(1:8)]
-test.y = train2[,9]
-test.y = as.factor(test.y)
-
-rf3 = randomForest(healthcat~., train, xtest = test.x, ytest = test.y, mtry=2)
-cv3 <- colMeans(as.data.frame(rf3$err.rate))
-
-##CV FOLD 4
-train = rbind(train5, train2, train4, train1)
-train$healthcat = as.factor(train$healthcat)
-test.x = train3[,c(1:8)]
-test.y = train3[,9]
-test.y = as.factor(test.y)
-
-rf4 = randomForest(healthcat~., train, xtest = test.x, ytest = test.y, mtry=2)
-cv4 <- colMeans(as.data.frame(rf4$err.rate))
-
-##CV FOLD 5
-train = rbind(train5, train2, train3, train1)
-train$healthcat = as.factor(train$healthcat)
-test.x = train4[,c(1:8)]
-test.y = train4[,9]
-test.y = as.factor(test.y)
-
-rf5 = randomForest(healthcat~., train, xtest = test.x, ytest = test.y, mtry=2)
-cv5 <- colMeans(as.data.frame(rf5$err.rate))
-
-cv <- rbind(cv1, cv2, cv3, cv4, cv5)
-rf.errors <- colMeans(cv)
-rf.errors
+set.seed(333)
+dmatrix$healthcat = as.factor(dmatrix$healthcat)
+rf = randomForest(healthcat~., dmatrix)
 
 ####################################
 #######SUPPORT VECTOR MACHINES######
@@ -209,7 +150,7 @@ svmlpred <- rbind(svm.l1, svm.l2, svm.l3, svm.l4, svm.l5)
 svmcv$id <- c(1:nrow(svmcv))
 
 lpred <- merge(svmcv, svmlpred, by='id')
-l.svm <- table(lpred$healthcat, lpred$pred)
+l.svm <- table(lpred$pred, lpred$healthcat)
 l.svm
 
 ####Radial Kernel####
@@ -283,7 +224,7 @@ svmlpred <- rbind(svm.r1, svm.r2, svm.r3, svm.r4, svm.r5)
 svmcv$id <- c(1:nrow(svmcv))
 
 rpred <- merge(svmcv, svmlpred, by='id')
-r.svm <- table(rpred$healthcat, rpred$pred)
+r.svm <- table(rpred$pred, rpred$healthcat)
 r.svm
 
 ####Polynomial Kernel####
@@ -356,7 +297,7 @@ svmlpred <- rbind(svm.p1, svm.p2, svm.p3, svm.p4, svm.p5)
 svmcv$id <- c(1:nrow(svmcv))
 
 ppred <- merge(svmcv, svmlpred, by='id')
-p.svm <- table(ppred$healthcat, ppred$pred)
+p.svm <- table(ppred$pred, ppred$healthcat)
 p.svm
 
 ##Comparing SVM Designs:
@@ -370,7 +311,7 @@ p.svm
 lm.table ##LPM Table
 lda.table ##LDA Table
 qda.table ##QDA Table (note: variables taken out here)
-rf.errors ##Error Rates for RF (can generate table by multiplying these
+rf ##Error Rates for RF (can generate table by multiplying these
           ##values by sample numbers)
 l.svm ##Linear SVM
 p.svm ##Polynomial SVM (which is linear)

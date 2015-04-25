@@ -1,37 +1,40 @@
 import urllib
 import re
 import csv
-import numpy
 import pandas
 import bs4
 import nltk
 
 urls = []
 http = []
-correcturl = []
 
-f = open('C:\Users\mdrub_000\Desktop\Data Science Project\\scrapersample.csv') ##Change path
+f = open('C:\Users\mdrub_000\Desktop\Data Science Project\\scrape.csv') ##Change path
 data = csv.reader(f)
 
 urls = []
 
 for row in data:
-    urls.append(row[2]) ##Change column depending on where it is
+    urls.append(row[0]) ##Change column depending on where it is
 
-f_urls = []
+urls.pop(0)
+
+text = []
+
 for i in urls:
-    if i == '':
+    try:
+        html = urllib.urlopen(i).read()
+    except IOError:
         pass
-    else:
-        f_urls.append('http://' + str(i)) ##make sure are consistent in original file
-f_urls.pop(0)
-n_urls = filter(None, f_urls)
+    try:
+        soup = bs4.BeautifulSoup(html)
+        soup.get_text().encode('utf-8')
+        text.append(soup)
+    except UnicodeEncodeError:
+        pass
+    
+df = pandas.DataFrame()
+df['website'] = urls
+df['text'] = text
 
-print n_urls
+df.to_csv(path_or_buf = "C:\Users\mdrub_000\Desktop\Data Science Project\htmlscrape.csv", sep = ",", index = 'FALSE') 
 
-for i in n_urls:
-    html = urllib.urlopen(i).read()
-    soup = bs4.BeautifulSoup(html)
-    print soup.get_text()
-
-        

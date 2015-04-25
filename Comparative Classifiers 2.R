@@ -1,7 +1,3 @@
-setwd('C:\\Users\\mdrub_000\\Desktop\\Data Science Project')
-data <- read.csv('scrape.csv')
-dmatrix <- data[,c(2:9,12)] ##DF of only y and x variables
-
 library(class)
 library(DAAG)
 library(boot)
@@ -12,40 +8,38 @@ library(MASS)
 library(randomForest)
 library(e1071)
 
-##Plot Illustrating the Difficulty of
-##Creating LInear Decision Boundaries
+mydtm_df <- read.csv('mydtm.csv')
+keywords <- read.csv('keywords.csv')
+keywords <- keywords[,2]
 
-mycolor = c()
-for(i in 1:nrow(dmatrix)){
-  if(dmatrix$healthcat[i]==0){
-    mycolor = c(mycolor, 'black')}
-  else {mycolor = c(mycolor, 'red')}
-}
-with(dmatrix, plot(Health, Medic,col=mycolor,
-                   ylim=c(0,50), xlim=c(0,50),
-                   pch=20))
+newmatrix <- mydtm_df[,grep("TRUE", names(mydtm_df) %in% keywords)]
+newmatrix$id <- c(1:nrow(newmatrix))
+
+newmatrix <- merge(a, newmatrix, by='id')
+newmatrix <- newmatrix[grep('FALSE', duplicated(newmatrix$Website)),]
+
+trainmatrix <- newmatrix[,c(3:ncol(newmatrix))] ##subsetting to only vars
 
 #####################################
 #######K NEAREST NEIGHBORS###########
 #####################################
 
-set.seed(30)
-cv.est <- knn.cv(dmatrix, cl=dmatrix$healthcat)
-knn.table <- table(cv.est, dmatrix$healthcat)
+set.seed(452)
+cv.est <- knn.cv(trainmatrix, cl=trainmatrix$healthcat)
+knn.table <- table(cv.est, trainmatrix$healthcat)
 knn.table
 
-197/(197+12)
-255/(255+11)
+table(cv.est, trainmatrix$healthcat)
 
 #####################################
 ##############LPM####################
 #####################################
 
 set.seed(98)
-fit <- lm(healthcat ~ ., data=dmatrix)
-cv <- cv.lm(df=dmatrix, fit, m=5)
+fit <- lm(healthcat ~ ., data=trainmatrix)
+cv <- cv.lm(df=trainmatrix, fit, m=5)
 binary <- ifelse(cv$cvpred>0.5,1,0)
-lm.table <- table(binary, dmatrix$healthcat)
+lm.table <- table(binary, trainmatrix$healthcat)
 lm.table
 
 ####################################
@@ -53,108 +47,41 @@ lm.table
 ####################################
 
 set.seed(73)
-fit <- lda(healthcat ~ . , data = dmatrix, CV=TRUE)
-lda.table <- table(fit$class, dmatrix$healthcat)
+fit <- lda(healthcat ~ . , data = trainmatrix, CV=TRUE)
+lda.table <- table(fit$class, trainmatrix$healthcat)
 lda.table
 
-summary(dmatrix) ##Determining variables with little variance
+summary(trainmatrix)
 
-qda <- dmatrix[,c(1,2,4,5,6,7,9)] ##Removing Variables with little variance
-##Otherwise rank deficiency error
-##Removed Quality and Optical
-
-set.seed(3334)
-fit <- qda(healthcat ~ . , data = qda, CV=TRUE)
-qda.table <- table(fit$class, dmatrix$healthcat)
+set.seed(334)
+fit <- qda(healthcat ~ . , data = trainmatrix, CV=TRUE)
+qda.table <- table(fit$class, trainmatrix$healthcat)
 qda.table
+
+set.seed(333)
+dmatrix$healthcat = as.factor(dmatrix$healthcat)
+test.x = dmatrix[,c(1:8)]
+test.y = dmatrix[,9]
 
 ####################################
 ###########RANDOM FORESTS###########
 ####################################
 
-##Not sure (at all) if I've done the CV right here
-set.seed(333)
-
-dmatrix$healthcat = as.factor(dmatrix$healthcat)
-test.x = dmatrix[,c(1:8)]
-test.y = dmatrix[,9]
-
-rf = randomForest(healthcat~., train, dmatrix, xtest = test.x,
-                  ytest = test.y)
+set.seed(325)
+rfmatrix <- trainmatrix
+rfmatrix$healthcat <- as.factor(rfmatrix$healthcat)
+rf = randomForest(healthcat~., rfmatrix, ntry=4)
 rf
-
-set.seed(16)
-randoms = sample(1:nrow(dmatrix), nrow(dmatrix))
-train1 = dmatrix[randoms[1:95],]
-train2 = dmatrix[randoms[96:190],]
-train3 = dmatrix[randoms[191:285],]
-train4 = dmatrix[randoms[286:380],]
-train5 = dmatrix[randoms[381:nrow(dmatrix)],]
-
-##CV FOLD 1
-train = rbind(train2, train3, train4, train5)
-train$healthcat = as.factor(train$healthcat)
-test.x = train1[,c(1:8)]
-test.y = train1[,9]
-test.y = as.factor(test.y)
-
-rf1 = randomForest(healthcat~., train, xtest = test.x, ytest = test.y, mtry=2)
-cv1 <- colMeans(as.data.frame(rf1$err.rate))
-
-##CV FOLD 2
-train = rbind(train2, train3, train4, train1)
-train$healthcat = as.factor(train$healthcat)
-test.x = train5[,c(1:8)]
-test.y = train5[,9]
-test.y = as.factor(test.y)
-
-rf2 = randomForest(healthcat~., train, xtest = test.x, ytest = test.y, mtry=2)
-cv2 <- colMeans(as.data.frame(rf2$err.rate))
-
-##CV FOLD 3
-train = rbind(train5, train3, train4, train1)
-train$healthcat = as.factor(train$healthcat)
-test.x = train2[,c(1:8)]
-test.y = train2[,9]
-test.y = as.factor(test.y)
-
-rf3 = randomForest(healthcat~., train, xtest = test.x, ytest = test.y, mtry=2)
-cv3 <- colMeans(as.data.frame(rf3$err.rate))
-
-##CV FOLD 4
-train = rbind(train5, train2, train4, train1)
-train$healthcat = as.factor(train$healthcat)
-test.x = train3[,c(1:8)]
-test.y = train3[,9]
-test.y = as.factor(test.y)
-
-rf4 = randomForest(healthcat~., train, xtest = test.x, ytest = test.y, mtry=2)
-cv4 <- colMeans(as.data.frame(rf4$err.rate))
-
-##CV FOLD 5
-train = rbind(train5, train2, train3, train1)
-train$healthcat = as.factor(train$healthcat)
-test.x = train4[,c(1:8)]
-test.y = train4[,9]
-test.y = as.factor(test.y)
-
-rf5 = randomForest(healthcat~., train, xtest = test.x, ytest = test.y, mtry=2)
-cv5 <- colMeans(as.data.frame(rf5$err.rate))
-
-cv <- rbind(cv1, cv2, cv3, cv4, cv5)
-rf.errors <- colMeans(cv)
-rf.errors
 
 ####################################
 #######SUPPORT VECTOR MACHINES######
 ####################################
 
-svmcv <- dmatrix[-475,-3] ##Getting Rid of Optical
-svmcv$healthcat <- as.factor(svmcv$healthcat)
+trainmatrix$healthcat <- as.factor(trainmatrix$healthcat)
 
 ##Linear Kernel
 set.seed(35)
-l.tune.out = tune(svm, healthcat~., data=svmcv, kernel='linear',
+l.tune.out = tune(svm, healthcat~., data=trainmatrix, kernel='linear',
                   ranges=list(cost=c(0.001, 0.01, 0.1, 1, 5, 10, 100)))
 
 lbestmod = l.tune.out$best.model
@@ -162,12 +89,12 @@ lbestmod = l.tune.out$best.model
 ##Cross-Validation for Test Error Estimate
 
 set.seed(304)
-randoms = sample(1:nrow(svmcv), nrow(svmcv))
-train1 = svmcv[randoms[1:95],]
-train2 = svmcv[randoms[96:190],]
-train3 = svmcv[randoms[191:285],]
-train4 = svmcv[randoms[286:380],]
-train5 = svmcv[randoms[381:nrow(svmcv)],]
+randoms = sample(1:nrow(trainmatrix), nrow(trainmatrix))
+train1 = trainmatrix[randoms[1:95],]
+train2 = trainmatrix[randoms[96:190],]
+train3 = trainmatrix[randoms[191:285],]
+train4 = trainmatrix[randoms[286:380],]
+train5 = trainmatrix[randoms[381:nrow(trainmatrix)],]
 
 ##CV FOLD 1
 train = rbind(train2, train3, train4, train5)
@@ -218,17 +145,16 @@ names(svm.l4) <- c('pred', 'id')
 names(svm.l5) <- c('pred', 'id')
 
 svmlpred <- rbind(svm.l1, svm.l2, svm.l3, svm.l4, svm.l5)
-svmcv$id <- c(1:nrow(svmcv))
+trainmatrix$id <- c(1:nrow(trainmatrix))
 
-lpred <- merge(svmcv, svmlpred, by='id')
-l.svm <- table(lpred$healthcat, lpred$pred)
+lpred <- merge(trainmatrix, svmlpred, by='id')
+l.svm <- table(lpred$pred, lpred$healthcat)
+table(lpred$pred, lpred$healthcat)
 l.svm
 
 ####Radial Kernel####
-svmcv <- svmcv[,-9]
-
 set.seed(843)
-r.tune.out = tune(svm, healthcat~., data=svmcv, kernel='radial',
+r.tune.out = tune(svm, healthcat~., data=trainmatrix, kernel='radial',
                   ranges=list(cost=c(0.1,1,10,100,1000),
                               gamma=c(0.5,1,2,3,4)))
 rbestmod = r.tune.out$best.model
@@ -236,12 +162,12 @@ rbestmod = r.tune.out$best.model
 ##Cross-Validation for Test Error Estimate
 
 set.seed(383)
-randoms = sample(1:nrow(svmcv), nrow(svmcv))
-train1 = svmcv[randoms[1:95],]
-train2 = svmcv[randoms[96:190],]
-train3 = svmcv[randoms[191:285],]
-train4 = svmcv[randoms[286:380],]
-train5 = svmcv[randoms[381:nrow(svmcv)],]
+randoms = sample(1:nrow(trainmatrix), nrow(trainmatrix))
+train1 = trainmatrix[randoms[1:95],]
+train2 = trainmatrix[randoms[96:190],]
+train3 = trainmatrix[randoms[191:285],]
+train4 = trainmatrix[randoms[286:380],]
+train5 = trainmatrix[randoms[381:nrow(trainmatrix)],]
 
 ##CV FOLD 1
 train = rbind(train2, train3, train4, train5)
@@ -292,29 +218,27 @@ names(svm.r4) <- c('pred', 'id')
 names(svm.r5) <- c('pred', 'id')
 
 svmlpred <- rbind(svm.r1, svm.r2, svm.r3, svm.r4, svm.r5)
-svmcv$id <- c(1:nrow(svmcv))
+trainmatrix$id <- c(1:nrow(trainmatrix))
 
-rpred <- merge(svmcv, svmlpred, by='id')
-r.svm <- table(rpred$healthcat, rpred$pred)
+rpred <- merge(trainmatrix, svmlpred, by='id')
+r.svm <- table(rpred$pred, rpred$healthcat)
 r.svm
 
 ####Polynomial Kernel####
-svmcv <- svmcv[,-9]
-
 set.seed(3630)
-p.tune.out = tune(svm, healthcat~., data=svmcv, kernel='polynomial',
+p.tune.out = tune(svm, healthcat~., data=trainmatrix, kernel='polynomial',
                   ranges=list(cost=c(0.1,1,10,100,1000),
                               degree=c(1:10)))
 pbestmod = p.tune.out$best.model
 
 ##Cross-Validation for Test Error Estimate
 set.seed(121)
-randoms = sample(1:nrow(svmcv), nrow(svmcv))
-train1 = svmcv[randoms[1:95],]
-train2 = svmcv[randoms[96:190],]
-train3 = svmcv[randoms[191:285],]
-train4 = svmcv[randoms[286:380],]
-train5 = svmcv[randoms[381:nrow(svmcv)],]
+randoms = sample(1:nrow(trainmatrix), nrow(trainmatrix))
+train1 = trainmatrix[randoms[1:95],]
+train2 = trainmatrix[randoms[96:190],]
+train3 = trainmatrix[randoms[191:285],]
+train4 = trainmatrix[randoms[286:380],]
+train5 = trainmatrix[randoms[381:nrow(trainmatrix)],]
 
 ##CV FOLD 1
 train = rbind(train2, train3, train4, train5)
@@ -365,10 +289,10 @@ names(svm.p4) <- c('pred', 'id')
 names(svm.p5) <- c('pred', 'id')
 
 svmlpred <- rbind(svm.p1, svm.p2, svm.p3, svm.p4, svm.p5)
-svmcv$id <- c(1:nrow(svmcv))
+trainmatrix$id <- c(1:nrow(trainmatrix))
 
-ppred <- merge(svmcv, svmlpred, by='id')
-p.svm <- table(ppred$healthcat, ppred$pred)
+ppred <- merge(trainmatrix, svmlpred, by='id')
+p.svm <- table(ppred$pred, ppred$healthcat)
 p.svm
 
 ##Comparing SVM Designs:
@@ -378,7 +302,6 @@ p.svm
 ##up with basically the same model in both instances
 
 ###All tables
-
 lm.table ##LPM Table
 lda.table ##LDA Table
 qda.table ##QDA Table (note: variables taken out here)

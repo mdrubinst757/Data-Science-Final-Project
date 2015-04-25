@@ -42,6 +42,7 @@ data2 <- data2[!is.na(data2[,4]),]
 data2$healthcat = ifelse(data2$HC==0, 0, 1)
 
 ###FINAL DATASET MERGE###
+
 names(data1)
 names(data2)
 
