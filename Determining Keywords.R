@@ -15,38 +15,17 @@ library(RWeka)
 library(tm)
 library(glmnet)
 
-htmlscrape <- read.csv('htmlscrape_r.csv')
-text <- htmlscrape[,2]
-
-myCorpus <- Corpus(VectorSource(text))
-myCorpus <- tm_map(myCorpus, content_transformer(tolower))
-myCorpus <- tm_map(myCorpus, removeWords, stopwords('english'))
-myCorpus <- tm_map(myCorpus, stemDocument)
-myCorpus <- tm_map(myCorpus, content_transformer(removePunctuation))
-myCorpus <- tm_map(myCorpus, stripWhitespace)
-myCorpus <- tm_map(myCorpus, content_transformer(removeNumbers))
-
-GramTokenizer <- function(x) {
-  NGramTokenizer(x, Weka_control(min=1, max=3))
-}
-
-dtm <- DocumentTermMatrix(myCorpus, 
-                          control=list(tokenize=GramTokenizer))
-
-dtm <- removeSparseTerms(dtm, 0.995) ##removing sparse terms
-mydtm_df <- data.frame(as.matrix(dtm))
-write.csv(mydtm_df, 'dtm.csv', row.names=F, sep=',')
+scrape <- read.csv('scrape.csv')
+mydtm_df <- read.csv('dtm.csv')
 
 a <- scrape[,c('Website', 'healthcat')]
-a$id <- c(1:nrow(a))
-mydtm_df$id <- c(1:nrow(a))
-final <- merge(a, mydtm_df, by='id')
+final <- merge(a, mydtm_df, by.x='Website', by.y='url')
 final <- final[grep('FALSE', duplicated(final$Website)),]
 
-#####CHI SQUARED SHIT
+#####CHI SQUARED ELIMINATION
 
-nonhealth <- final[final$healthcat==0, -c(1,2,3)]
-health <- final[final$healthcat==1, -c(1,2,3)]
+nonhealth <- final[final$healthcat==0, -c(1,2)]
+health <- final[final$healthcat==1, -c(1,2)]
 
 nhcount <- sapply(nonhealth, sum, 2)
 hcount <- sapply(health, sum, 2)
@@ -68,50 +47,47 @@ resselect <- res[res[,1]>quantile(res[,1], c(0.05,0.95))[2]
 resselect <- t(resselect)
 fingrams <- colnames(resselect)
 
-fin2 <- mydtm_df[,fingrams]
-fin2$id <- c(1:nrow(fin2))
+chiorder <- t(resselect)
+keywords <- rownames(chiorder[order(chiorder[,1]),][1:100,])
+keywords
 
-final <- merge(a, fin2, by='id')
-final <- final[grep('FALSE', duplicated(final$Website)),]
+resselect
+final <- final[,c('Website', 'healthcat', keywords)]
 
-names(final[1:5])
+test
 
 ###LASSO REGRESSION
 grid = 10^seq(10, -2, length=100) ##set lambda parameters
+
 set.seed(235)
 train=sample(1:nrow(final), nrow(final)/2) ##create training data rows
 test = (-train) ##create test data rows
 
 y.test = final$healthcat[test]
-x.test = as.matrix(final[test,-c(1,2,3)])
+x.test = final[test,-c(1,2)]
 
-y.train = final$healthcat[-test]
-x.train = as.matrix(final[-test,-c(1,2,3)])
+y.train = final$healthcat[train]
+x.train = final[train,-c(1,2)]
 
-lasso.mod=glmnet(x.train, y.train, alpha=1, lambda=grid)
-
+lasso.mod=glmnet(as.matrix(x.train), y.train, alpha=1, lambda=grid)
 set.seed(46)
-cv.out = cv.glmnet(x.train, y.train, alpha=1) ##cross-validate to determine
+cv.out = cv.glmnet(as.matrix(x.train), y.train, alpha=1) ##cross-validate to determine
 ##the best lambda
 plot(cv.out)
 bestlam=cv.out$lambda.min
 
 ##Using Tuning Parameter on Test Data
-lasso.pred=predict(lasso.mod, s=bestlam, newx=x.test)
-out=glmnet(x.test, y.test, alpha=1, lambda=grid)
+lasso.pred=predict(lasso.mod, s=bestlam, newx=as.matrix(x.test))
+out=glmnet(as.matrix(x.test), y.test, alpha=1, lambda=grid)
 lasso.coef=predict(out, type='coefficients', s=bestlam)
 
-cv.out ##gives you the mse and lambda of model on training data
-min(cv.out$cvm)
-
-out1=glmnet(x.test, y.test, alpha=1, lambda=bestlam)
+out1=glmnet(as.matrix(x.test), y.test, alpha=1, lambda=bestlam)
 out1$dev.ratio ##Test Deviance 
 
 #Out of Sample Correlation
 cor.test(lasso.pred, y.test) 
 yhat <- ifelse(lasso.pred>0.5,1,0)
 table(yhat, y.test)
-cor.test(yhat, y.test)
 
 values <- as.numeric(lasso.coef[lasso.coef!=0])
 names <- rownames(lasso.coef)
@@ -120,5 +96,8 @@ names <- names[grep("TRUE", as.vector(lasso.coef) %in% values)]
 mylist <- cbind(values, names)
 mylist <- as.data.frame(mylist)
 mylist <- mylist[order(values),]
+
+mylist <- mylist$names
+mylist <- mylist[-c(2,15,1)] ##eliminating suspect n-grams
 
 write.table(mylist, 'keywords.csv', row.names=F, sep=',')

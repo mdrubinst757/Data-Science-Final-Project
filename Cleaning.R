@@ -17,8 +17,6 @@ library(glmnet)
 
 scrape <- read.csv('scrape.csv')
 urls <- scrape[,c(1)]
-urls <- urls[1:5]
-head(urls)
 
 library(RCurl)
 library(XML)
@@ -43,6 +41,33 @@ for(i in 1:length(text)) {
   text[i] <- gsub('\\r', ' ', text[i], perl=TRUE)
 }
 
-htmlscrape <- cbind(urls, text)
-write.table(htmlscrape, 'htmlscrape_r.csv', row.names=F, sep=',')
+text1 <- as.data.frame(text)
+text1$url <- urls
 
+grep('NA', text1$text)
+fix(text1) ##Look for ones that didn't work, mark as NA
+text2 <- text1[-grep('1', text1$truena),]
+text2t <- text2$text
+
+text2u <- text2$url
+
+myCorpus <- Corpus(VectorSource(text2t))
+myCorpus <- tm_map(myCorpus, content_transformer(tolower))
+myCorpus <- tm_map(myCorpus, removeWords, stopwords('english'))
+myCorpus <- tm_map(myCorpus, stemDocument)
+myCorpus <- tm_map(myCorpus, content_transformer(removePunctuation))
+myCorpus <- tm_map(myCorpus, stripWhitespace)
+myCorpus <- tm_map(myCorpus, content_transformer(removeNumbers))
+
+GramTokenizer <- function(x) {
+  NGramTokenizer(x, Weka_control(min=1, max=3))
+}
+
+dtm <- DocumentTermMatrix(myCorpus, 
+                          control=list(tokenize=GramTokenizer))
+
+dtm <- removeSparseTerms(dtm, 0.995) ##removing sparse terms
+mydtm_df <- data.frame(as.matrix(dtm))
+mydtm_df$url <- text2u
+
+write.csv(mydtm_df, 'dtm.csv', row.names=F, sep=',')

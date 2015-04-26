@@ -8,17 +8,19 @@ library(MASS)
 library(randomForest)
 library(e1071)
 
-mydtm_df <- read.csv('mydtm.csv')
+mydtm_df <- read.csv('dtm.csv')
+mydtm_df$id <- c(1:nrow(mydtm_df))
 keywords <- read.csv('keywords.csv')
-keywords <- keywords[,2]
+scrape <- read.csv('scrape.csv')
+scrape <- scrape[,c('healthcat', 'Website')]
 
-newmatrix <- mydtm_df[,grep("TRUE", names(mydtm_df) %in% keywords)]
-newmatrix$id <- c(1:nrow(newmatrix))
+newmatrix <- mydtm_df[,grep("TRUE", names(mydtm_df) %in% keywords[,1])]
+urls <- mydtm_df$url
+newmatrix <- cbind(newmatrix, urls)
+newmatrix <- newmatrix[grep('FALSE', duplicated(newmatrix$url)),]
+newmatrix <- merge(newmatrix, scrape, by.x='urls', by.y='Website')
 
-newmatrix <- merge(a, newmatrix, by='id')
-newmatrix <- newmatrix[grep('FALSE', duplicated(newmatrix$Website)),]
-
-trainmatrix <- newmatrix[,c(3:ncol(newmatrix))] ##subsetting to only vars
+trainmatrix <- newmatrix[,c(2:ncol(newmatrix))] ##subsetting to only vars
 
 #####################################
 #######K NEAREST NEIGHBORS###########
@@ -90,11 +92,11 @@ lbestmod = l.tune.out$best.model
 
 set.seed(304)
 randoms = sample(1:nrow(trainmatrix), nrow(trainmatrix))
-train1 = trainmatrix[randoms[1:95],]
-train2 = trainmatrix[randoms[96:190],]
-train3 = trainmatrix[randoms[191:285],]
-train4 = trainmatrix[randoms[286:380],]
-train5 = trainmatrix[randoms[381:nrow(trainmatrix)],]
+train1 = trainmatrix[randoms[1:77],]
+train2 = trainmatrix[randoms[78:154],]
+train3 = trainmatrix[randoms[155:231],]
+train4 = trainmatrix[randoms[232:308],]
+train5 = trainmatrix[randoms[309:nrow(trainmatrix)],]
 
 ##CV FOLD 1
 train = rbind(train2, train3, train4, train5)
@@ -163,11 +165,11 @@ rbestmod = r.tune.out$best.model
 
 set.seed(383)
 randoms = sample(1:nrow(trainmatrix), nrow(trainmatrix))
-train1 = trainmatrix[randoms[1:95],]
-train2 = trainmatrix[randoms[96:190],]
-train3 = trainmatrix[randoms[191:285],]
-train4 = trainmatrix[randoms[286:380],]
-train5 = trainmatrix[randoms[381:nrow(trainmatrix)],]
+train1 = trainmatrix[randoms[1:77],]
+train2 = trainmatrix[randoms[78:154],]
+train3 = trainmatrix[randoms[155:231],]
+train4 = trainmatrix[randoms[232:308],]
+train5 = trainmatrix[randoms[309:nrow(trainmatrix)],]
 
 ##CV FOLD 1
 train = rbind(train2, train3, train4, train5)
@@ -234,11 +236,11 @@ pbestmod = p.tune.out$best.model
 ##Cross-Validation for Test Error Estimate
 set.seed(121)
 randoms = sample(1:nrow(trainmatrix), nrow(trainmatrix))
-train1 = trainmatrix[randoms[1:95],]
-train2 = trainmatrix[randoms[96:190],]
-train3 = trainmatrix[randoms[191:285],]
-train4 = trainmatrix[randoms[286:380],]
-train5 = trainmatrix[randoms[381:nrow(trainmatrix)],]
+train1 = trainmatrix[randoms[1:77],]
+train2 = trainmatrix[randoms[78:154],]
+train3 = trainmatrix[randoms[155:231],]
+train4 = trainmatrix[randoms[232:308],]
+train5 = trainmatrix[randoms[309:nrow(trainmatrix)],]
 
 ##CV FOLD 1
 train = rbind(train2, train3, train4, train5)
