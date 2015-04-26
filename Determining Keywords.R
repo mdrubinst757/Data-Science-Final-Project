@@ -2,11 +2,21 @@
 ##in the text and the counts associated with each website. It then subsets
 ##sparse terms, found in less than 0.5% of all observations, and uses a 
 ##chi-squared test to further subsets the n-grams are most and least associated
-##with healthcare websites. These ngrams are then chosen as keywords to use
-##to run different classification models to help categorize whether a company
-##does work in healthcare or not.
+##with healthcare websites. 
 
-setwd('C:\\Users\\mdrub_000\\Desktop\\Data Science Project')
+##These n-grams are then used to create three sets of keywords to attempt
+##to classify the websites. The three methods are as follows:
+
+    ##1) Top 100 n-grams associated with healthcare websites
+    ##2) Top 50 n-grams associated with healthcare websites, top 50
+        ##not associated with healthcare websites
+    ##3) N-grams from lasso using top 100 n-grams (12 remained)
+
+##This provides two sets of 100 n-grams and one smaller set to attempt to
+##classify the websites that are done using the Comparative Classifiers 2,3,
+## and 4.R files.
+
+setwd('C:\\Users\\mdrub_000\\Desktop\\Github\\Data-Science-Final-Project')
 
 options(java.home="C:\\Program Files\\Java\\jre1.8.0_40")
 options(java.parameters = "-Xmx10000m")
@@ -48,13 +58,17 @@ resselect <- t(resselect)
 fingrams <- colnames(resselect)
 
 chiorder <- t(resselect)
-keywords <- rownames(chiorder[order(chiorder[,1]),][1:100,])
-keywords
+keywords.t100 <- rownames(chiorder[order(chiorder[,1]),][1:100,])
+keywords.5050 <- rownames(chiorder[order(chiorder[,1]),][1:50,])
+keywords.5050 <- c(keywords.5050, rownames(chiorder[order(chiorder[,2]),][1:50,]))
+
+keywordslist <- cbind(keywords.t100, keywords.5050)
+keywordslist <- as.data.frame(keywordslist)
+
+write.table(keywordslist, 't100keywords.csv', sep=',', row.names=F)
 
 resselect
-final <- final[,c('Website', 'healthcat', keywords)]
-
-test
+final <- final[,c('Website', 'healthcat', keywords.t100)]
 
 ###LASSO REGRESSION
 grid = 10^seq(10, -2, length=100) ##set lambda parameters
