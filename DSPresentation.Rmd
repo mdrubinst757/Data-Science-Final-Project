@@ -33,6 +33,8 @@ output:
 ## Sample
 
 - 470 pre-classified websites
+- All Nashville Based 
+- Moody's Analytics 
 
 ## Example 1
 <div class="centered">
