@@ -90,6 +90,8 @@ l.tune.out = tune(svm, healthcat~., data=svmcv, kernel='linear',
 
 lbestmod = l.tune.out$best.model
 
+str(summary(lbestmod))
+
 ##Cross-Validation for Test Error Estimate
 
 set.seed(304)

@@ -92,14 +92,16 @@
 
 <ul>
 <li><p>What are NAICS Codes</p></li>
-<li><p>How often are they assigned</p></li>
+<li><p>How they are assigned</p></li>
 <li><p>Why that&#39;s a problem</p></li>
 </ul>
 
-</article></slide><slide class=''><hgroup><h2>NAICS Code 541618 - &quot;Other Management Consulting Service</h2></hgroup><article  id="naics-code-541618---other-management-consulting-service">
+</article></slide><slide class=''><hgroup><h2>NAICS Code 541618 - &quot;Other Management Consulting Service&quot;</h2></hgroup><article  id="naics-code-541618---other-management-consulting-service">
 
-<div class="centered">
-<img src='/Users/phil009/GitHub/Data-Science-Final-Project/naics.png' title=''/></div>
+<div class="centered"
+![Nonhealthcare](https://raw.githubusercontent.com/mdrubinst757/Data-Science-Final-Project/master/naics.png)
+</div>
+
 
 </article></slide><slide class=''><hgroup><h2>NAICS Classification</h2></hgroup><article  id="naics-classification">
 
@@ -126,17 +128,17 @@
 </tr>
 <tr class="even">
 <td align="left">5241</td>
-<td align="left">6%</td>
+<td align="left">60%</td>
 <td align="left">Insurance</td>
 </tr>
 <tr class="odd">
 <td align="left">5242</td>
-<td align="left">2%</td>
+<td align="left">20%</td>
 <td align="left">Insurance</td>
 </tr>
 <tr class="even">
 <td align="left">5412</td>
-<td align="left">4%</td>
+<td align="left">40%</td>
 <td align="left">Accounting Services</td>
 </tr>
 <tr class="odd">
@@ -179,12 +181,12 @@
 </article></slide><slide class=''><hgroup><h2>Example 1</h2></hgroup><article  id="example-1">
 
 <div class="centered">
-<img src='/Users/phil009/GitHub/Data-Science-Final-Project/nonhealth.png' title=''/></div>
+<img src='https://raw.githubusercontent.com/mdrubinst757/Data-Science-Final-Project/master/nonhealth.png' title=''/></div>
 
 </article></slide><slide class=''><hgroup><h2>Example 2</h2></hgroup><article  id="example-2">
 
 <div class="centered">
-<img src='/Users/phil009/GitHub/Data-Science-Final-Project/hc.png' title=''/></div>
+<img src='https://raw.githubusercontent.com/mdrubinst757/Data-Science-Final-Project/master/hc.png' title=''/></div>
 
 </article></slide><slide class=''><hgroup><h2>Ad Hoc Model </h2><h3> Our Best Guess</h3></hgroup><article  id="ad-hoc-model-our-best-guess" class="build">
 
@@ -197,6 +199,11 @@
 <li>&quot;physician&quot;</li>
 <li>&quot;quality of care&quot;</li>
 </ul>
+
+</article></slide><slide class=''><hgroup><h2>Visualizing the difference</h2></hgroup><article  id="visualizing-the-difference">
+
+<div class="centered">
+<img src='https://raw.githubusercontent.com/mdrubinst757/Data-Science-Final-Project/master/rplot.png' title=''/></div>
 
 </article></slide><slide class=''><hgroup><h2>How&#39;d we do?</h2></hgroup><article  id="howd-we-do">
 
@@ -432,98 +439,13 @@
 </tr>
 </table>
 
-</article></slide><slide class=''><hgroup><h2>Visualizing the difference</h2></hgroup><article  id="visualizing-the-difference">
-
-<div class="centered">
-<img src='/Users/phil009/GitHub/Data-Science-Final-Project/rplot.png' title=''/></div>
-
-</article></slide><slide class=''><hgroup><h2>Extra Tables</h2></hgroup><article  id="extra-tables">
+</article></slide><slide class=''><hgroup><h2>Extra Model 1: Top 100 N-Grams</h2></hgroup><article  id="extra-model-1-top-100-n-grams">
 
 <table class = 'rmdtable'>
 <tr class="header">
 <th align="left">Model</th>
-<th align="left">Total.Error.Rate</th>
+<th align="left">Pct.Correctly.Classified</th>
 <th align="left">Keywords.Method</th>
-</tr>
-<tr class="odd">
-<td align="left">LPM</td>
-<td align="left">64.9%</td>
-<td align="left">AdHoc</td>
-</tr>
-<tr class="even">
-<td align="left">LDA</td>
-<td align="left">50.6%</td>
-<td align="left">AdHoc</td>
-</tr>
-<tr class="odd">
-<td align="left">QDA</td>
-<td align="left">72.5%</td>
-<td align="left">AdHoc</td>
-</tr>
-<tr class="even">
-<td align="left">RF</td>
-<td align="left">74.2%</td>
-<td align="left">AdHoc</td>
-</tr>
-<tr class="odd">
-<td align="left">SVA-L</td>
-<td align="left">73.6%</td>
-<td align="left">AdHoc</td>
-</tr>
-<tr class="even">
-<td align="left">SVA-R</td>
-<td align="left">75.5%</td>
-<td align="left">AdHoc</td>
-</tr>
-<tr class="odd">
-<td align="left">SVA-P</td>
-<td align="left">NA</td>
-<td align="left">AdHoc</td>
-</tr>
-<tr class="even">
-<td align="left">KNN</td>
-<td align="left">96.1</td>
-<td align="left">AdHoc</td>
-</tr>
-<tr class="odd">
-<td align="left">LPM</td>
-<td align="left">70.4%</td>
-<td align="left">CG12</td>
-</tr>
-<tr class="even">
-<td align="left">LDA</td>
-<td align="left">72.2%</td>
-<td align="left">CG12</td>
-</tr>
-<tr class="odd">
-<td align="left">QDA</td>
-<td align="left">NA</td>
-<td align="left">CG12</td>
-</tr>
-<tr class="even">
-<td align="left">RF</td>
-<td align="left">71.7%</td>
-<td align="left">CG12</td>
-</tr>
-<tr class="odd">
-<td align="left">SVA-L</td>
-<td align="left">75.1%</td>
-<td align="left">CG12</td>
-</tr>
-<tr class="even">
-<td align="left">SVA-R</td>
-<td align="left">75.8%</td>
-<td align="left">CG12</td>
-</tr>
-<tr class="odd">
-<td align="left">SVA-P</td>
-<td align="left">74.5%</td>
-<td align="left">CG12</td>
-</tr>
-<tr class="even">
-<td align="left">KNN</td>
-<td align="left">97.6%</td>
-<td align="left">CG12</td>
 </tr>
 <tr class="odd">
 <td align="left">LPM</td>
@@ -564,6 +486,16 @@
 <td align="left">KNN</td>
 <td align="left">85.1%</td>
 <td align="left">ChiT100</td>
+</tr>
+</table>
+
+</article></slide><slide class=''><hgroup><h2>Extra Table 2: Top 50 Pos, Top 50 Neg</h2></hgroup><article  id="extra-table-2-top-50-pos-top-50-neg">
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">Model</th>
+<th align="left">Pct.Correctly.Classified</th>
+<th align="left">Keywords.Method</th>
 </tr>
 <tr class="odd">
 <td align="left">LPM</td>
