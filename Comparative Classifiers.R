@@ -1,4 +1,4 @@
-setwd('C:\\Users\\mdrub_000\\Desktop\\Data Science Project')
+setwd('C:\\Users\\mdrub_000\\Desktop\\Github\\Data-Science-Final-Project')
 data <- read.csv('scrape.csv')
 dmatrix <- data[,c(2:9,12)] ##DF of only y and x variables
 
@@ -15,16 +15,18 @@ library(e1071)
 ##Plot Illustrating the Difficulty of
 ##Creating LInear Decision Boundaries
 
+
 mycolor = c()
 for(i in 1:nrow(dmatrix)){
   if(dmatrix$healthcat[i]==0){
     mycolor = c(mycolor, 'black')}
   else {mycolor = c(mycolor, 'red')}
 }
-with(dmatrix, plot(Health, Medic,col=mycolor,
-                   ylim=c(0,50), xlim=c(0,50),
-                   pch=20))
-
+names(dmatrix) <- sub('Dental.Count', 'Dental', names(dmatrix))
+png('rplot.png')
+pairs(dmatrix[,c(1:8)], col = mycolor, pch=20) 
+dev.off()
+?png
 #####################################
 #######K NEAREST NEIGHBORS###########
 #####################################
