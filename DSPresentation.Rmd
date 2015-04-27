@@ -54,12 +54,12 @@ output:
 - "diagn"
 - "treatment" 
 - "physician"
-- "quality"
+- "quality of care"
 
 ## How'd we do? 
 ```{r, echo=FALSE, results='asis', cache=FALSE}
 
-Method <- c('LPM', 'LDA', 'QDA',  
+Method <- c('LPM', 'LDA', '*QDA',  
                 'RF', 'SVA-L', 'SVA-R',  
                 'KNN', "Observations")
 Negative.Error.Rate <- c('66.0%', '48.3%', '93.7%','82.2%','92.8%', '90.4%', '94.2%', '209')
