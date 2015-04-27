@@ -135,6 +135,13 @@ datatable <- data.frame(Model, Our.Pct.Correctly.Classified, Computers.Pct.Corre
 library(knitr)
 knitr::kable(datatable)
 ```
+
+## Visualizing the difference 
+
+<div class="centered">
+![rplot](/Users/phil009/GitHub/Data-Science-Final-Project/rplot.png)
+</div>
+
 ## Extra Tables 
 ```{r, echo=FALSE, results='asis', cache=FALSE}
 
