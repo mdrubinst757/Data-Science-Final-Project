@@ -14,15 +14,39 @@ output:
 
 - What are NAICS Codes
 
-- How often are they assigned
+- How they are assigned
 
 - Why that's a problem 
 
-## NAICS Code 541618 - "Other Management Consulting Service
+## NAICS Code 541618 - "Other Management Consulting Service"
 
-<div class="centered">
-![Nonhealthcare](/Users/phil009/GitHub/Data-Science-Final-Project/naics.png)
+<div class="centered"
+![Nonhealthcare](https://raw.githubusercontent.com/mdrubinst757/Data-Science-Final-Project/master/naics.png)
 </div>
+
+## NAICS Classification
+```{r, echo=FALSE, results='asis', cache=FALSE}
+
+NAICS.Codes <- c('5112', '5182', '5191', '5241', '5242',  
+                '5412', '5415', '5416', '5419', '5614'  
+                )
+Percent.Health.Related <- c('32%', '52%', '23%','60%','20%', '40%', '48%', '36%', '32%', '56%')
+Descriptions <- c('Software Publishers',
+'Data Processing, Hosting, and Related Services',
+'All Other Information Services',
+'Insurance',
+'Insurance',
+'Accounting Services',
+'Computer Systems',
+'Consulting Services',
+'Marketing Research',
+'Business Support Services')
+
+datatable <- data.frame(NAICS.Codes, Percent.Health.Related, Descriptions)
+library(knitr)
+knitr::kable(datatable)       
+    
+```
 
 
 ## Our Idea
@@ -38,12 +62,12 @@ output:
 
 ## Example 1
 <div class="centered">
-![Nonhealthcare](/Users/phil009/GitHub/Data-Science-Final-Project/nonhealth.png)
+![Nonhealthcare](https://raw.githubusercontent.com/mdrubinst757/Data-Science-Final-Project/master/nonhealth.png)
 </div>
 
 ## Example 2
 <div class="centered">
-![healthcare](/Users/phil009/GitHub/Data-Science-Final-Project/hc.png)
+![healthcare](https://raw.githubusercontent.com/mdrubinst757/Data-Science-Final-Project/master/hc.png)
 </div>
 
 
@@ -55,6 +79,12 @@ output:
 - "treatment" 
 - "physician"
 - "quality of care"
+
+## Visualizing the difference 
+
+<div class="centered">
+![rplot](https://raw.githubusercontent.com/mdrubinst757/Data-Science-Final-Project/master/rplot.png)
+</div>
 
 ## How'd we do? 
 ```{r, echo=FALSE, results='asis', cache=FALSE}
@@ -136,37 +166,39 @@ library(knitr)
 knitr::kable(datatable)
 ```
 
-## Visualizing the difference 
 
-<div class="centered">
-![rplot](/Users/phil009/GitHub/Data-Science-Final-Project/rplot.png)
-</div>
-
-## Extra Tables 
+## Extra Model 1: Top 100 N-Grams
 ```{r, echo=FALSE, results='asis', cache=FALSE}
 
 Model <- c('LPM', 'LDA', 'QDA',  
                 'RF', 'SVA-L', 'SVA-R',  
-                'SVA-P','KNN', 'LPM', 'LDA', 'QDA',  
-                'RF', 'SVA-L', 'SVA-R',  
-                'SVA-P','KNN', 'LPM', 'LDA', 'QDA',  
-                'RF', 'SVA-L', 'SVA-R',  
-                'SVA-P','KNN', 'LPM', 'LDA', 'QDA',  
+                'SVA-P','KNN')
+
+Pct.Correctly.Classified <- c("68.6%", "67.8%", "NA", "74.0%", "77.1%", "86.3%", "77.1%", "85.1%")
+
+Keywords.Method <- c("ChiT100", "ChiT100","ChiT100","ChiT100","ChiT100","ChiT100","ChiT100","ChiT100")
+                
+# Combine
+datatable <- data.frame(Model, Pct.Correctly.Classified, Keywords.Method)
+library(knitr)
+knitr::kable(datatable)       
+                
+```
+
+
+## Extra Table 2: Top 50 Pos, Top 50 Neg
+```{r, echo=FALSE, results='asis', cache=FALSE}
+
+Model <- c('LPM', 'LDA', 'QDA',  
                 'RF', 'SVA-L', 'SVA-R',  
                 'SVA-P','KNN')
 
-Total.Error.Rate <- c("64.9%", "50.6%", "72.5%", "74.2%", "73.6%", "75.5%", "NA", "96.1",
-                    "70.4%", "72.2%", "NA", "71.7%", "75.1%", "75.8%", "74.5%", "97.6%",
-                    "68.6%", "67.8%", "NA", "74.0%", "77.1%", "86.3%", "77.1%", "85.1%",
-                    "70.1%", "70.4%", "NA", "70.9%", "88.4%", "92.0%", "NA", "88.6%")
+Pct.Correctly.Classified <- c("70.1%", "70.4%", "NA", "70.9%", "88.4%", "92.0%", "NA", "88.6%")
 
-Keywords.Method <- c("AdHoc","AdHoc","AdHoc","AdHoc","AdHoc","AdHoc","AdHoc","AdHoc",
-                     "CG12", "CG12","CG12","CG12","CG12","CG12","CG12","CG12",
-                     "ChiT100", "ChiT100","ChiT100","ChiT100","ChiT100","ChiT100","ChiT100","ChiT100",
-                     "Chi5050","Chi5050","Chi5050","Chi5050","Chi5050","Chi5050","Chi5050","Chi5050")
+Keywords.Method <- c("Chi5050","Chi5050","Chi5050","Chi5050","Chi5050","Chi5050","Chi5050","Chi5050")
                 
 # Combine
-datatable <- data.frame(Model, Total.Error.Rate, Keywords.Method)
+datatable <- data.frame(Model, Pct.Correctly.Classified, Keywords.Method)
 library(knitr)
 knitr::kable(datatable)       
                 
