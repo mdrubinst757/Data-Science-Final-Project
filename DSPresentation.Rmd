@@ -62,13 +62,13 @@ output:
 Method <- c('LPM', 'LDA', '*QDA',  
                 'RF', 'SVA-L', 'SVA-R',  
                 'KNN', "Observations")
-Negative.Error.Rate <- c('66.0%', '48.3%', '93.7%','82.2%','92.8%', '90.4%', '94.2%', '209')
-Positive.Error.Rate <- c('63.7%', '52.2%', '55.3%', '67.5%', '58.0%', '63.3%', '97.3%', '262')
-Total.Error.Rate <- c('64.8%', '50.6%', '72.5%', '74.2%','73.6%','75.5%','96.2%', '470')
+Correctly.Classified.As.No <- c('66.0%', '48.3%', '93.7%','82.2%','92.8%', '90.4%', '94.2%', '209')
+Correctly.Classified.As.Yes <- c('63.7%', '52.2%', '55.3%', '67.5%', '58.0%', '63.3%', '97.3%', '262')
+Correctly.Classified <- c('64.8%', '50.6%', '72.5%', '74.2%','73.6%','75.5%','96.2%', '470')
 
 
 # Combine
-datatable <- data.frame(Method, Negative.Error.Rate, Positive.Error.Rate, Total.Error.Rate)
+datatable <- data.frame(Method, Correctly.Classified.As.No, Correctly.Classified.As.Yes, Correctly.Classified)
 library(knitr)
 knitr::kable(datatable)
 ```
@@ -106,13 +106,13 @@ knitr::kable(datatable)
 Method <- c('LPM', 'LDA', 'QDA',  
                 'RF', 'SVA-L', 'SVA-R',  
                 'KNN', "Observations")
-Negative.Error.Rate <- c('86.8%', '88.0%', 'NA','85.6%','92.8%', '94.0%', '96.4%', '167')
-Positive.Error.Rate <- c('58.1%', '60.3%', 'NA', '61.2%', '61.7%', '62.1%', '98.6%', '222')
-Total.Error.Rate <- c('70.4%', '72.2%', 'NA', '71.7%','75.1%','75.8%','97.6%', '389')
+Correctly.Classified.As.No <- c('86.8%', '88.0%', 'NA','85.6%','92.8%', '94.0%', '96.4%', '167')
+Correctly.Classified.As.Yes <- c('58.1%', '60.3%', 'NA', '61.2%', '61.7%', '62.1%', '98.6%', '222')
+Correctly.Classified <- c('70.4%', '72.2%', 'NA', '71.7%','75.1%','75.8%','97.6%', '389')
 
 
 # Combine
-datatable <- data.frame(Method, Negative.Error.Rate, Positive.Error.Rate, Total.Error.Rate)
+datatable <- data.frame(Method, Correctly.Classified.As.No, Correctly.Classified.As.Yes, Correctly.Classified)
 library(knitr)
 knitr::kable(datatable)
 ```
@@ -124,14 +124,14 @@ Model <- c('LPM', 'LDA', 'QDA',
                 'RF', 'SVA-L', 'SVA-R',  
                 'KNN', "Observations")
 
-Our.Error.Rate <- c('64.8%', '50.6%', '72.5%', '74.2%','73.6%','75.5%','96.2%', '470')
+Our.Pct.Correctly.Classified <- c('64.8%', '50.6%', '72.5%', '74.2%','73.6%','75.5%','96.2%', '470')
 
-Computers.Error.Rate <-c('70.4%', '72.2%', 'NA', '71.7%','75.1%','75.8%','97.6%', '389')
+Computers.Pct.Correctly.Classified <-c('70.4%', '72.2%', 'NA', '71.7%','75.1%','75.8%','97.6%', '389')
 
 Difference <-c("-5.5%", "-21.5%", "NA", "2.5%", "-1.4%", "-.3%", "-1.5%", " ")
 
 # Combine
-datatable <- data.frame(Model, Our.Error.Rate, Computers.Error.Rate, Difference)
+datatable <- data.frame(Model, Our.Pct.Correctly.Classified, Computers.Pct.Correctly.Classified, Difference)
 library(knitr)
 knitr::kable(datatable)
 ```
