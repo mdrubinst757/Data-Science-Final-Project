@@ -1,0 +1,164 @@
+---
+title: "Using Text Analysis To Classify Healthcare Websites"
+author: "Owen Phillips And Max Rubinstein"
+date: "April 27, 2015"
+output:
+  ioslides_presentation:
+    fig_height: 5
+    fig_retina: null
+    fig_width: 3
+  beamer_presentation: default
+---
+
+## Overview of NAICS Code
+
+- What are NAICS Codes
+
+- How often are they assigned
+
+- Why that's a problem 
+
+## NAICS Code 541618 - "Other Management Consulting Service
+
+<div class="centered">
+![Nonhealthcare](/Users/phil009/GitHub/Data-Science-Final-Project/naics.png)
+</div>
+
+
+## Our Idea
+
+- Could we guess words that better predict healthcare
+- Or would a scraper of the top ngrams be a better predictor
+
+## Sample
+
+- 470 pre-classified websites
+
+## Example 1
+<div class="centered">
+![Nonhealthcare](/Users/phil009/GitHub/Data-Science-Final-Project/nonhealth.png)
+</div>
+
+## Example 2
+<div class="centered">
+![healthcare](/Users/phil009/GitHub/Data-Science-Final-Project/hc.png)
+</div>
+
+
+## Ad Hoc Model | Our Best Guess {.build}
+- "dental" 
+- "optical"
+- "medic"     
+- "diagn"
+- "treatment" 
+- "physician"
+- "quality"
+
+## How'd we do? 
+```{r, echo=FALSE, results='asis', cache=FALSE}
+
+Method <- c('LPM', 'LDA', 'QDA',  
+                'RF', 'SVA-L', 'SVA-R',  
+                'KNN', "Observations")
+Negative.Error.Rate <- c('66.0%', '48.3%', '93.7%','82.2%','92.8%', '90.4%', '94.2%', '209')
+Positive.Error.Rate <- c('63.7%', '52.2%', '55.3%', '67.5%', '58.0%', '63.3%', '97.3%', '262')
+Total.Error.Rate <- c('64.8%', '50.6%', '72.5%', '74.2%','73.6%','75.5%','96.2%', '470')
+
+
+# Combine
+datatable <- data.frame(Method, Negative.Error.Rate, Positive.Error.Rate, Total.Error.Rate)
+library(knitr)
+knitr::kable(datatable)
+```
+
+## Top 100 N-Grams 
+```{r, echo=FALSE, results='asis', cache=FALSE}
+
+Keywords <- c ("patient", "health", "research", "treatment", "medicin", "detistri")
+Keywords. <- c("comset", "hca", "smile", "allergi", "pediatr", "pain")
+Keywords.. <- c("live", "foot", "juliet", "tristar", "surgic", "radiolog")
+
+datatable <- data.frame(Keywords, Keywords., Keywords..)
+library(knitr)
+knitr::kable(datatable)
+```
+
+## Top N-Grams {.build}
+
+- "healthcar"
+- "appoint"
+- "bio"
+- "home.care"
+- **"qualiti"**
+- **"treatment"**
+- "diseas"
+- "procedur"
+- **"medic"**
+- "patient"
+- **"physician"**
+- "pediatr"
+
+## How'd the computer do? 
+```{r, echo=FALSE, results='asis', cache=FALSE}
+
+Method <- c('LPM', 'LDA', 'QDA',  
+                'RF', 'SVA-L', 'SVA-R',  
+                'KNN', "Observations")
+Negative.Error.Rate <- c('86.8%', '88.0%', 'NA','85.6%','92.8%', '94.0%', '96.4%', '167')
+Positive.Error.Rate <- c('58.1%', '60.3%', 'NA', '61.2%', '61.7%', '62.1%', '98.6%', '222')
+Total.Error.Rate <- c('70.4%', '72.2%', 'NA', '71.7%','75.1%','75.8%','97.6%', '389')
+
+
+# Combine
+datatable <- data.frame(Method, Negative.Error.Rate, Positive.Error.Rate, Total.Error.Rate)
+library(knitr)
+knitr::kable(datatable)
+```
+
+## Us Versus the Machine
+```{r, echo=FALSE, results='asis', cache=FALSE}
+
+Model <- c('LPM', 'LDA', 'QDA',  
+                'RF', 'SVA-L', 'SVA-R',  
+                'KNN', "Observations")
+
+Our.Error.Rate <- c('64.8%', '50.6%', '72.5%', '74.2%','73.6%','75.5%','96.2%', '470')
+
+Computers.Error.Rate <-c('70.4%', '72.2%', 'NA', '71.7%','75.1%','75.8%','97.6%', '389')
+
+Difference <-c("-5.5%", "-21.5%", "NA", "2.5%", "-1.4%", "-.3%", "-1.5%", " ")
+
+# Combine
+datatable <- data.frame(Model, Our.Error.Rate, Computers.Error.Rate, Difference)
+library(knitr)
+knitr::kable(datatable)
+```
+## Extra Tables 
+```{r, echo=FALSE, results='asis', cache=FALSE}
+
+Model <- c('LPM', 'LDA', 'QDA',  
+                'RF', 'SVA-L', 'SVA-R',  
+                'SVA-P','KNN', 'LPM', 'LDA', 'QDA',  
+                'RF', 'SVA-L', 'SVA-R',  
+                'SVA-P','KNN', 'LPM', 'LDA', 'QDA',  
+                'RF', 'SVA-L', 'SVA-R',  
+                'SVA-P','KNN', 'LPM', 'LDA', 'QDA',  
+                'RF', 'SVA-L', 'SVA-R',  
+                'SVA-P','KNN')
+
+Total.Error.Rate <- c("64.9%", "50.6%", "72.5%", "74.2%", "73.6%", "75.5%", "NA", "96.1",
+                    "70.4%", "72.2%", "NA", "71.7%", "75.1%", "75.8%", "74.5%", "97.6%",
+                    "68.6%", "67.8%", "NA", "74.0%", "77.1%", "86.3%", "77.1%", "85.1%",
+                    "70.1%", "70.4%", "NA", "70.9%", "88.4%", "92.0%", "NA", "88.6%")
+
+Keywords.Method <- c("AdHoc","AdHoc","AdHoc","AdHoc","AdHoc","AdHoc","AdHoc","AdHoc",
+                     "CG12", "CG12","CG12","CG12","CG12","CG12","CG12","CG12",
+                     "ChiT100", "ChiT100","ChiT100","ChiT100","ChiT100","ChiT100","ChiT100","ChiT100",
+                     "Chi5050","Chi5050","Chi5050","Chi5050","Chi5050","Chi5050","Chi5050","Chi5050")
+                
+# Combine
+datatable <- data.frame(Model, Total.Error.Rate, Keywords.Method)
+library(knitr)
+knitr::kable(datatable)       
+                
+```
