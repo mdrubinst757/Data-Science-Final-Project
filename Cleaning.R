@@ -2,7 +2,7 @@
 ##cleans the text and outputs a csv with the websites and the corresponding
 ##text.
 
-setwd('C:\\Users\\mdrub_000\\Desktop\\Data Science Project')
+setwd('C:\\Users\\mdrub_000\\Desktop\\Github\\Data-Science-Final-Project')
 
 options(java.home="C:\\Program Files\\Java\\jre1.8.0_40")
 options(java.parameters = "-Xmx10000m")
@@ -36,20 +36,19 @@ for(i in 1:length(urls)){
 }
   }
 
-for(i in 1:length(text)) {
-  text[i] <- gsub('\\t', ' ', text[i], perl=TRUE)
-  text[i] <- gsub('\\r', ' ', text[i], perl=TRUE)
-}
-
 text1 <- as.data.frame(text)
 text1$url <- urls
 
-grep('NA', text1$text)
-fix(text1) ##Look for ones that didn't work, mark as NA
-text2 <- text1[-grep('1', text1$truena),]
-text2t <- text2$text
+fix(text1) ##Look for websites that didn't work (permission denied,
+           ##website moved, blank, etc.), mark as 1
+text2 <- text1[-grep('1', text1$truena),] ##Remove failed webscrapes
 
-text2u <- text2$url
+#################################################
+##############CLEANING THE HTML DATA#############
+#################################################
+
+text2t <- text2$text
+urls <- text2$url
 
 myCorpus <- Corpus(VectorSource(text2t))
 myCorpus <- tm_map(myCorpus, content_transformer(tolower))
@@ -66,8 +65,8 @@ GramTokenizer <- function(x) {
 dtm <- DocumentTermMatrix(myCorpus, 
                           control=list(tokenize=GramTokenizer))
 
-dtm <- removeSparseTerms(dtm, 0.995) ##removing sparse terms
+dtm <- removeSparseTerms(dtm, 0.995) ##Removing sparse terms
 mydtm_df <- data.frame(as.matrix(dtm))
-mydtm_df$url <- text2u
+mydtm_df$url <- urls
 
 write.csv(mydtm_df, 'dtm.csv', row.names=F, sep=',')
