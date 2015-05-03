@@ -6,7 +6,7 @@
 ##with a dataframe that contains additional variables on the websites.
 ##These datasets are then appended at the end are outputted to a csv.
 
-setwd('C:\\Users\\mdrub_000\\Desktop\\Data Science Project')
+setwd('C:\\Users\\mdrub_000\\Desktop\\Github\\Data-Science-Final-Project')
 
 ###FIRST SCRAPE MERGE###
 
@@ -41,18 +41,39 @@ data2 <- merge(scrape2, scrape2m, by.x='WebAddress', by.y='Website')
 data2 <- data2[!is.na(data2[,4]),]
 data2$healthcat = ifelse(data2$HC==0, 0, 1)
 
+###THIRD SCRAPE MERGE###
+
+scrape3 <- read.csv('scrape3.csv', na.strings='NA')
+scrape3$WebAddress <- scrape3$Website
+scrape3$WebAddress <- sub('http://','',scrape3$WebAddress)
+scrape3m <- read.csv('training3.csv')
+
+scrape3 <- scrape3[!duplicated(scrape3$WebAddress),]
+scrape3m <- scrape3m[!duplicated(scrape3m$WebAddress),]
+
+scrape3 <- scrape3[grep("TRUE", scrape3$WebAddress %in% scrape3m$WebAddress),]
+scrape3m <- scrape3m[grep("TRUE", scrape3m$WebAddress %in% scrape3$WebAddress),]
+data3 <- merge(scrape3, scrape3m, by='WebAddress')
+data3 <- data3[!is.na(data3[,4]),]
+data3$healthcat = ifelse(data3$HC==0, 0, 1)
+
 ###FINAL DATASET MERGE###
 
 names(data1)
 names(data2)
+names(data3)
 
 data1 <- data1[,c(2:10,12:13,21)]
 data2 <- data2[,c(3:13,17)]
+data3 <- data3[,c(3:13,16)]
 
 names(data1) <- sub('Health.x', 'Health', names(data1))
+names(data1) <- sub('.Count', '',names(data1))
+names(data2) <- sub('.Count', '',names(data2))
 names(data1)[11] <- 'NAICScode'
 names(data2)[11] <- 'NAICScode'
+names(data3)[11] <- 'NAICScode'
 names(data2)[10] <- 'CompanyName'
 
-data <- rbind(data1, data2)
+data <- rbind(data1, data2, data3)
 write.table(data, 'scrape.csv', row.names=F, sep=',')

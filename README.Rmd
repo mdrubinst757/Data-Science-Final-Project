@@ -1,26 +1,24 @@
 ---
 title: "README"
 author: "Max Rubinstein and Owen Phillips"
-date: "Wednesday, April 29, 2015"
+date: "Monday, May 4, 2015"
 output: pdf_document
 ---
 
 The following README documents the purpose and use of the files within the Data Science Final Project folder.
 
-The files training1.csv and training2.csv contain data from Moody's Analytics regarding industries in the Nashville, TN metropolitan statistical area (MSA). The files contain company information, primary NAICS code, the company's website, and a 'true' classification of whether the company is healthcare related or not (coded manually). Between the two files, there are 470 observations with unique webaddresses. 
+The files training1.csv, training2.csv, and training3.csv (found in the Data and Scraping Results folder) contain data from Moody's Analytics regarding industries in the Nashville, TN metropolitan statistical area (MSA). The files contain company information, primary NAICS code, the company's website, and a 'true' classification of whether the company is healthcare related or not (coded manually). 
 
-Ad Hoc.py is the first webscraper we created. Using training1.csv and training2.csv (the path must be changed each time), Ad Hoc.py searches for keywords we selected in the front page of each company's website. It then returns a csv containing the frequency of each keyword by website. These files are entitled scrape1.csv and scrape2.csv.
+Ad Hoc Scraper.py is the first webscraper we created. Using training1.csv, training2.csv, and training3.csv (the path must be changed each time), Ad Hoc.py searches for keywords we selected in the front page of each company's website. It then returns a csv containing the frequency of each keyword by website. These files are entitled scrape1.csv, scrape2.csv, and scrape3.csv. All of these files can be found in the Data and Scraping Results folder.
 
-The file Merge.R then appends scrape1.csv to scrape2.csv into one file called scrape.csv. After this point, scrape.csv can be used as the primary input for other files, as it contains all the website information as well as the true classifications.
+The file Merging Data.R then appends scrape1.csv, scrape2.csv, and scrape3.csv into one file called scrape.csv. After this point, scrape.csv can be used as the primary input for other files, as it contains all the website information as well as the true classifications.
 
-Comparative Classifiers.R uses scrape.csv to run several classification models on the dataframe and stores the error rates and other information for each. These models we use are the linear probability model, linear discriminant analysis, quadratic discriminant analysis, Random Forests, support vector machines (with linear and radial kernels), and K-Nearest-Neighbors. Cross-validation is used in each model to get a better estimate of the out-of-sample error rate. The results of each of these models is outputted in the file cc1.csv.
+Next, HTML Scraper.R collects the HTML code from all of the websites using scrape.csv and generates a document-term-matrix (DTM) with all the unigrams, bigrams, and trigrams from the code. This script then outputs the DTM in a dtm.csv.
 
-We then sought to compare the results of our ad hoc scraper to a computer generated list of keywords. We therefore built another scraper, this time in R, called Clean.R. This scraper takes scrape.csv as the input, and obtains the html code for each website. It then cleans the text, stems the document, removes punctuation, etc., and finally creates a document-term matrix containing all the unigrams, bigrams, and trigrams in the text from each website. Sparse terms appearing in less than 0.5% of observations are removed, and the dtm is outputted as 'dtm.csv.'
+CVVarSelectandTests.R inputs this DTM and using a chi-squared test, generates four lists of keywords to compare our ad hoc list against. These include the top 100 n-grams most associated with healthcare, the top 50 n-grams most associated and the bottom 50 n-grams least associated with healthcare, and the top 10 n-grams most associated with healthcare. We also run a lasso on the top 100 n-grams to get a fourth list of selected variables. These lists are all output as csvs, and can be found in the Results for Tables folder.
 
-The file Generating Keywords.R then uses dtm.csv to create three lists of computer generated keywords. The script first divides the frequency of each n-gram by healthcare websites and non-healthcare websites. It then runs a chi-squared test on the data frame. We use the results to remove terms whose residuals are above the top 5% and bottom 5% in magnitude. This allows us to only keep the terms that are most associated with healthcare websites and those that are least associated with healthcare websites in our sample.
+We then use the AdHocAnalysis.R and CVVarSelectandTests.R scripts to run different classification models on the dataframe and stores the sensitivity, specificity, and other information for each. These models we use include the Linear Probability Model, Linear Discriminant Analysis, Random Forests, Support Vector Machines (with linear and radial kernels), and K-Nearest-Neighbors. Cross-validation is used in each model to get a better estimate of the out-of-sample error rate. We output the results in results.csv and adhocresults.csv. 
 
-Of this new list, we then generate three subsets of keywords. The first is simply the top 100 n-grams most associated with healthcare websites. The second is the top 50 n-grams associated with healthcare websites, and the 50 n-grams least associated with healthcare websites. These lists of keywords are stored as t100keywords.csv. The files Comparative Classifiers 3.R and Comparative Classifiers 4.R run the same regressions as Comparative Classifiers.R (without the QDA due to data errors from the low variance of some of the variables).
+Finally, Final Results.R merges these two csvs together and outputs a final table called finalresults.csv. It also generates a plot of the data, results.png. 
 
-Finally, we are most interested to compare a smaller list comparable to our original list of keywords. We could have simply segmented these keywords by taking the top 10 (or so) by chi-squared metric; however, we chose to use the lasso to select our variables instead. Using cross-validation to tune, we ran the lasso on the top 100 n-grams most associated with healthcare websites and selected all variables with coefficients greater than zero. This generated a smaller list of keywords, stored as keywords.csv. We then ran the same classification models using this list of keywords under the R script, Comparative Classifiers 2.R.
-
-All of the comparative classifiers scripts output a csv (cc1.csv, cc2.csv, etc.) that contains the error rates and sensitivity results of each model. The script Final Comparison.R appends these csvs and outputs a final csv, cc.csv.
+The final write-up of this project is Final Report.pdf. There are also files in this folder associated with our presentation. These include DSPresentation.R, DSPresentation.html, and several images.

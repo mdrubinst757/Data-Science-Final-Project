@@ -1,476 +1,697 @@
-"Website","Health","Dental.Count","Optical","Medic","Treatment","Diagnosis","Physician","Quality","CompanyName","NAICScode","healthcat"
-"http://www.101construction.com",0,0,0,0,0,0,0,0,"101 Construction Company","236220",0
-"http://www.12southdentalstudio.com",3,13,0,0,5,0,0,0,"12 South Dental Pllc","621210",1
-"http://www.2accu-visionoptical.com",1,0,1,0,0,0,0,0,"Accu Vision Optical","621320",1
-"http://www.2thetopdesign.com",0,0,0,0,0,0,0,0,"2 The Top Web Site Design & Promotion","518210",0
-"http://www.3gsshredding.com",0,0,0,0,0,0,0,0,"3gs LLC","518210",0
-"http://www.4umd.com",0,0,0,0,0,1,1,0,"4umd LLC","621111",1
-"http://www.5pdi.com",0,0,0,0,0,0,0,0,"5 Points Digital Imaging","517919",0
-"http://www.5stardentalcare.biz",0,14,0,0,0,0,0,0,"5 Star Dental Care","621210",1
-"http://www.828marketing.com",3,0,0,0,0,0,0,0,"828 Marketing","541613",0
-"http://www.a-zdme.com",0,0,0,3,0,0,0,0,"A-Z Dme, LLC","423450",1
-"http://www.a3marketing.com",0,0,0,0,0,0,0,0,"A3 Marketing","541613",0
-"http://www.aandrconsultants.com",0,0,0,0,0,0,0,0,"A & R Consultants LLC","541618",1
-"http://www.ablemos.com",1,0,0,1,0,0,0,0,"Ablemos, Inc.","621340",1
-"http://www.aboverubies.org",3,0,0,0,0,0,0,0,"Above Rubies","541690",0
-"http://www.abriohealthcare.com",86,0,0,0,0,0,0,0,"Abrio Healthcare Solutions, Inc.","541618",0
-"http://www.absfinancialservice.com",0,0,0,0,0,0,0,0,"ABS Financial Services Inc","541611",0
-"http://www.academyfootandankle.com",2,0,0,0,1,2,1,0,"Academy Foot & Ankle Care","621391",1
-"http://www.acadiahealthcare.com",100,0,0,2,12,0,2,0,"Acadia Healthcare Company, Inc.","621498",1
-"http://www.acalontech.com",0,0,0,0,0,1,0,0,"Avalon Technology","541512",0
-"http://www.accentsmilecenter.com",6,108,0,0,13,0,0,0,"Accent Smile Center Pllc","621210",1
-"http://www.accessdentalofbrentwood.com",4,10,0,0,0,0,0,0,"Access Dental of Brentwood","621210",1
-"http://www.accessretirement.com",0,0,0,0,0,0,0,0,"Access Retirement Services, LLC","541690",0
-"http://www.accountnet.biz",0,0,0,0,0,0,0,0,"Accountnet Incorporated","541219",0
-"http://www.accounts-receivable.com",0,0,0,1,0,0,0,0,"Accounts Receivable Solutions LLC","541219",1
-"http://www.accuimagellc.com",1,0,0,1,0,0,0,0,"Accuimage, LLC","518210",0
-"http://www.accuratehealthcare.com",77,0,0,21,1,0,0,0,"Accurate Healthcare, Inc.","423450",1
-"http://www.acepronet.com",0,0,0,0,0,0,0,0,"ADVANCED COMPUTER EXPERTS, INC.","541512",0
-"http://www.achievelearningnow.com",0,0,0,0,0,0,0,0,"Achieve Learning","624410",1
-"http://www.aclapath.com",0,0,0,0,0,1,7,0,"ANATOMIC AND CLINICAL LABORATORY ASSOCIATES, P.C.","621511",1
-"http://www.acs-inc.com",32,0,0,0,0,0,0,0,"ACS MULTI MEDIA ADVERTISING","517919",0
-"http://www.activelearningcenters.com",0,0,0,0,0,0,0,0,"Active Learning Ctr","624410",1
-"http://www.activelifetn.com",0,0,0,0,0,0,0,0,"Active Life Chiropractic & Rehabilitatio","621310",1
-"http://www.activesjc.com",2,0,0,3,2,1,0,0,"Active Spine & Joint Center LL","621310",1
-"http://www.acumenehr.com",2,0,0,0,0,0,0,0,"Acumen Physician Solutions, LLC","621610",1
-"http://www.acuweb.com",0,0,0,0,0,0,0,0,"Acuity Marketing Communications, Inc","541613",0
-"http://www.adamspediatricdentistry.com",1,6,0,0,0,0,0,0,"Adams Pediatric Dentistry","621210",1
-"http://www.adamsplace.org",1,0,0,0,1,0,1,0,"ADAMS PLACE","623990",1
-"http://www.adifferentviewonline.com",0,0,0,0,0,0,0,0,"A Different View Limited, LLC","541611",0
-"http://www.adinhealthcare.com",0,0,0,0,0,1,0,0,"Adin Healthcare LLC","621999",1
-"http://www.adoptionassistance.com",0,0,0,0,0,0,0,0,"Adoption Assistance Inc","624110",1
-"http://www.adp.com",4,0,0,0,0,0,0,0,"AUTOMATIC DATA PROCESSING, INC.","518210",0
-"http://www.advanceautosalvage.com",0,0,0,0,0,0,0,0,"Advance Auto Salvage","541618",0
-"http://www.advancedbehaviorconsultants.com",0,0,0,0,0,1,0,0,"Advanced Behavior Consultants","541618",0
-"http://www.advancedbillinginc.com",2,0,0,18,0,0,0,0,"Advanced Billing, Inc.","541219",1
-"http://www.advancedphysicaltherapyandrehab.com",1,0,0,1,2,0,1,0,"ADVANCED PHYSICAL THERAPY REHAB","621340",1
-"http://www.advancedskinlaser.com",1,0,0,0,2,0,0,0,"ADVANCED SKIN & LASER PC","621111",1
-"http://www.advantagebehavioral.org",7,0,0,0,0,0,1,0,"Advantage Behavioral Health","621420",1
-"http://www.advantagecpas.com",0,0,0,0,0,0,0,0,"Advantage CPA Group LLC","541211",0
-"http://www.adveng.com",0,0,0,0,0,0,0,0,"Advanced Engineering, Inc.","541690",0
-"http://www.adventisthealthsystem.com",5,0,0,1,0,0,2,0,"ADVENTIST HEALTH SYSTEM/SUNBELT, INC.","622110",1
-"http://www.adventurecounseling.com",3,0,0,0,0,0,0,0,"Adventure Counseling","624190",1
-"http://www.adventureworks.com",0,0,0,0,0,0,0,0,"Adventureworks, Inc.","541611",0
-"http://www.aegis-group.com",4,0,0,13,0,0,1,0,"Aegis Health Group","541611",1
-"http://www.aegislabs.com",3,0,0,3,0,3,1,0,"AEGIS SCIENCES CORPORATION","621511",1
-"http://www.aerocareusa.com",4,0,0,12,0,0,2,0,"Aerocare Holdings, Inc.","621610",1
-"http://www.afdclinics.com",3,0,0,2,0,0,0,0,"American Family Dr","621111",1
-"http://www.affiliatewise.com",0,0,0,0,0,0,0,0,"Affiliatewise LLC","541613",0
-"http://www.affordabledentaloftn.com",2,18,0,0,4,0,0,0,"Affordable Dental of Tennessee","621210",1
-"http://www.affordabledentures.com",0,19,0,0,0,0,0,0,"Affordable Dentures","621210",1
-"http://www.affordablehomeaccess.com",1,0,0,0,0,0,0,0,"Affordable Home Access Solutions, Inc.","236220",0
-"http://www.afobraces.com",0,0,0,0,0,0,0,0,"American Family Orthodontics LLC","621210",1
-"http://www.afwellness.com",4,0,0,3,1,0,1,0,"Ardella Family Wellness Clinic","621999",1
-"http://www.agapenashville.org",1,0,0,0,0,0,0,0,"ASSOCIATION FOR GUIDANCE AID","624110",1
-"http://www.agrandmotherswish.com",0,0,0,0,0,0,0,0,"A Grandmothers Wish","621610",1
-"http://www.aheadhr.com",0,0,0,0,0,0,0,0,"AHEAD, INC.","541611",0
-"http://www.ahfdllc.com",1,0,0,0,0,0,0,0,"American Health Facilities Development, LLC","621999",1
-"http://www.ahom.com",4,0,0,3,0,0,0,0,"AHP Finance, Inc.","621610",1
-"http://www.aidandassist.net",0,0,0,3,0,0,0,0,"ADDUS HOMECARE CORPORATION","624190",1
-"http://www.aieng.com",0,0,0,0,0,0,0,0,"Automation Integrator LLC","541511",0
-"http://www.aionex.net",2,0,0,0,0,0,0,0,"Aionex, Inc.","621610",1
-"http://www.aipnashville.com",0,0,0,1,0,0,0,1,"AGING IN PLACE","621610",1
-"http://www.aircraftbatteryshop.com",0,0,0,0,0,0,0,0,"Aircraft Battery Shop, Inc.","335912",0
-"http://www.airliftj.com",0,0,0,0,0,0,0,0,"Airlift Group LLC","541511",0
-"http://www.ajartistmedia.com",0,0,0,0,0,0,0,0,"Ajartist Media","517919",0
-"http://www.aladdintemprite.com",0,0,0,0,0,0,0,0,"Aladdin Temp-Rite LLC","423450",0
-"http://www.alanahealthcare.com",179,0,0,1,0,0,0,0,"Alana Health Partners LLC","424210",1
-"http://www.alexgoodmandmd.com",7,16,0,0,2,0,0,0,"Alex Goodman DMD","621210",1
-"http://www.alissasawyer.com",0,0,0,0,0,0,0,0,"Alissa Sawyer Counseling","624190",1
-"http://www.alivehospice.org",3,0,0,1,0,0,0,0,"Alive Hospice Inpatient Unit At St Thomas","623110",1
-"http://www.allcarehealthservices.net",0,0,0,0,0,0,0,0,"Allcare Health Services","621610",1
-"http://www.allegiance-ts.com",0,0,0,0,0,0,0,0,"Allegiane Teleservices","541690",0
-"http://www.allegiantdirect.com",0,0,0,0,0,0,0,0,"Allegiant Direct, Inc.","541613",0
-"http://www.allenfamilychiro.net",4,0,0,1,2,1,0,0,"Allen Family Chiropractic","621310",1
-"http://www.allergyasc.com",0,0,0,0,2,3,0,0,"Allergy Associates, P.A.","621111",1
-"http://www.allergyasthmadoctors.com",0,0,0,0,0,0,0,0,"Allergy & Asthma Centers, P.C.","621111",1
-"http://www.allergydropz.com",0,0,0,0,5,0,2,0,"Allergycare","621111",1
-"http://www.allermetrix.com",0,0,0,0,0,0,0,0,"Allermetrix Inc.","621511",1
-"http://www.allfamilydentistrysmyrna.com",1,5,0,0,0,0,0,0,"All Family Dentistry","621210",1
-"http://www.alliancebiztranslations.com",0,0,0,0,0,0,0,0,"ALLIANCE BUSINESS SOLUTIONS LLC","541611",0
-"http://www.alliancesoftware.com",0,0,0,0,0,0,0,0,"Alliance Software LLC","511210",0
-"http://www.alliancesupermarketing.com",0,0,0,0,0,0,0,0,"Alliance Marketing, L.L.C.","541613",0
-"http://www.alliedhearingcare.com",2,0,0,0,0,0,0,0,"Allied Hearing Care","621111",1
-"http://www.allpartsmedical.com",0,0,0,0,0,0,0,0,"Allparts Medical, LLC","423450",1
-"http://www.allsbrooksconstruction.com",0,0,0,0,0,0,0,0,"Allsbrooks Construction Inc","236220",0
-"http://www.allsecuretechnologies.com",0,0,0,0,0,0,0,0,"All Secure Technologies","541712",0
-"http://www.alltechinc.net",0,0,0,0,0,0,0,0,"Alltech, Inc.","541511",0
-"http://www.alltechnologyrecovery.com",0,0,0,0,0,0,0,0,"All Technology Recovery","541712",0
-"http://www.allyancepartners.com",0,0,0,0,0,0,0,0,"Allyance Partners, Inc.","541611",0
-"http://www.alorica.com",2,0,0,0,0,0,0,0,"Alorica Inc.","517919",0
-"http://www.alphabuilding.com",0,0,0,0,0,0,0,0,"Alpha Building Corporation","236220",0
-"http://www.alternative4plasticsllc.com",0,0,0,0,0,0,0,0,"Alternative 4 Plastic LLC","541618",0
-"http://www.alvarezandmarsal.com",0,0,0,0,0,0,0,0,"Alvarez & Marsal Holdings, LLC","541611",0
-"http://www.alwaysconnectedsolutions.com",1,0,0,4,0,0,0,0,"Alwaysconnected Solutions","423450",0
-"http://www.am-best.com",0,0,0,0,0,0,0,0,"AMBEST, INC.","541820",0
-"http://www.amanomcgann.com",0,0,0,0,0,0,0,0,"Amano McGann, Inc.","511210",0
-"http://www.amaranthinetech.com",0,0,0,0,0,0,0,0,"Amaranthine Technology","517110",0
-"http://www.amariaskin.com",0,0,0,0,2,0,0,0,"Amy Mariaskin","621111",1
-"http://www.amec.com",0,0,0,0,1,0,0,0,"AMEC ENVIRONMENT & INFRASTRUCTURE, INC.","541380",0
-"http://www.amedisys.com",11,0,0,0,0,0,6,0,"AMEDISYS TENNESSEE LLC","621610",1
-"http://www.americanaddictioncenters.com",2,0,0,0,34,1,0,0,"American Addiction Centers","622310",1
-"http://www.americanchirohealthclinic.com",48,0,0,1,3,0,0,0,"American Chiropractic Health Clinic","621310",1
-"http://www.americanconstructors.us",4,0,0,0,0,0,0,0,"American Constructors, Inc.","236220",0
-"http://www.americandiagnostics.com",0,0,0,0,0,0,0,0,"American Diagnostics, Inc","621999",1
-"http://www.americandreamlawnandhomecare.com",2,0,0,0,0,0,0,0,"American Dream Lawn & Home Care","621610",1
-"http://www.americanexpress.com",0,0,0,0,0,0,0,0,"AMERICAN EXPRESS TRAVEL RELATED SERVICES COMPANY, INC.","541512",0
-"http://www.americanhometownpublishing.com",0,0,0,0,0,0,0,0,"AHP of Oklahoma, Inc.","621111",1
-"http://www.americanmedicalco-op.com",0,0,0,54,0,0,0,0,"American Medical Op LLC","621999",1
-"http://www.americanpaymentsystems.com",0,0,0,0,0,0,0,0,"American Payment Systems","541511",0
-"http://www.americansleepmedicine.com",4,0,0,68,1,8,1,0,"American Sleep Medicine, LLC","621111",1
-"http://www.amerisourcebergen.com",0,0,0,0,0,0,0,0,"Amerisourcebergen Corporation","325412",1
-"http://www.amg-group.com",0,0,0,0,0,0,3,0,"Anesthesia Medical Group, P.C.","621111",1
-"http://www.amgpublishers.com",0,0,0,0,0,0,0,0,"AMG Healthcare Centers Inc","623110",1
-"http://www.amiconemedia.com",0,0,0,0,0,0,0,0,"Amicone Media LLC","517919",0
-"http://www.amr.net",2,0,0,19,0,0,1,0,"American Medical Response, Inc.","621991",1
-"http://www.amsurg.com",4,0,0,0,0,0,1,0,"Amsurg Corp.","622110",1
-"http://www.andersonhillconstruction.com",0,0,0,0,0,0,0,0,"Anderson Hill Consulting LLC","541618",0
-"http://www.angelasimpsondds.com",21,4,0,1,1,0,0,0,"Angela Simpson DDS","621210",1
-"http://www.angioscreen.com",3,0,0,2,0,1,1,0,"Angiology Corporation of America, Inc.","621610",1
-"http://www.anitahauenstein.com",0,0,0,0,0,0,0,0,"Anita L. Hauenstein","621111",1
-"http://www.ansarinc.com",0,0,0,0,0,0,0,0,"Ansar, Inc","541618",0
-"http://www.anthologycreative.com",0,0,0,0,0,0,0,0,"Anthology Creative","541613",0
-"http://www.anxietydepressiondisorders.com",1,0,0,4,1,0,0,0,"Anxiety-Depression Disorders Clinic","621111",1
-"http://www.anybodyfit.com",0,0,0,0,0,0,0,0,"Any Body Fitness, LLC","621999",1
-"http://www.anylabtestnow.com",44,0,0,8,0,0,0,0,"Any Lab Test Now","541380",1
-"http://www.aocg.com",0,0,0,0,0,0,0,0,"Alpha Omega Consulting Group Inc","541512",0
-"http://www.aol.com",32,0,0,1,1,0,0,0,"Aol Inc.","518210",0
-"http://www.ap2.com",4,0,0,1,0,1,2,0,"AMERICAN PATHOLOGY PARTNERS, INC.","621511",1
-"http://www.apdaparkinson.org",0,0,0,1,0,0,0,0,"American Parkinson Disease Association, Inc.","621111",1
-"http://www.apexendotn.com",0,0,0,0,0,0,0,0,"Apex Endodontics of Cool Springs","621210",1
-"http://www.apexenergygroup.com",0,0,0,0,0,0,0,0,"Apex Energy Solutions of Nashville LLC","541690",0
-"http://www.aphesishouse.org",0,0,0,0,0,0,0,0,"APHESIS HOUSE, INC.","623990",1
-"http://www.apira.com",0,0,0,0,0,0,0,0,"Apria Healthcare LLC","423450",0
-"http://www.apluscolumbia.com",0,0,0,0,0,0,0,0,"A - Plus Bookkeeping and Payroll Services, LLC","541219",0
-"http://www.applemobility.com",0,0,0,0,0,0,1,0,"Apple Independance Mobilty LLC","339113",0
-"http://www.appletonlearning.com",0,0,0,0,0,0,0,0,"Appleton Learning Corporation","624310",0
-"http://www.appliedorthotics.com",0,0,0,0,0,0,0,0,"APPLIED ORTHOTIC SYSTEMS, INC.","339113",0
-"http://www.apria.com",18,0,0,14,2,0,0,0,"Apria Healthcare LLC","621610",1
-"http://www.aquadentalcare.com",0,0,0,0,0,0,0,0,"Aqua Dental LLC","621210",1
-"http://www.arbaughpatin.com",2,0,0,0,0,0,0,0,"Arbaugh Patin, Linda MA Lpe","624190",1
-"http://www.arborhealth.com",7,0,0,0,0,0,0,0,"Arbor Healthcare, LLC","621610",1
-"http://www.arc-cmc.org",0,0,0,0,0,0,0,0,"AMERICAN NATIONAL RED CROSS","624190",1
-"http://www.arcdc.org",0,0,0,0,0,0,0,0,"Ark of Davidson County","624120",1
-"http://www.arcpointlabs.com",61,0,0,1,0,0,0,0,"ARC POINT LABS","541380",1
-"http://www.ardenthealth.com",22,0,0,0,0,0,1,0,"Ahs Management Company, Inc","622110",1
-"http://www.argentmoney.com",0,0,0,0,0,0,0,0,"Argent Financial Group, Inc.","541611",0
-"http://www.aristomedia.com",0,0,0,0,0,0,0,0,"ARISTO MUSIC ASSOCIATES INC","541820",0
-"http://www.armorcorps.com",0,0,0,0,0,0,0,0,"Armor Corps","541611",0
-"http://www.arthritis.org",0,0,0,3,6,0,0,0,"ARTHRITIS FOUNDATION OF TN CHAPTER INC","624190",1
-"http://www.artisnetworks.com",0,0,0,0,0,0,0,0,"Artis Networks, Inc.","541512",0
-"http://www.arxllc.com",4,0,0,0,0,0,0,0,"ACCELERATED SOLUTIONS, LLC","541618",1
-"http://www.ascentasc.com",0,0,0,0,0,0,0,0,"Ascent Partners","621111",1
-"http://www.aseracare.com",0,0,0,5,0,0,1,0,"Aseracare Hospice - New Horizons, LLC","621610",1
-"http://www.asetechnology.com",0,0,0,0,0,0,0,0,"Ase Technology, Inc.","541512",0
-"http://www.ashleyhylbert.com",0,0,0,0,0,0,0,0,"Ashley Hylbert","541618",0
-"http://www.asoldierschild.org",0,0,0,0,0,0,0,0,"A Soldiers Child Inc","624410",1
-"http://www.aspect.com",8,0,0,0,0,0,0,0,"Aspect Software, Inc.","541511",0
-"http://www.aspendental.com",3,31,0,0,0,0,0,0,"Aspen Dental Management, Inc.","339116",1
-"http://www.aspengrovedental.com",0,15,0,0,10,0,0,0,"ASPEN GROVE DENTAL ASSOCIATION","621210",1
-"http://www.associatedchildrensdentistry.com",0,2,0,0,0,0,0,0,"Associated Children S Dentistry Pllc","621210",1
-"http://www.associateddentalgroup.net",0,0,0,0,0,0,0,0,"ASSOCIATED DENTAL GROUP","621210",1
-"http://www.associatedendoscopy.com",63,0,0,1,3,1,6,0,"ASSOCIATED ENDOSCOPY LLC","621111",1
-"http://www.associatedurologistsofnashville.com",0,0,0,0,0,0,1,0,"Associated Urologists of Nashville","621111",1
-"http://www.assurancefinancialpartners.com",0,0,0,0,0,0,0,0,"Assurance Financial Partners LLC","541611",0
-"http://www.atcassociates.com",2,0,0,0,0,0,0,0,"Atc Associates Inc.","334516",0
-"http://www.athenaconsulting.com",0,0,0,0,0,0,0,0,"Athena Consulting","541618",0
-"http://www.athomehealthtn.com",2,0,0,0,0,0,0,1,"AGING & DISABILITY, TENNESSEE COMMISSION ON","624120",1
-"http://www.atiba.com",3,0,0,1,0,0,0,0,"Atiba Software & Consulting","541512",0
-"http://www.atkinsonpr.com",0,0,0,0,0,0,0,0,"Atkinson Public Relations Inc","541820",0
-"http://www.attachmentparenting.org",3,0,0,0,0,0,0,0,"Attachment Parenting International","624190",1
-"http://www.aullcooper.com",0,0,0,0,0,0,0,0,"Aull & Cooper Cpas Pllc","541211",0
-"http://www.austinadamsmd.com",0,0,0,6,0,0,3,0,"Austin Adams","621111",1
-"http://www.authentiqtax.net",0,0,0,0,0,0,0,0,"Authentiq Tax Service","541219",0
-"http://www.autohoodmedia.com",0,0,0,0,0,0,0,0,"Autohood Media, LLC","517919",0
-"http://www.automationnth.com",0,0,0,0,0,0,0,0,"AUTOMATION NTH, LLC","334513",0
-"http://www.avankia.com",6,0,0,0,0,0,2,0,"Avankia, LLC","541511",1
-"http://www.avintus.com",0,0,0,0,0,0,0,0,"Avintus","541611",0
-"http://www.axa-equitable.com",0,0,0,0,0,0,0,0,"Axa Mony or","541611",0
-"http://www.axiosit.com",2,0,0,0,0,0,0,0,"Axios Information Technologies LLC","541512",0
-"http://www.axischirotn.com",2,0,0,0,1,0,0,0,"Axis Chiropractic","621310",1
-"http://www.bas-solutions.com",0,0,0,0,0,0,0,0,"B A S Solutions","541511",0
-"http://www.besafe247.com",0,0,0,3,0,0,0,0,"Advanced Protective Services, Inc.","541611",0
-"http://www.bracesdoc.com",1,4,0,0,5,0,0,0,"Anthony R Togrye DDS PC","621210",1
-"http://www.bradfordhealth.com",92,0,0,0,19,0,1,0,"ADDICTION & MENTAL HEALTH SERVICES, INC","621498",1
-"http://www.brmcmillan.com",0,0,0,0,0,0,0,0,"B.R. McMillan & Associates, Inc.","236220",0
-"http://www.brookdaleliving.com",0,0,0,0,0,0,0,0,"American Retirement Corporation","623110",1
-"http://www.calldrgil.com",5,0,0,1,5,0,0,0,"ADVANCED THERAPIES INC","621310",1
-"http://www.capellahealth.com",260,0,0,17,4,0,31,0,"Capella Healthcare, Inc.","622110",1
-"http://www.childrenshospital.vanderbilt.org",14,0,0,11,1,0,0,0,"ARTHUR CATHERINE MD","621111",1
-"http://www.chiropractor-pages.com",0,0,0,0,0,0,0,0,"1st Choice Chiropractic","621310",1
-"http://www.comfortkeepers.com",7,0,0,2,0,0,0,0,"ALL ABOUT CARE LLC","621610",1
-"http://www.cosmetic-dentist-nashville.com",0,4,0,0,0,0,0,0,"21st Century Aesthetic Dentistry","621210",1
-"http://www.costcontrol.com",0,0,0,0,0,0,0,0,"B & L CORP","541611",0
-"http://www.counselcorp.com",0,0,0,0,0,0,0,0,"Ahom Holdings, Inc (de)","621610",1
-"http://www.cpspain.com",0,0,0,0,0,0,0,0,"ANESTHESIA SERVICES ASSOCIATES, PLLC","621111",1
-"http://www.dentists.dickson.ypeek.com",0,0,0,0,0,0,0,0,"Anissa Burgess DDS","621210",1
-"http://www.dicksonmd.com",1,0,0,2,0,0,2,0,"Anna Szczuka","621111",1
-"http://www.digichart.com",0,0,0,0,0,0,0,0,"Artemis International Inc.","541511",1
-"http://www.draaronpayne.net",1,0,0,0,0,0,0,0,"Aaron Payne DDS","621210",1
-"http://www.drbjacksonadc.com",0,28,0,0,0,0,0,0,"American Dental Center PC","621210",1
-"http://www.drhannahan.com",0,2,0,0,1,0,0,0,"Andrea Hannahan DDS Pllc","621210",1
-"http://www.drlyst.com",1,0,0,0,2,1,0,0,"Aimee Miltich Lyst PHD Pllc","621330",1
-"http://www.drnein.com",2,0,0,0,0,0,0,0,"Alexander G Nein MD PC","621111",1
-"http://www.ewc-inc.com",0,0,0,0,0,0,0,0,"APPLIED RESEARCH & MGT SVCS","541611",0
-"http://www.eyehealthpartners.com",13,0,0,2,2,0,1,0,"Angela F. Crisp, M.D., P.C.","621111",1
-"http://www.gasrecycler.com",2,0,0,1,0,0,0,0,"Anesthetic Gas Reclamation, LLC","339112",0
-"http://www.goldskincare.com",0,0,0,0,0,0,0,0,"Advanced Aesthetics, L.L.C.","621111",1
-"http://www.goodhealthtn.com",33,0,0,6,1,0,0,0,"Agarwal Reita MD","621111",1
-"http://www.harbortea.com",0,0,0,0,0,0,0,0,"Appleton Harbor Marketing LLC","541613",0
-"http://www.hearlife.org",0,0,0,1,0,0,0,0,"Advanced Hearing Solutions","621340",1
-"http://www.homeinstead.com",0,0,0,2,0,0,0,0,"ASSURANCE SENIOR CARE, INC.","621610",1
-"http://www.investors.activenetwork.com",0,0,0,0,0,0,0,0,"ACTIVE NETWORK, LLC","541618",0
-"http://www.keithshrumdentistry.com",1,7,0,0,1,0,0,0,"A Beautiful Smile","621210",1
-"http://www.liversociety.org",2,0,0,1,0,0,0,0,"American Liver Society","621498",1
-"http://www.lucasstrobesystems.com",0,0,0,0,0,0,0,0,"Alday Communications, Inc","541820",0
-"http://www.lungtn.org",8,0,0,0,0,0,0,0,"American Lung Association of Tennessee, Inc.","621999",1
-"http://www.midtowndentaltn.com",2,16,0,0,2,0,0,0,"AFFORDABLE DENTAL OF TN","621210",1
-"http://www.milestonepartners.com",0,0,0,0,0,0,0,0,"Avure Technologies Incorporated","334513",0
-"http://www.mjendo.com",0,0,0,0,0,0,0,0,"Adam Davis DDS","621210",1
-"http://www.mmm.com",0,0,0,0,0,0,0,0,"3M COMPANY","339113",0
-"http://www.mtmc.org",0,0,0,0,0,0,0,0,"Ascension Health Alliance","621112",1
-"http://www.murfreesborodiabetes.com",2,0,0,2,0,0,1,0,"B. Paul Turpin, M.D., Pllc","621111",1
-"http://www.myalignhealth.com",10,0,0,1,2,0,0,0,"Align Health & Wellness LLC","621999",1
-"http://www.myallergyent.com",0,0,0,0,0,0,0,0,"Allergy & Ent Assoc of Middle Tennessee P C","621111",1
-"http://www.nanallison.com",4,0,0,0,0,0,0,0,"Allison Nutrition Consulting","541618",1
-"http://www.nashville.assistanceleague.org",0,0,0,0,0,0,0,0,"Assistance League of Nashville","624190",1
-"http://www.nashvillefootdr.com",1,0,0,3,1,0,3,0,"American Foot Care Center PC","621111",1
-"http://www.nashvillemedicalgroup.com",2,0,0,5,2,0,5,0,"A Jamie Slandzicki MD","621111",1
-"http://www.nashvillespinedoctor.com",9,0,0,5,3,2,0,0,"Action Chiropractic","621310",1
-"http://www.ndc-inc.com",6,3,0,4,0,0,0,0,"American Dental Cooperative","423450",1
-"http://www.neufoot.com",8,0,0,1,13,2,1,0,"Advanced Foot & Ankle Centers PC","621391",1
-"http://www.neurosci.us",0,0,0,1,2,4,0,0,"Advanced Neuro Sciences Instit","621111",1
-"http://www.pathgroup.com",14,0,0,1,0,4,8,0,"ASSOCIATED PATHOLOGISTS, LLC","621111",1
-"http://www.pcpractice.com",0,0,0,0,0,0,0,0,"ANGELA JOYNES MD","621111",1
-"http://www.perryfamilydentistryllc.com",3,3,0,0,1,0,0,0,"ALDRICH T DDS INC","621210",1
-"http://www.pharmerica.com",0,0,0,0,0,0,0,0,"Amerita Inc","424210",1
-"http://www.phydata.com",0,0,0,0,0,0,0,0,"Advanced Diagnostic Imaging PC","621111",1
-"http://www.precisionlubrication.com",0,0,0,0,0,0,0,0,"ADVANCED MACHINE RELIABILITY RESOURCES, INC","541611",0
-"http://www.radalliance.com",0,0,0,2,0,3,6,0,"Associated Radiologist PC","621111",1
-"http://www.retiefskincenter.com",0,0,0,2,4,0,0,0,"AFFILIATED DERMATOLOGIST OF GREEN HILLS","621111",1
-"http://www.simplycare.net",4,0,0,1,2,1,1,0,"ASHOK MEHTA, M.D., P.C.","621111",1
-"http://www.smithcountyhc.com",14,0,0,3,0,0,0,0,"274 Smith County Health Care Center","623110",1
-"http://www.southeasterndentalgroup.com",0,15,0,0,3,2,0,0,"Amber Johnson","339114",1
-"http://www.specialtycare.net",3,0,0,0,0,0,0,0,"American Endoscopy Services, Inc.","334510",1
-"http://www.steveanderson.com",2,0,0,0,0,0,0,0,"American Insurance Consultants","541611",0
-"http://www.symbion.com",6,0,0,0,0,0,2,0,"AMBULATORY SURGERY CENTER OF COOL SPRINGS, LLC","621111",1
-"http://www.tennesseedentalcare.com",0,0,0,0,0,0,0,0,"ALLEN & CLAYTON DDS","621210",1
-"http://www.thca.com",0,0,0,0,0,0,0,0,"AMERICAN HEALTH COMPANIES, INC.","623110",1
-"http://www.theallergydoctors.com",0,0,0,0,0,0,1,0,"Allergy & Asthma Specialist","621111",1
-"http://www.theanimaleyecenter.com",0,0,0,0,0,0,0,0,"Animal Medical Center, PS","621112",1
-"http://www.thinkbrs.com",0,0,0,0,0,0,0,0,"B Rs","541611",0
-"http://www.thirdandchurchhealthcare.com",0,0,0,0,0,0,0,0,"3rd Church Healthcare","621999",1
-"http://www.tmjsplint.net",3,0,0,0,4,2,1,0,"Anthony Urbanek","621210",1
-"http://www.tn-goodlettsville.doctors.at",51,0,0,82,5,2,5,0,"Affiliated Neurologists PLC","621111",1
-"http://www.tn-lebanon.doctors.at",51,0,0,82,5,2,5,0,"Advanced Sleep Consultants of Middle TN","541618",1
-"http://www.tn-smyrna.doctors.at",51,0,0,82,5,2,5,0,"Adam W Crow, DDS, Pllc","621210",1
-"http://www.trane.com",0,0,0,0,0,0,0,0,"American Standard Shared Services Inc.","541219",0
-"http://www.treveccahrc.com",0,0,0,1,0,0,1,0,"AVALON HEALTH CARE, LLC","623110",1
-"http://www.visitingangels.com",0,0,0,2,0,0,0,0,"AEB, LLC","621610",1
-"http://www.williamsoncounty-tn.gov",0,0,0,0,0,0,0,0,"ALTERNATIVE LEARNING CENTER","624410",1
-"http://www.windrowgroup.com",0,0,0,0,0,0,0,0,"ANNA DURHAM WINDROW","541820",0
-"http://www.youngerfaces.com",1,0,0,1,15,0,0,0,"ALLERGY & ASTHMA CENTER LLC","621111",1
-"http://www.yourpetsnewvet.com",3,2,0,3,0,0,0,0,"Animal Care Center of Carters Creek","621999",1
-"http://entradahealth.com/",56,0,0,0,0,0,5,0,"Entrada, Inc.","5191",1
-"http://everesttech.com/",0,0,0,0,0,0,0,0,"Everest Technologies LLC","5415",0
-"http://finance.cat.com/cda/components/fullArticleNoNav?id=316005",0,0,0,0,0,0,0,0,"CATERPILLAR FINANCIAL SERVICES CORPORATION","5614",0
-"http://hcaethics.com/",7,0,0,0,0,0,0,0,"HCA Inc","5614",1
-"http://hcahealthcare.com/",48,0,0,5,1,0,3,0,"HCA Holdings","5614",1
-"http://library.mtsu.edu/",0,0,0,0,0,0,0,0,"Mtsu Library","5191",1
-"http://mcninteractive.com/",0,0,0,0,0,0,0,0,"MCN Interactive, LLC","5182",0
-"http://medaxion.com/",0,0,0,0,0,0,0,0,"Medaxion, LLC","5112",1
-"http://metova.com/",0,0,0,0,0,0,0,0,"Metova, Inc.","5415",0
-"http://mizzouri.com/",3,0,0,0,0,0,0,0,"Mizzouri LLC","5419",1
-"http://mmodal.com/",1,0,0,1,0,0,7,0,"MMODAL INC","5182",1
-"http://myemma.com/",0,0,0,0,0,0,0,0,"Emma, Inc.","5416",0
-"http://raskinco.com/",0,0,0,0,0,0,0,0,"Edwin B. Raskin Company","5416",0
-"http://stylenet.com/",0,0,0,0,0,0,0,0,"MICHAEL READER","5182",0
-"http://tds-associates.com/aboutus.htm",0,0,0,0,0,0,0,0,"T D S & ASSOC LLC","5191",0
-"http://thomasandthorngren.com/",0,0,0,0,0,0,0,0,"Thomas and Thorngren, Inc.","5416",0
-"http://www.accuimagellc.com/",1,0,0,1,0,0,0,0,"Accuimage, LLC","5182",1
-"http://www.aclapath.com",0,0,0,0,0,1,7,0,"ANATOMIC AND CLINICAL LABORATORY ASSOCIATES, P.C.","6215",1
-"http://www.aegis-group.com/index.html",4,0,0,13,0,0,1,0,"Aegis Health Group, Inc.","5416",1
-"http://www.aegislabs.com",3,0,0,3,0,2,1,0,"AEGIS SCIENCES CORPORATION","6215",1
-"http://www.ael-central.com",14,0,0,2,0,0,0,0,"Woodbury Clinical Lab","6215",1
-"http://www.agilitymarketing.com/",2,0,0,0,0,0,0,0,"Agility Marketing Group, Inc.","5419",1
-"http://www.aig.com",2,0,0,0,0,0,0,0,"AMERICAN GENERAL LIFE AND ACCIDENT INSURANCE COMPANY","5241",0
-"http://www.alfains.com",11,2,0,0,0,0,0,0,"The Vision Insurance Group LLC","5241",1
-"http://www.allermetrix.com",0,0,0,0,0,0,0,0,"Allermetrix Inc.","6215",0
-"http://www.alltechinc.net/",0,0,0,0,0,0,0,0,"Alltech, Inc.","5415",0
-"http://www.americangeneral.com",3,0,0,0,0,0,0,0,"AGC Life Insurance Company","5242ÿÿÿÿÿÿ ",0
-"http://www.ascriskmanagement.com",0,0,0,0,0,0,0,0,"Alternative Service Concepts LLC","5242ÿÿÿÿÿÿ ",0
-"http://www.asurion.com",0,3,0,1,0,0,0,0,"Asurion Insurance Services, Inc.","5242ÿÿÿÿÿÿ ",0
-"http://www.avaza.com/",0,0,0,0,0,0,0,0,"Avaza Language Services Corporation","5419",0
-"http://www.belleforestanimalhospital.com/",3,2,0,2,0,0,0,0,"Belle Forest Animal Hospital","5419",0
-"http://www.blankenshipcpagroup.com/",0,0,0,0,0,0,0,0,"Blankenship CPA Group Pllc","5412",0
-"http://www.bridgestone-firestone.com/",0,0,0,0,0,0,0,0,"BRIDGESTONE AMERICAS TIRE OPERATIONS, LLC","5614",1
-"http://www.brookdale.com/",0,0,0,0,0,0,0,0,"Brookdale Senior Living","5614",1
-"http://www.bwood.com",1,0,0,0,0,0,0,0,"BRENTWOOD SERVICES, INC.","5242ÿÿÿÿÿÿ ",0
-"http://www.cardinal.com/",43,0,0,0,0,0,3,0,"Cardinal Health 105, Inc.","5416",1
-"http://www.cardiolabs.com",0,0,0,0,0,3,1,0,"CARDIO LABS, INC.","6215",1
-"http://www.caremark.com/wps/portal",4,0,0,5,0,0,0,0,"Caremark Rx, Inc.","5614",1
-"http://www.cgsadmin.com",0,0,0,14,0,0,0,0,"Cgs Administrators, LLC","5242ÿÿÿÿÿÿ ",1
-"http://www.childrenscliniceast.com",3,0,0,2,0,0,1,0,"Childrens Clinic East PC","6215",1
-"http://www.chs.net/",2,0,0,2,0,1,3,0,"Community Health Systems, Inc","5614",1
-"http://www.cigna.com",77,10,0,19,0,0,0,0,"CIGNA HEALTHCARE OF TENNESSEE, INC.","5241",1
-"http://www.cigna.com/medicare/cigna-healthspring",40,0,0,227,0,0,0,0,"Healthspring, Inc.","5614",1
-"http://www.citadelosg.com/",0,0,0,1,0,0,0,0,"Citadel Outsource Group LLC","5412",1
-"http://www.clcpas.com/",0,0,0,0,0,0,0,0,"Carter, Lankford Cpa's, P.C.","5412",1
-"http://www.clinixmis.com/",3,0,0,5,0,0,4,0,"CLINIX MEDICAL INFORMATION SERVICES, LLC","5415",1
-"http://www.comdata.com/",4,0,0,1,0,0,0,0,"COMDATA NETWORK, INC.","5182",1
-"http://www.concentra.com",54,0,0,9,0,0,3,0,"Concentra Network Services","5242ÿÿÿÿÿÿ ",1
-"http://www.concepttechnologyinc.com/",0,0,0,0,0,0,0,0,"Concept Technology, Inc.","5182",0
-"http://www.crackerbarrel.com/",0,0,0,0,0,0,0,0,"CRACKER BARREL OLD COUNTRY STORE, INC.","5614",0
-"http://www.crosslinpc.com/",8,0,0,0,0,0,3,0,"Crosslin & Associates, P.C.","5412",1
-"http://www.dataium.com/",0,0,0,0,0,0,0,0,"Dataium LLC","5191",0
-"http://www.decisionsource.com/",0,0,0,0,0,0,0,0,"Decision Source Inc","5112",0
-"http://www.delekus.com/",0,0,0,0,0,0,0,0,"Delek US Holdings, Inc.","5614",0
-"http://www.deltadentaltn.com",0,4,0,0,0,0,0,0,"Delta Dental of Tennessee","5241",1
-"http://www.design3000plus.com/",0,0,0,0,0,0,0,0,"Design/3000, Inc","5112",0
-"http://www.dglfcpa.com/",0,0,0,0,0,0,0,0,"Davidson, Golden & Lundy PC","5412",0
-"http://www.directgeneral.com",0,0,0,0,0,0,0,0,"DIRECT INSURANCE COMPANY, INC","5241",0
-"http://www.discipleshistory.org/",0,0,0,0,0,0,0,0,"Disciples of Christ Historical Society Inc","5191",0
-"http://www.dollargeneral.com/home/index.jsp",2,0,0,0,0,0,0,0,"Dollar General Corp","5614",0
-"http://www.dvf-pllc.com/",0,0,0,0,0,0,0,0,"Dempsey Vantrease & Follis Pllc","5412",0
-"http://www.efcsystems.com/main/",0,0,0,0,0,0,0,0,"EFC Systems, Inc.","5415",0
-"http://www.ehdtech.com/home/",0,0,0,0,0,0,0,0,"Ehd Technologies, LLC","5416",0
-"http://www.elizabrocksoftware.com/",0,0,0,0,0,0,0,0,"BROCK ELIZA SOFTWARE LLC","5112",0
-"http://www.emdeon.com/",6,0,0,0,0,0,5,0,"EMDEON INC.","5182",1
-"http://www.emids.com/",0,0,0,0,0,0,0,0,"Emids Technologies","5415",1
-"http://www.esoterix.com",0,0,0,2,0,0,2,0,"Esoterix Oncology, Inc","6215",1
-"http://www.fbitn.com",0,0,0,0,0,0,0,0,"Tennessee Farmers Assurance Company","5242ÿÿÿÿÿÿ ",0
-"http://www.fdhcpa.com/our-valued-clients.php",0,0,0,0,0,0,0,0,"Frasier, Dean & Howard Cpas","5412",0
-"http://www.fdrsafety.com/",2,0,0,0,0,0,0,0,"Fdrsafety LLC","5416",0
-"http://www.financialguide.com",0,0,0,0,0,0,0,0,"CAPITAL FINANCIAL GROUP, LLC","5242ÿÿÿÿÿÿ ",0
-"http://www.firstacceptancecorp.com",0,0,0,0,0,0,0,0,"FIRST ACCEPTANCE CORPORATION","5241",0
-"http://www.fisglobal.com/",0,0,0,0,0,0,0,0,"Valutec Card Solutions, Inc.","5182",0
-"http://www.fivestonestudios.com/",2,0,0,0,0,0,0,0,"Fivestone Studios, Inc.","5182",0
-"http://www.fl.jacksonville.local.directgeneral.com",0,0,0,0,0,0,0,0,"DIRECT GENERAL AGENCY OF KENTUCKY, INC","5242ÿÿÿÿÿÿ ",0
-"http://www.fmccpa.com/firmprofile_general.asp",0,0,0,0,0,0,0,0,"FAULKNER MACKIE & COCHRAN, P C","5412",0
-"http://www.formco.net/",0,0,0,0,0,0,0,0,"Formco, Inc","5419",1
-"http://www.fortierdrugtesting.com/",1,0,0,0,0,0,0,0,"FORTIER LOSS CONTROL CONSULTANTS INC","5419",1
-"http://www.foxfireprinting.com/",0,0,0,0,0,0,0,0,"Pinnacle Business Products, LLC","5419",0
-"http://www.genesco.com/",0,0,0,0,0,0,0,0,"GENESCO INC.","5614",0
-"http://www.geneticassays.com",2,0,0,0,0,1,0,0,"Genetic Assays, Inc","6215",1
-"http://www.geneticsassociates.com",0,0,0,0,0,0,1,0,"Genetics Associates, Inc.","6215",1
-"http://www.ghp1.com/",1,0,0,1,0,0,0,0,"Hays Gobbell Partners Inc","5416",1
-"http://www.goabs.net/",0,0,0,1,0,0,0,0,"Nashville Anesthsia Billing Services","5412",1
-"http://www.haukkruse.com/",0,0,0,0,0,0,0,0,"Kruse & Associates, P.C.","5412",0
-"http://www.hcamidwest.com/",138,0,0,30,5,1,41,0,"Hercules Holdings","5614",1
-"http://www.healthspring.com",40,0,0,227,0,0,0,0,"Healthspring, Inc.","5241",1
-"http://www.healthstream.com/",55,0,0,2,0,2,4,3,"DATA MANAGEMENT & RESEARCH INC","5182",1
-"http://www.healthtechholdings.com/",0,0,0,0,0,0,0,0,"MEDHOST OF TENNESSEE, INC.","5415",1
-"http://www.hillsboroanimalhospital.net/",3,1,0,1,0,0,0,0,"Hillsboro Animal Hospital","5419",0
-"http://www.hiscall.com/",0,0,0,0,0,0,0,0,"HISCALL, INC.","5419",0
-"http://www.hollandsquare.com/",0,0,0,0,0,0,0,0,"Holland Square Group, LLC","5415",1
-"http://www.hylant.com",7,1,0,5,0,0,0,0,"Hylant Group","5241",0
-"http://www.iasishealthcare.com/",135,0,0,22,0,0,7,0,"IASIS Healthcare LLC","5614",1
-"http://www.ica-onramp.com/",0,0,0,0,0,0,0,0,"INFRASTRUCTURE CORPORATION OF AMERICA","5416",0
-"http://www.iconplc.com",0,0,0,4,0,0,0,0,"Icon Clinical Research Inc","6215",1
-"http://www.ictnorthamerica.com/",0,0,0,0,0,0,0,0,"INTERNATIONAL TECHNOLOGY CONSORTIUM, LLC","5419",0
-"http://www.infoworks-tn.com/",5,0,0,2,0,0,0,0,"Infoworks, Inc.","5416",1
-"http://www.inovapayroll.com/",4,1,0,1,0,0,0,0,"Inova Payroll Inc.","5412",1
-"http://www.inphact.com/",0,0,0,1,0,0,0,0,"EVOLVED DIGITAL SOLUTIONS, INC.","5182",1
-"http://www.integra-online.com/",0,0,0,0,0,0,0,0,"Integra Software Systems, LLC","5112",0
-"http://www.iostudio.com/",0,0,0,0,0,0,0,0,"Iostudio, LLC","5182",0
-"http://www.ironsolutions.com/",0,0,0,0,0,0,0,0,"Iron Solutions, Inc.","5191",0
-"http://www.jacksonhewitt.com/",7,0,0,0,0,0,0,0,"JACKSON HEWITT TAX SERVICE","5412",0
-"http://www.jobehastings.com/",0,0,0,0,0,0,0,0,"Jobe Hastings & Associates CPA","5412",0
-"http://www.kraftcpas.com/",1,0,0,0,0,0,0,0,"Kraft Cpas, Pllc","5412",1
-"http://www.labcorp.com",6,0,0,0,0,6,0,0,"HOME HEALTHCARE LABORATORY OF AMERICA INC","6215",1
-"http://www.lbmc.com/",17,0,0,1,0,0,0,0,"LATTIMORE BLACK MORGAN & CAIN, PC","5412",1
-"http://www.lbmctech.com/",1,0,0,1,0,0,0,0,"Lbmc Financial Services, LLC","5415",1
-"http://www.lifepointhospitals.com/",3,0,0,1,0,0,10,0,"Lifepoint Hospitals, Inc.","5614",1
-"http://www.lincor.com/",7,0,0,2,1,1,0,0,"LINCOR, INC.","5415",1
-"http://www.localgovernmentcorporation.com/drupal7/",0,0,0,0,0,0,0,0,"Local Government Data Processing Corporation","5182",0
-"http://www.lpcorp.com/",0,0,0,0,0,0,0,0,"Louisiana-Pacific Corporation","5614",0
-"http://www.maggartpc.com/",0,0,0,0,0,0,0,0,"Maggart & Associates PC","5412",0
-"http://www.magneticdreams.com/",0,0,0,0,0,0,0,0,"Magnetic Dreams Incorporated","5182",0
-"http://www.mankinmedia.com/",0,0,0,0,0,0,0,0,"Mankin Media Systems, Inc","5415",0
-"http://www.manta.com/c/mb4s04s/chsw-llc",0,0,0,0,0,0,0,0,"Chsw, LLC","5416",1
-"http://www.mauryregional.com",6,0,0,14,0,0,1,0,"SPRING HILL FAMILY HEALTH GROUP","6215",1
-"http://www.maysandassociates.com",0,0,0,0,0,1,0,0,"BURKE L. MAYS AND ASSOCIATES, INC.","6215",0
-"http://www.mc.vanderbilt.edu/",28,0,0,3,0,0,0,0,"VANDERBILT UNIVERSITY MEDICAL CENTER","5614",1
-"http://www.medhost.com/",5,0,0,0,0,0,1,0,"Patient Logic, Inc.","5415",1
-"http://www.medicaldataservices.com/",19,0,0,9,2,0,0,0,"Medical Data Services, LLC","5182",1
-"http://www.medicaldirectclub.com",1,0,0,107,0,0,1,0,"Medical Direct Club, LLC","6215",1
-"http://www.medsolutions.com",2,0,0,2,0,0,0,0,"MEDSOLUTIONS, INC.","5241",1
-"http://www.mid10.com/",0,0,0,2,0,0,0,0,"Mid10 Marketing LLC","5191",0
-"http://www.mjca.org/",0,0,0,0,0,0,0,0,"Mt Juliet Christian Academy","5419",0
-"http://www.mmc.edu/education/library/",0,0,0,1,0,0,1,0,"KRESGE LEARNING RESOURCE CENTER","5191",1
-"http://www.mmodal.com/",1,0,0,1,0,0,7,0,"Mmodal Services, Ltd., Inc.","5419",1
-"http://www.mobleyveterinaryclinic.com/",6,2,0,4,1,0,0,0,"MOBLEY VETERINARY CLINIC PC","5419",0
-"http://www.moderntechmech.com/",0,0,0,0,0,0,0,0,"Moderntech Corporation","5415",0
-"http://www.ms.mccomb.local.directgeneral.com",0,0,0,0,0,0,0,0,"Direct General Insurance Agency of Mississippi, Inc","5242ÿÿÿÿÿÿ ",0
-"http://www.murphyroadvet.com/",9,4,0,7,1,4,0,0,"Murphy Road Animal Clinic Co","5419",0
-"http://www.myfsi.net/",0,0,0,0,0,0,0,0,"Fsi, Incorporated","5419",1
-"http://www.naa-lp.com",3,0,0,0,0,0,0,0,"North America Administrators LP","5241",1
-"http://www.nashville.gov/",0,0,0,0,0,0,0,0,"TENNESSEE D O T INFO TECH","5182",1
-"http://www.nashvillepetemergency.com/",1,0,0,2,1,3,0,0,"Nashville Pet Emergency Clinic Inc","5419",0
-"http://www.nctsolution.com/",0,0,0,0,0,0,0,0,"New Century Technologies, Inc","5415",0
-"http://www.netcentral.com",0,0,0,0,0,0,0,0,"Netcentral, Inc.","5191",0
-"http://www.opko.com",0,0,0,2,0,7,3,0,"PROST-DATA, INC.","6215",1
-"http://www.optimum-solutions.com/",4,0,0,0,0,0,0,0,"Optimum Solutions, Incorporated","5415",0
-"http://www.oraldna.com",1,4,0,1,1,8,1,0,"Oraldna Labs, Inc.","6215",1
-"http://www.paskr.com/",0,0,0,0,0,0,0,0,"Paskr, LLC","5112",0
-"http://www.passporthealth.com/index.aspx",16,0,0,0,0,0,0,0,"PASSPORT HEALTH COMMUNICATIONS, INC.","5415",1
-"http://www.pathgroup.com",14,0,0,1,0,4,8,0,"PATHGROUP LABS, LLC","6215",1
-"http://www.peak10.com/",2,0,0,0,0,0,0,0,"Peak 10, Inc.","5191",0
-"http://www.petmedvet.com/",2,2,0,3,3,2,0,0,"Mark Girone Dvm","5419",0
-"http://www.pgac.com",0,0,0,0,0,0,0,0,"Permanent General Assurance Corporation","5241",0
-"http://www.phhw.com/",1,0,0,0,0,0,0,0,"Puryear Hamiton Hauseman Wood PLC","5412",1
-"http://www.phydata.com/",0,0,0,0,0,0,0,0,"Phydata","5412",0
-"http://www.picagroup.com",0,0,0,0,0,0,2,0,"PODIATRY INSURANCE COMPANY OF AMERICA, A MUTUAL COMPANY","5241",1
-"http://www.pmresearch.com/",3,0,0,0,0,0,0,0,"PRINCE MARKET RESEARCH INC","5419",1
-"http://www.premier-system.com/",0,0,0,0,0,0,0,0,"Premier System Integrators, Inc.","5415",0
-"http://www.proclaiminc.com",0,0,0,0,0,0,0,0,"Pro Claim Inc","5242ÿÿÿÿÿÿ ",1
-"http://www.puritydairies.com/",2,0,0,0,0,0,0,0,"Purity Dairies, LLC","5614",0
-"http://www.qhr.com/",12,0,0,0,0,0,5,0,"Quorum Health Resources, LLC","5416",1
-"http://www.qualifacts.com/",7,0,0,0,0,0,0,0,"Qualifacts Systems, Inc","5415",1
-"http://www.qualityxray.com",0,0,0,0,0,2,0,0,"Quality Mobile X Ray Services Inc","6215",1
-"http://www.rbbpccpa.com/",0,0,0,0,0,0,0,0,"RAYBURN BETTS & BATES PC","5412",1
-"http://www.readypointsystems.com/",0,0,0,0,0,0,0,0,"Readypoint Health, Inc.","5112",1
-"http://www.richardsandsouthern.com/",0,0,0,0,1,0,0,0,"Richards & Southern, Inc.","5416",0
-"http://www.rutherfordcountylibrary.org/",3,0,0,0,0,0,0,0,"RUTHERFORD COUNTY LIBRARY SYSTEM","5191",0
-"http://www.sds-inc.com/",0,0,0,0,0,0,0,0,"SMART DATA STRATEGIES, INC.","5415",0
-"http://www.setech.com/",0,0,0,0,0,0,0,0,"Setech, Inc.","5416",0
-"http://www.setechindia.com/",0,0,0,0,0,0,0,0,"Glomac Technology Inc","5112",0
-"http://www.sitehawk.com/",0,0,0,0,0,0,0,0,"SITEHAWK LLC","5191",0
-"http://www.southernhills.com",13,0,0,17,1,4,21,0,"Southern Hills Mri Associates, L.P.","6215",1
-"http://www.specialtycare.net",1,0,0,0,0,0,0,0,"Specialty Care Services Group LLC","6215",1
-"http://www.statementrendering.com/",0,0,0,0,0,0,0,0,"Statement Rendering Solutions, LLC","5412",1
-"http://www.stratasan.com/",10,0,0,0,0,0,1,0,"Stratasan, LLC","5112",0
-"http://www.strategycorps.com/",0,0,0,0,0,0,0,0,"Strategy Corps, LLC","5416",0
-"http://www.strglobal.com/",0,0,0,0,0,0,0,0,"Smith Travel Research, Inc.","5419",0
-"http://www.subway.com/subwayroot/default.aspx",0,0,0,0,0,0,0,0,"Blue Oasis LLC","5112",0
-"http://www.sussmanandassociates.com/",0,0,0,0,0,0,0,0,"Sussman & Associates","5412",0
-"http://www.svmic.com",0,0,0,1,0,0,2,0,"STATE VOLUNTEER MUTUAL INSURANCE COMPANY","5241",1
-"http://www.symphonycare.com/",13,0,0,3,0,0,2,0,"Symphony Home Care Services","5419",1
-"http://www.synaxis.com",0,0,0,0,0,0,0,0,"Brown & Brown of Tennessee, Inc.","5242ÿÿÿÿÿÿ ",0
-"http://www.sys-int.com/",3,0,0,0,0,0,0,0,"Systems Integration Inc","5415",0
-"http://www.takecarehealth.com",94,0,0,4,3,1,0,0,"Take Care Employer Solutions, Llc.","5241",1
-"http://www.tbr.edu/",0,0,0,0,0,0,0,0,"Tennessee Board of Regents","5614",0
-"http://www.teaminteractions.com/",0,0,0,0,0,0,0,0,"Team Interactions, Inc.","5112",1
-"http://www.teddybearportraits.com/",0,0,0,0,0,0,0,0,"NATIONWIDE STUDIOS INC.","5419",0
-"http://www.tenco.com",0,0,0,0,0,0,0,0,"TENCO SERVICES, INC","5242ÿÿÿÿÿÿ ",0
-"http://www.tenethealth.com/",21,0,0,0,0,0,4,0,"Vanguard Health Systems, Inc.","5614",1
-"http://www.tennesseefarmers.com",0,0,0,0,0,0,0,0,"TENNESSEE FARMERS MUTUAL INSURANCE COMPANY","5241",0
-"http://www.thecrichtongroup.com",2,0,0,0,0,0,0,0,"Crichton, Brandon, Jackson & Ward, Inc.","5242ÿÿÿÿÿÿ ",0
-"http://www.thegeneral.com",0,0,0,0,0,0,0,0,"PERMANENT GENERAL COMPANIES, INC.","5242ÿÿÿÿÿÿ ",0
-"http://www.tnagc.org/",0,0,0,0,0,0,0,0,"Middle TN Branch of The AGC of Tennessee Inc","5191",0
-"http://www.tnfarmbureau.org/",1,0,0,0,0,0,0,0,"FARMERS' SERVICE, INC","5182",0
-"http://www.tractorsupply.com/",15,0,0,0,0,0,0,0,"Tractor Supply Company","5614",0
-"http://www.transpecinc.com",0,0,0,0,0,0,0,0,"PINSON & ASSOCIATES INSURANCE AGENCY INC","5242ÿÿÿÿÿÿ ",0
-"http://www.trinisys.com/",4,0,0,1,0,0,0,0,"Trinisys, LLC","5112",0
-"http://www.uhc.com",51,1,0,5,0,0,2,0,"UNITED HEALTHCARE OF TENNESSEE, INC.","5241",1
-"http://www.uniguest.com/en/",0,0,0,0,0,0,0,0,"U.S. HOSPITALITY PUBLISHERS, INC.","5415",1
-"http://www.unitekglobalservices.com/our-business/fts-usa/",0,0,0,0,0,0,0,0,"Fts USA LLC","5416",0
-"http://www.vanderbilt.edu/",6,0,0,5,1,0,0,0,"THE VANDERBILT UNIVERSITY","5614",1
-"http://www.wcah.org/",3,1,0,0,0,0,0,0,"WILLIAMSON COUNTY ANIMAL HOSPITAL","5419",0
-"http://www.wdschockco.com/",0,0,0,0,0,0,0,0,"W. D. Schock Co., Inc.","5416",0
-"http://www.wellsfargo.com/com/retirement-employee-benefits/bpsm",1,0,0,0,0,0,0,0,"Bryan, Pendleton, Swats & McAllister-Wells Fargo, LLC","5416",0
-"http://www.willis.com",1,0,0,0,0,0,0,0,"Willis North America Inc.","5242ÿÿÿÿÿÿ ",1
-"http://www.workinstitute.com/",0,0,0,0,0,0,0,0,"The Work Institute LLC","5416",0
-"http://www.workwithpcs.com/",0,0,0,0,0,0,0,0,"PROGRESSIVE COMMUNICATION SERVICES, INC.","5416",0
-"http://www.zanderins.com",3,0,0,0,0,0,0,0,"THE ZANDER INSURANCE GROUP LLC","5242ÿÿÿÿÿÿ ",1
-"http://www2.deloitte.com/us/en/services/financial-advisory.html",4,0,0,0,0,0,0,0,"Deloitte Financial Advisory Services LLP","5412",0
+"Website","Health","Dental","Optical","Medic","Treatment","Diagnosis","Physician","Quality","CompanyName","NAICScode","healthcat"
+"http://www.101construction.com",0,0,0,0,0,0,0,0,"101 Construction Company",236220,0
+"http://www.12southdentalstudio.com",3,13,0,0,5,0,0,0,"12 South Dental Pllc",621210,1
+"http://www.2accu-visionoptical.com",1,0,1,0,0,0,0,0,"Accu Vision Optical",621320,1
+"http://www.2thetopdesign.com",0,0,0,0,0,0,0,0,"2 The Top Web Site Design & Promotion",518210,0
+"http://www.3gsshredding.com",0,0,0,0,0,0,0,0,"3gs LLC",518210,0
+"http://www.4umd.com",0,0,0,0,0,1,1,0,"4umd LLC",621111,1
+"http://www.5pdi.com",0,0,0,0,0,0,0,0,"5 Points Digital Imaging",517919,0
+"http://www.5stardentalcare.biz",0,14,0,0,0,0,0,0,"5 Star Dental Care",621210,1
+"http://www.828marketing.com",3,0,0,0,0,0,0,0,"828 Marketing",541613,0
+"http://www.a-zdme.com",0,0,0,3,0,0,0,0,"A-Z Dme, LLC",423450,1
+"http://www.a3marketing.com",0,0,0,0,0,0,0,0,"A3 Marketing",541613,0
+"http://www.aandrconsultants.com",0,0,0,0,0,0,0,0,"A & R Consultants LLC",541618,1
+"http://www.ablemos.com",1,0,0,1,0,0,0,0,"Ablemos, Inc.",621340,1
+"http://www.aboverubies.org",3,0,0,0,0,0,0,0,"Above Rubies",541690,0
+"http://www.abriohealthcare.com",86,0,0,0,0,0,0,0,"Abrio Healthcare Solutions, Inc.",541618,0
+"http://www.absfinancialservice.com",0,0,0,0,0,0,0,0,"ABS Financial Services Inc",541611,0
+"http://www.academyfootandankle.com",2,0,0,0,1,2,1,0,"Academy Foot & Ankle Care",621391,1
+"http://www.acadiahealthcare.com",100,0,0,2,12,0,2,0,"Acadia Healthcare Company, Inc.",621498,1
+"http://www.acalontech.com",0,0,0,0,0,1,0,0,"Avalon Technology",541512,0
+"http://www.accentsmilecenter.com",6,108,0,0,13,0,0,0,"Accent Smile Center Pllc",621210,1
+"http://www.accessdentalofbrentwood.com",4,10,0,0,0,0,0,0,"Access Dental of Brentwood",621210,1
+"http://www.accessretirement.com",0,0,0,0,0,0,0,0,"Access Retirement Services, LLC",541690,0
+"http://www.accountnet.biz",0,0,0,0,0,0,0,0,"Accountnet Incorporated",541219,0
+"http://www.accounts-receivable.com",0,0,0,1,0,0,0,0,"Accounts Receivable Solutions LLC",541219,1
+"http://www.accuimagellc.com",1,0,0,1,0,0,0,0,"Accuimage, LLC",518210,0
+"http://www.accuratehealthcare.com",77,0,0,21,1,0,0,0,"Accurate Healthcare, Inc.",423450,1
+"http://www.acepronet.com",0,0,0,0,0,0,0,0,"ADVANCED COMPUTER EXPERTS, INC.",541512,0
+"http://www.achievelearningnow.com",0,0,0,0,0,0,0,0,"Achieve Learning",624410,1
+"http://www.aclapath.com",0,0,0,0,0,1,7,0,"ANATOMIC AND CLINICAL LABORATORY ASSOCIATES, P.C.",621511,1
+"http://www.acs-inc.com",32,0,0,0,0,0,0,0,"ACS MULTI MEDIA ADVERTISING",517919,0
+"http://www.activelearningcenters.com",0,0,0,0,0,0,0,0,"Active Learning Ctr",624410,1
+"http://www.activelifetn.com",0,0,0,0,0,0,0,0,"Active Life Chiropractic & Rehabilitatio",621310,1
+"http://www.activesjc.com",2,0,0,3,2,1,0,0,"Active Spine & Joint Center LL",621310,1
+"http://www.acumenehr.com",2,0,0,0,0,0,0,0,"Acumen Physician Solutions, LLC",621610,1
+"http://www.acuweb.com",0,0,0,0,0,0,0,0,"Acuity Marketing Communications, Inc",541613,0
+"http://www.adamspediatricdentistry.com",1,6,0,0,0,0,0,0,"Adams Pediatric Dentistry",621210,1
+"http://www.adamsplace.org",1,0,0,0,1,0,1,0,"ADAMS PLACE",623990,1
+"http://www.adifferentviewonline.com",0,0,0,0,0,0,0,0,"A Different View Limited, LLC",541611,0
+"http://www.adinhealthcare.com",0,0,0,0,0,1,0,0,"Adin Healthcare LLC",621999,1
+"http://www.adoptionassistance.com",0,0,0,0,0,0,0,0,"Adoption Assistance Inc",624110,1
+"http://www.adp.com",4,0,0,0,0,0,0,0,"AUTOMATIC DATA PROCESSING, INC.",518210,0
+"http://www.advanceautosalvage.com",0,0,0,0,0,0,0,0,"Advance Auto Salvage",541618,0
+"http://www.advancedbehaviorconsultants.com",0,0,0,0,0,1,0,0,"Advanced Behavior Consultants",541618,0
+"http://www.advancedbillinginc.com",2,0,0,18,0,0,0,0,"Advanced Billing, Inc.",541219,1
+"http://www.advancedphysicaltherapyandrehab.com",1,0,0,1,2,0,1,0,"ADVANCED PHYSICAL THERAPY REHAB",621340,1
+"http://www.advancedskinlaser.com",1,0,0,0,2,0,0,0,"ADVANCED SKIN & LASER PC",621111,1
+"http://www.advantagebehavioral.org",7,0,0,0,0,0,1,0,"Advantage Behavioral Health",621420,1
+"http://www.advantagecpas.com",0,0,0,0,0,0,0,0,"Advantage CPA Group LLC",541211,0
+"http://www.adveng.com",0,0,0,0,0,0,0,0,"Advanced Engineering, Inc.",541690,0
+"http://www.adventisthealthsystem.com",5,0,0,1,0,0,2,0,"ADVENTIST HEALTH SYSTEM/SUNBELT, INC.",622110,1
+"http://www.adventurecounseling.com",3,0,0,0,0,0,0,0,"Adventure Counseling",624190,1
+"http://www.adventureworks.com",0,0,0,0,0,0,0,0,"Adventureworks, Inc.",541611,0
+"http://www.aegis-group.com",4,0,0,13,0,0,1,0,"Aegis Health Group",541611,1
+"http://www.aegislabs.com",3,0,0,3,0,3,1,0,"AEGIS SCIENCES CORPORATION",621511,1
+"http://www.aerocareusa.com",4,0,0,12,0,0,2,0,"Aerocare Holdings, Inc.",621610,1
+"http://www.afdclinics.com",3,0,0,2,0,0,0,0,"American Family Dr",621111,1
+"http://www.affiliatewise.com",0,0,0,0,0,0,0,0,"Affiliatewise LLC",541613,0
+"http://www.affordabledentaloftn.com",2,18,0,0,4,0,0,0,"Affordable Dental of Tennessee",621210,1
+"http://www.affordabledentures.com",0,19,0,0,0,0,0,0,"Affordable Dentures",621210,1
+"http://www.affordablehomeaccess.com",1,0,0,0,0,0,0,0,"Affordable Home Access Solutions, Inc.",236220,0
+"http://www.afobraces.com",0,0,0,0,0,0,0,0,"American Family Orthodontics LLC",621210,1
+"http://www.afwellness.com",4,0,0,3,1,0,1,0,"Ardella Family Wellness Clinic",621999,1
+"http://www.agapenashville.org",1,0,0,0,0,0,0,0,"ASSOCIATION FOR GUIDANCE AID",624110,1
+"http://www.agrandmotherswish.com",0,0,0,0,0,0,0,0,"A Grandmothers Wish",621610,1
+"http://www.aheadhr.com",0,0,0,0,0,0,0,0,"AHEAD, INC.",541611,0
+"http://www.ahfdllc.com",1,0,0,0,0,0,0,0,"American Health Facilities Development, LLC",621999,1
+"http://www.ahom.com",4,0,0,3,0,0,0,0,"AHP Finance, Inc.",621610,1
+"http://www.aidandassist.net",0,0,0,3,0,0,0,0,"ADDUS HOMECARE CORPORATION",624190,1
+"http://www.aieng.com",0,0,0,0,0,0,0,0,"Automation Integrator LLC",541511,0
+"http://www.aionex.net",2,0,0,0,0,0,0,0,"Aionex, Inc.",621610,1
+"http://www.aipnashville.com",0,0,0,1,0,0,0,1,"AGING IN PLACE",621610,1
+"http://www.aircraftbatteryshop.com",0,0,0,0,0,0,0,0,"Aircraft Battery Shop, Inc.",335912,0
+"http://www.airliftj.com",0,0,0,0,0,0,0,0,"Airlift Group LLC",541511,0
+"http://www.ajartistmedia.com",0,0,0,0,0,0,0,0,"Ajartist Media",517919,0
+"http://www.aladdintemprite.com",0,0,0,0,0,0,0,0,"Aladdin Temp-Rite LLC",423450,0
+"http://www.alanahealthcare.com",179,0,0,1,0,0,0,0,"Alana Health Partners LLC",424210,1
+"http://www.alexgoodmandmd.com",7,16,0,0,2,0,0,0,"Alex Goodman DMD",621210,1
+"http://www.alissasawyer.com",0,0,0,0,0,0,0,0,"Alissa Sawyer Counseling",624190,1
+"http://www.alivehospice.org",3,0,0,1,0,0,0,0,"Alive Hospice Inpatient Unit At St Thomas",623110,1
+"http://www.allcarehealthservices.net",0,0,0,0,0,0,0,0,"Allcare Health Services",621610,1
+"http://www.allegiance-ts.com",0,0,0,0,0,0,0,0,"Allegiane Teleservices",541690,0
+"http://www.allegiantdirect.com",0,0,0,0,0,0,0,0,"Allegiant Direct, Inc.",541613,0
+"http://www.allenfamilychiro.net",4,0,0,1,2,1,0,0,"Allen Family Chiropractic",621310,1
+"http://www.allergyasc.com",0,0,0,0,2,3,0,0,"Allergy Associates, P.A.",621111,1
+"http://www.allergyasthmadoctors.com",0,0,0,0,0,0,0,0,"Allergy & Asthma Centers, P.C.",621111,1
+"http://www.allergydropz.com",0,0,0,0,5,0,2,0,"Allergycare",621111,1
+"http://www.allermetrix.com",0,0,0,0,0,0,0,0,"Allermetrix Inc.",621511,1
+"http://www.allfamilydentistrysmyrna.com",1,5,0,0,0,0,0,0,"All Family Dentistry",621210,1
+"http://www.alliancebiztranslations.com",0,0,0,0,0,0,0,0,"ALLIANCE BUSINESS SOLUTIONS LLC",541611,0
+"http://www.alliancesoftware.com",0,0,0,0,0,0,0,0,"Alliance Software LLC",511210,0
+"http://www.alliancesupermarketing.com",0,0,0,0,0,0,0,0,"Alliance Marketing, L.L.C.",541613,0
+"http://www.alliedhearingcare.com",2,0,0,0,0,0,0,0,"Allied Hearing Care",621111,1
+"http://www.allpartsmedical.com",0,0,0,0,0,0,0,0,"Allparts Medical, LLC",423450,1
+"http://www.allsbrooksconstruction.com",0,0,0,0,0,0,0,0,"Allsbrooks Construction Inc",236220,0
+"http://www.allsecuretechnologies.com",0,0,0,0,0,0,0,0,"All Secure Technologies",541712,0
+"http://www.alltechinc.net",0,0,0,0,0,0,0,0,"Alltech, Inc.",541511,0
+"http://www.alltechnologyrecovery.com",0,0,0,0,0,0,0,0,"All Technology Recovery",541712,0
+"http://www.allyancepartners.com",0,0,0,0,0,0,0,0,"Allyance Partners, Inc.",541611,0
+"http://www.alorica.com",2,0,0,0,0,0,0,0,"Alorica Inc.",517919,0
+"http://www.alphabuilding.com",0,0,0,0,0,0,0,0,"Alpha Building Corporation",236220,0
+"http://www.alternative4plasticsllc.com",0,0,0,0,0,0,0,0,"Alternative 4 Plastic LLC",541618,0
+"http://www.alvarezandmarsal.com",0,0,0,0,0,0,0,0,"Alvarez & Marsal Holdings, LLC",541611,0
+"http://www.alwaysconnectedsolutions.com",1,0,0,4,0,0,0,0,"Alwaysconnected Solutions",423450,0
+"http://www.am-best.com",0,0,0,0,0,0,0,0,"AMBEST, INC.",541820,0
+"http://www.amanomcgann.com",0,0,0,0,0,0,0,0,"Amano McGann, Inc.",511210,0
+"http://www.amaranthinetech.com",0,0,0,0,0,0,0,0,"Amaranthine Technology",517110,0
+"http://www.amariaskin.com",0,0,0,0,2,0,0,0,"Amy Mariaskin",621111,1
+"http://www.amec.com",0,0,0,0,1,0,0,0,"AMEC ENVIRONMENT & INFRASTRUCTURE, INC.",541380,0
+"http://www.amedisys.com",11,0,0,0,0,0,6,0,"AMEDISYS TENNESSEE LLC",621610,1
+"http://www.americanaddictioncenters.com",2,0,0,0,34,1,0,0,"American Addiction Centers",622310,1
+"http://www.americanchirohealthclinic.com",48,0,0,1,3,0,0,0,"American Chiropractic Health Clinic",621310,1
+"http://www.americanconstructors.us",4,0,0,0,0,0,0,0,"American Constructors, Inc.",236220,0
+"http://www.americandiagnostics.com",0,0,0,0,0,0,0,0,"American Diagnostics, Inc",621999,1
+"http://www.americandreamlawnandhomecare.com",2,0,0,0,0,0,0,0,"American Dream Lawn & Home Care",621610,1
+"http://www.americanexpress.com",0,0,0,0,0,0,0,0,"AMERICAN EXPRESS TRAVEL RELATED SERVICES COMPANY, INC.",541512,0
+"http://www.americanhometownpublishing.com",0,0,0,0,0,0,0,0,"AHP of Oklahoma, Inc.",621111,1
+"http://www.americanmedicalco-op.com",0,0,0,54,0,0,0,0,"American Medical Op LLC",621999,1
+"http://www.americanpaymentsystems.com",0,0,0,0,0,0,0,0,"American Payment Systems",541511,0
+"http://www.americansleepmedicine.com",4,0,0,68,1,8,1,0,"American Sleep Medicine, LLC",621111,1
+"http://www.amerisourcebergen.com",0,0,0,0,0,0,0,0,"Amerisourcebergen Corporation",325412,1
+"http://www.amg-group.com",0,0,0,0,0,0,3,0,"Anesthesia Medical Group, P.C.",621111,1
+"http://www.amgpublishers.com",0,0,0,0,0,0,0,0,"AMG Healthcare Centers Inc",623110,1
+"http://www.amiconemedia.com",0,0,0,0,0,0,0,0,"Amicone Media LLC",517919,0
+"http://www.amr.net",2,0,0,19,0,0,1,0,"American Medical Response, Inc.",621991,1
+"http://www.amsurg.com",4,0,0,0,0,0,1,0,"Amsurg Corp.",622110,1
+"http://www.andersonhillconstruction.com",0,0,0,0,0,0,0,0,"Anderson Hill Consulting LLC",541618,0
+"http://www.angelasimpsondds.com",21,4,0,1,1,0,0,0,"Angela Simpson DDS",621210,1
+"http://www.angioscreen.com",3,0,0,2,0,1,1,0,"Angiology Corporation of America, Inc.",621610,1
+"http://www.anitahauenstein.com",0,0,0,0,0,0,0,0,"Anita L. Hauenstein",621111,1
+"http://www.ansarinc.com",0,0,0,0,0,0,0,0,"Ansar, Inc",541618,0
+"http://www.anthologycreative.com",0,0,0,0,0,0,0,0,"Anthology Creative",541613,0
+"http://www.anxietydepressiondisorders.com",1,0,0,4,1,0,0,0,"Anxiety-Depression Disorders Clinic",621111,1
+"http://www.anybodyfit.com",0,0,0,0,0,0,0,0,"Any Body Fitness, LLC",621999,1
+"http://www.anylabtestnow.com",44,0,0,8,0,0,0,0,"Any Lab Test Now",541380,1
+"http://www.aocg.com",0,0,0,0,0,0,0,0,"Alpha Omega Consulting Group Inc",541512,0
+"http://www.aol.com",32,0,0,1,1,0,0,0,"Aol Inc.",518210,0
+"http://www.ap2.com",4,0,0,1,0,1,2,0,"AMERICAN PATHOLOGY PARTNERS, INC.",621511,1
+"http://www.apdaparkinson.org",0,0,0,1,0,0,0,0,"American Parkinson Disease Association, Inc.",621111,1
+"http://www.apexendotn.com",0,0,0,0,0,0,0,0,"Apex Endodontics of Cool Springs",621210,1
+"http://www.apexenergygroup.com",0,0,0,0,0,0,0,0,"Apex Energy Solutions of Nashville LLC",541690,0
+"http://www.aphesishouse.org",0,0,0,0,0,0,0,0,"APHESIS HOUSE, INC.",623990,1
+"http://www.apira.com",0,0,0,0,0,0,0,0,"Apria Healthcare LLC",423450,0
+"http://www.apluscolumbia.com",0,0,0,0,0,0,0,0,"A - Plus Bookkeeping and Payroll Services, LLC",541219,0
+"http://www.applemobility.com",0,0,0,0,0,0,1,0,"Apple Independance Mobilty LLC",339113,0
+"http://www.appletonlearning.com",0,0,0,0,0,0,0,0,"Appleton Learning Corporation",624310,0
+"http://www.appliedorthotics.com",0,0,0,0,0,0,0,0,"APPLIED ORTHOTIC SYSTEMS, INC.",339113,0
+"http://www.apria.com",18,0,0,14,2,0,0,0,"Apria Healthcare LLC",621610,1
+"http://www.aquadentalcare.com",0,0,0,0,0,0,0,0,"Aqua Dental LLC",621210,1
+"http://www.arbaughpatin.com",2,0,0,0,0,0,0,0,"Arbaugh Patin, Linda MA Lpe",624190,1
+"http://www.arborhealth.com",7,0,0,0,0,0,0,0,"Arbor Healthcare, LLC",621610,1
+"http://www.arc-cmc.org",0,0,0,0,0,0,0,0,"AMERICAN NATIONAL RED CROSS",624190,1
+"http://www.arcdc.org",0,0,0,0,0,0,0,0,"Ark of Davidson County",624120,1
+"http://www.arcpointlabs.com",61,0,0,1,0,0,0,0,"ARC POINT LABS",541380,1
+"http://www.ardenthealth.com",22,0,0,0,0,0,1,0,"Ahs Management Company, Inc",622110,1
+"http://www.argentmoney.com",0,0,0,0,0,0,0,0,"Argent Financial Group, Inc.",541611,0
+"http://www.aristomedia.com",0,0,0,0,0,0,0,0,"ARISTO MUSIC ASSOCIATES INC",541820,0
+"http://www.armorcorps.com",0,0,0,0,0,0,0,0,"Armor Corps",541611,0
+"http://www.arthritis.org",0,0,0,3,6,0,0,0,"ARTHRITIS FOUNDATION OF TN CHAPTER INC",624190,1
+"http://www.artisnetworks.com",0,0,0,0,0,0,0,0,"Artis Networks, Inc.",541512,0
+"http://www.arxllc.com",4,0,0,0,0,0,0,0,"ACCELERATED SOLUTIONS, LLC",541618,1
+"http://www.ascentasc.com",0,0,0,0,0,0,0,0,"Ascent Partners",621111,1
+"http://www.aseracare.com",0,0,0,5,0,0,1,0,"Aseracare Hospice - New Horizons, LLC",621610,1
+"http://www.asetechnology.com",0,0,0,0,0,0,0,0,"Ase Technology, Inc.",541512,0
+"http://www.ashleyhylbert.com",0,0,0,0,0,0,0,0,"Ashley Hylbert",541618,0
+"http://www.asoldierschild.org",0,0,0,0,0,0,0,0,"A Soldiers Child Inc",624410,1
+"http://www.aspect.com",8,0,0,0,0,0,0,0,"Aspect Software, Inc.",541511,0
+"http://www.aspendental.com",3,31,0,0,0,0,0,0,"Aspen Dental Management, Inc.",339116,1
+"http://www.aspengrovedental.com",0,15,0,0,10,0,0,0,"ASPEN GROVE DENTAL ASSOCIATION",621210,1
+"http://www.associatedchildrensdentistry.com",0,2,0,0,0,0,0,0,"Associated Children S Dentistry Pllc",621210,1
+"http://www.associateddentalgroup.net",0,0,0,0,0,0,0,0,"ASSOCIATED DENTAL GROUP",621210,1
+"http://www.associatedendoscopy.com",63,0,0,1,3,1,6,0,"ASSOCIATED ENDOSCOPY LLC",621111,1
+"http://www.associatedurologistsofnashville.com",0,0,0,0,0,0,1,0,"Associated Urologists of Nashville",621111,1
+"http://www.assurancefinancialpartners.com",0,0,0,0,0,0,0,0,"Assurance Financial Partners LLC",541611,0
+"http://www.atcassociates.com",2,0,0,0,0,0,0,0,"Atc Associates Inc.",334516,0
+"http://www.athenaconsulting.com",0,0,0,0,0,0,0,0,"Athena Consulting",541618,0
+"http://www.athomehealthtn.com",2,0,0,0,0,0,0,1,"AGING & DISABILITY, TENNESSEE COMMISSION ON",624120,1
+"http://www.atiba.com",3,0,0,1,0,0,0,0,"Atiba Software & Consulting",541512,0
+"http://www.atkinsonpr.com",0,0,0,0,0,0,0,0,"Atkinson Public Relations Inc",541820,0
+"http://www.attachmentparenting.org",3,0,0,0,0,0,0,0,"Attachment Parenting International",624190,1
+"http://www.aullcooper.com",0,0,0,0,0,0,0,0,"Aull & Cooper Cpas Pllc",541211,0
+"http://www.austinadamsmd.com",0,0,0,6,0,0,3,0,"Austin Adams",621111,1
+"http://www.authentiqtax.net",0,0,0,0,0,0,0,0,"Authentiq Tax Service",541219,0
+"http://www.autohoodmedia.com",0,0,0,0,0,0,0,0,"Autohood Media, LLC",517919,0
+"http://www.automationnth.com",0,0,0,0,0,0,0,0,"AUTOMATION NTH, LLC",334513,0
+"http://www.avankia.com",6,0,0,0,0,0,2,0,"Avankia, LLC",541511,1
+"http://www.avintus.com",0,0,0,0,0,0,0,0,"Avintus",541611,0
+"http://www.axa-equitable.com",0,0,0,0,0,0,0,0,"Axa Mony or",541611,0
+"http://www.axiosit.com",2,0,0,0,0,0,0,0,"Axios Information Technologies LLC",541512,0
+"http://www.axischirotn.com",2,0,0,0,1,0,0,0,"Axis Chiropractic",621310,1
+"http://www.bas-solutions.com",0,0,0,0,0,0,0,0,"B A S Solutions",541511,0
+"http://www.besafe247.com",0,0,0,3,0,0,0,0,"Advanced Protective Services, Inc.",541611,0
+"http://www.bracesdoc.com",1,4,0,0,5,0,0,0,"Anthony R Togrye DDS PC",621210,1
+"http://www.bradfordhealth.com",92,0,0,0,19,0,1,0,"ADDICTION & MENTAL HEALTH SERVICES, INC",621498,1
+"http://www.brmcmillan.com",0,0,0,0,0,0,0,0,"B.R. McMillan & Associates, Inc.",236220,0
+"http://www.brookdaleliving.com",0,0,0,0,0,0,0,0,"American Retirement Corporation",623110,1
+"http://www.calldrgil.com",5,0,0,1,5,0,0,0,"ADVANCED THERAPIES INC",621310,1
+"http://www.capellahealth.com",260,0,0,17,4,0,31,0,"Capella Healthcare, Inc.",622110,1
+"http://www.childrenshospital.vanderbilt.org",14,0,0,11,1,0,0,0,"ARTHUR CATHERINE MD",621111,1
+"http://www.chiropractor-pages.com",0,0,0,0,0,0,0,0,"1st Choice Chiropractic",621310,1
+"http://www.comfortkeepers.com",7,0,0,2,0,0,0,0,"ALL ABOUT CARE LLC",621610,1
+"http://www.cosmetic-dentist-nashville.com",0,4,0,0,0,0,0,0,"21st Century Aesthetic Dentistry",621210,1
+"http://www.costcontrol.com",0,0,0,0,0,0,0,0,"B & L CORP",541611,0
+"http://www.counselcorp.com",0,0,0,0,0,0,0,0,"Ahom Holdings, Inc (de)",621610,1
+"http://www.cpspain.com",0,0,0,0,0,0,0,0,"ANESTHESIA SERVICES ASSOCIATES, PLLC",621111,1
+"http://www.dentists.dickson.ypeek.com",0,0,0,0,0,0,0,0,"Anissa Burgess DDS",621210,1
+"http://www.dicksonmd.com",1,0,0,2,0,0,2,0,"Anna Szczuka",621111,1
+"http://www.digichart.com",0,0,0,0,0,0,0,0,"Artemis International Inc.",541511,1
+"http://www.draaronpayne.net",1,0,0,0,0,0,0,0,"Aaron Payne DDS",621210,1
+"http://www.drbjacksonadc.com",0,28,0,0,0,0,0,0,"American Dental Center PC",621210,1
+"http://www.drhannahan.com",0,2,0,0,1,0,0,0,"Andrea Hannahan DDS Pllc",621210,1
+"http://www.drlyst.com",1,0,0,0,2,1,0,0,"Aimee Miltich Lyst PHD Pllc",621330,1
+"http://www.drnein.com",2,0,0,0,0,0,0,0,"Alexander G Nein MD PC",621111,1
+"http://www.ewc-inc.com",0,0,0,0,0,0,0,0,"APPLIED RESEARCH & MGT SVCS",541611,0
+"http://www.eyehealthpartners.com",13,0,0,2,2,0,1,0,"Angela F. Crisp, M.D., P.C.",621111,1
+"http://www.gasrecycler.com",2,0,0,1,0,0,0,0,"Anesthetic Gas Reclamation, LLC",339112,0
+"http://www.goldskincare.com",0,0,0,0,0,0,0,0,"Advanced Aesthetics, L.L.C.",621111,1
+"http://www.goodhealthtn.com",33,0,0,6,1,0,0,0,"Agarwal Reita MD",621111,1
+"http://www.harbortea.com",0,0,0,0,0,0,0,0,"Appleton Harbor Marketing LLC",541613,0
+"http://www.hearlife.org",0,0,0,1,0,0,0,0,"Advanced Hearing Solutions",621340,1
+"http://www.homeinstead.com",0,0,0,2,0,0,0,0,"ASSURANCE SENIOR CARE, INC.",621610,1
+"http://www.investors.activenetwork.com",0,0,0,0,0,0,0,0,"ACTIVE NETWORK, LLC",541618,0
+"http://www.keithshrumdentistry.com",1,7,0,0,1,0,0,0,"A Beautiful Smile",621210,1
+"http://www.liversociety.org",2,0,0,1,0,0,0,0,"American Liver Society",621498,1
+"http://www.lucasstrobesystems.com",0,0,0,0,0,0,0,0,"Alday Communications, Inc",541820,0
+"http://www.lungtn.org",8,0,0,0,0,0,0,0,"American Lung Association of Tennessee, Inc.",621999,1
+"http://www.midtowndentaltn.com",2,16,0,0,2,0,0,0,"AFFORDABLE DENTAL OF TN",621210,1
+"http://www.milestonepartners.com",0,0,0,0,0,0,0,0,"Avure Technologies Incorporated",334513,0
+"http://www.mjendo.com",0,0,0,0,0,0,0,0,"Adam Davis DDS",621210,1
+"http://www.mmm.com",0,0,0,0,0,0,0,0,"3M COMPANY",339113,0
+"http://www.mtmc.org",0,0,0,0,0,0,0,0,"Ascension Health Alliance",621112,1
+"http://www.murfreesborodiabetes.com",2,0,0,2,0,0,1,0,"B. Paul Turpin, M.D., Pllc",621111,1
+"http://www.myalignhealth.com",10,0,0,1,2,0,0,0,"Align Health & Wellness LLC",621999,1
+"http://www.myallergyent.com",0,0,0,0,0,0,0,0,"Allergy & Ent Assoc of Middle Tennessee P C",621111,1
+"http://www.nanallison.com",4,0,0,0,0,0,0,0,"Allison Nutrition Consulting",541618,1
+"http://www.nashville.assistanceleague.org",0,0,0,0,0,0,0,0,"Assistance League of Nashville",624190,1
+"http://www.nashvillefootdr.com",1,0,0,3,1,0,3,0,"American Foot Care Center PC",621111,1
+"http://www.nashvillemedicalgroup.com",2,0,0,5,2,0,5,0,"A Jamie Slandzicki MD",621111,1
+"http://www.nashvillespinedoctor.com",9,0,0,5,3,2,0,0,"Action Chiropractic",621310,1
+"http://www.ndc-inc.com",6,3,0,4,0,0,0,0,"American Dental Cooperative",423450,1
+"http://www.neufoot.com",8,0,0,1,13,2,1,0,"Advanced Foot & Ankle Centers PC",621391,1
+"http://www.neurosci.us",0,0,0,1,2,4,0,0,"Advanced Neuro Sciences Instit",621111,1
+"http://www.pathgroup.com",14,0,0,1,0,4,8,0,"ASSOCIATED PATHOLOGISTS, LLC",621111,1
+"http://www.pcpractice.com",0,0,0,0,0,0,0,0,"ANGELA JOYNES MD",621111,1
+"http://www.perryfamilydentistryllc.com",3,3,0,0,1,0,0,0,"ALDRICH T DDS INC",621210,1
+"http://www.pharmerica.com",0,0,0,0,0,0,0,0,"Amerita Inc",424210,1
+"http://www.phydata.com",0,0,0,0,0,0,0,0,"Advanced Diagnostic Imaging PC",621111,1
+"http://www.precisionlubrication.com",0,0,0,0,0,0,0,0,"ADVANCED MACHINE RELIABILITY RESOURCES, INC",541611,0
+"http://www.radalliance.com",0,0,0,2,0,3,6,0,"Associated Radiologist PC",621111,1
+"http://www.retiefskincenter.com",0,0,0,2,4,0,0,0,"AFFILIATED DERMATOLOGIST OF GREEN HILLS",621111,1
+"http://www.simplycare.net",4,0,0,1,2,1,1,0,"ASHOK MEHTA, M.D., P.C.",621111,1
+"http://www.smithcountyhc.com",14,0,0,3,0,0,0,0,"274 Smith County Health Care Center",623110,1
+"http://www.southeasterndentalgroup.com",0,15,0,0,3,2,0,0,"Amber Johnson",339114,1
+"http://www.specialtycare.net",3,0,0,0,0,0,0,0,"American Endoscopy Services, Inc.",334510,1
+"http://www.steveanderson.com",2,0,0,0,0,0,0,0,"American Insurance Consultants",541611,0
+"http://www.symbion.com",6,0,0,0,0,0,2,0,"AMBULATORY SURGERY CENTER OF COOL SPRINGS, LLC",621111,1
+"http://www.tennesseedentalcare.com",0,0,0,0,0,0,0,0,"ALLEN & CLAYTON DDS",621210,1
+"http://www.thca.com",0,0,0,0,0,0,0,0,"AMERICAN HEALTH COMPANIES, INC.",623110,1
+"http://www.theallergydoctors.com",0,0,0,0,0,0,1,0,"Allergy & Asthma Specialist",621111,1
+"http://www.theanimaleyecenter.com",0,0,0,0,0,0,0,0,"Animal Medical Center, PS",621112,1
+"http://www.thinkbrs.com",0,0,0,0,0,0,0,0,"B Rs",541611,0
+"http://www.thirdandchurchhealthcare.com",0,0,0,0,0,0,0,0,"3rd Church Healthcare",621999,1
+"http://www.tmjsplint.net",3,0,0,0,4,2,1,0,"Anthony Urbanek",621210,1
+"http://www.tn-goodlettsville.doctors.at",51,0,0,82,5,2,5,0,"Affiliated Neurologists PLC",621111,1
+"http://www.tn-lebanon.doctors.at",51,0,0,82,5,2,5,0,"Advanced Sleep Consultants of Middle TN",541618,1
+"http://www.tn-smyrna.doctors.at",51,0,0,82,5,2,5,0,"Adam W Crow, DDS, Pllc",621210,1
+"http://www.trane.com",0,0,0,0,0,0,0,0,"American Standard Shared Services Inc.",541219,0
+"http://www.treveccahrc.com",0,0,0,1,0,0,1,0,"AVALON HEALTH CARE, LLC",623110,1
+"http://www.visitingangels.com",0,0,0,2,0,0,0,0,"AEB, LLC",621610,1
+"http://www.williamsoncounty-tn.gov",0,0,0,0,0,0,0,0,"ALTERNATIVE LEARNING CENTER",624410,1
+"http://www.windrowgroup.com",0,0,0,0,0,0,0,0,"ANNA DURHAM WINDROW",541820,0
+"http://www.youngerfaces.com",1,0,0,1,15,0,0,0,"ALLERGY & ASTHMA CENTER LLC",621111,1
+"http://www.yourpetsnewvet.com",3,2,0,3,0,0,0,0,"Animal Care Center of Carters Creek",621999,1
+"http://entradahealth.com/",56,0,0,0,0,0,5,0,"Entrada, Inc.",5191,1
+"http://everesttech.com/",0,0,0,0,0,0,0,0,"Everest Technologies LLC",5415,0
+"http://finance.cat.com/cda/components/fullArticleNoNav?id=316005",0,0,0,0,0,0,0,0,"CATERPILLAR FINANCIAL SERVICES CORPORATION",5614,0
+"http://hcaethics.com/",7,0,0,0,0,0,0,0,"HCA Inc",5614,1
+"http://hcahealthcare.com/",48,0,0,5,1,0,3,0,"HCA Holdings",5614,1
+"http://library.mtsu.edu/",0,0,0,0,0,0,0,0,"Mtsu Library",5191,1
+"http://mcninteractive.com/",0,0,0,0,0,0,0,0,"MCN Interactive, LLC",5182,0
+"http://medaxion.com/",0,0,0,0,0,0,0,0,"Medaxion, LLC",5112,1
+"http://metova.com/",0,0,0,0,0,0,0,0,"Metova, Inc.",5415,0
+"http://mizzouri.com/",3,0,0,0,0,0,0,0,"Mizzouri LLC",5419,1
+"http://mmodal.com/",1,0,0,1,0,0,7,0,"MMODAL INC",5182,1
+"http://myemma.com/",0,0,0,0,0,0,0,0,"Emma, Inc.",5416,0
+"http://raskinco.com/",0,0,0,0,0,0,0,0,"Edwin B. Raskin Company",5416,0
+"http://stylenet.com/",0,0,0,0,0,0,0,0,"MICHAEL READER",5182,0
+"http://tds-associates.com/aboutus.htm",0,0,0,0,0,0,0,0,"T D S & ASSOC LLC",5191,0
+"http://thomasandthorngren.com/",0,0,0,0,0,0,0,0,"Thomas and Thorngren, Inc.",5416,0
+"http://www.accuimagellc.com/",1,0,0,1,0,0,0,0,"Accuimage, LLC",5182,1
+"http://www.aclapath.com",0,0,0,0,0,1,7,0,"ANATOMIC AND CLINICAL LABORATORY ASSOCIATES, P.C.",6215,1
+"http://www.aegis-group.com/index.html",4,0,0,13,0,0,1,0,"Aegis Health Group, Inc.",5416,1
+"http://www.aegislabs.com",3,0,0,3,0,2,1,0,"AEGIS SCIENCES CORPORATION",6215,1
+"http://www.ael-central.com",14,0,0,2,0,0,0,0,"Woodbury Clinical Lab",6215,1
+"http://www.agilitymarketing.com/",2,0,0,0,0,0,0,0,"Agility Marketing Group, Inc.",5419,1
+"http://www.aig.com",2,0,0,0,0,0,0,0,"AMERICAN GENERAL LIFE AND ACCIDENT INSURANCE COMPANY",5241,0
+"http://www.alfains.com",11,2,0,0,0,0,0,0,"The Vision Insurance Group LLC",5241,1
+"http://www.allermetrix.com",0,0,0,0,0,0,0,0,"Allermetrix Inc.",6215,0
+"http://www.alltechinc.net/",0,0,0,0,0,0,0,0,"Alltech, Inc.",5415,0
+"http://www.americangeneral.com",3,0,0,0,0,0,0,0,"AGC Life Insurance Company",5242,0
+"http://www.ascriskmanagement.com",0,0,0,0,0,0,0,0,"Alternative Service Concepts LLC",5242,0
+"http://www.asurion.com",0,3,0,1,0,0,0,0,"Asurion Insurance Services, Inc.",5242,0
+"http://www.avaza.com/",0,0,0,0,0,0,0,0,"Avaza Language Services Corporation",5419,0
+"http://www.belleforestanimalhospital.com/",3,2,0,2,0,0,0,0,"Belle Forest Animal Hospital",5419,0
+"http://www.blankenshipcpagroup.com/",0,0,0,0,0,0,0,0,"Blankenship CPA Group Pllc",5412,0
+"http://www.bridgestone-firestone.com/",0,0,0,0,0,0,0,0,"BRIDGESTONE AMERICAS TIRE OPERATIONS, LLC",5614,1
+"http://www.brookdale.com/",0,0,0,0,0,0,0,0,"Brookdale Senior Living",5614,1
+"http://www.bwood.com",1,0,0,0,0,0,0,0,"BRENTWOOD SERVICES, INC.",5242,0
+"http://www.cardinal.com/",43,0,0,0,0,0,3,0,"Cardinal Health 105, Inc.",5416,1
+"http://www.cardiolabs.com",0,0,0,0,0,3,1,0,"CARDIO LABS, INC.",6215,1
+"http://www.caremark.com/wps/portal",4,0,0,5,0,0,0,0,"Caremark Rx, Inc.",5614,1
+"http://www.cgsadmin.com",0,0,0,14,0,0,0,0,"Cgs Administrators, LLC",5242,1
+"http://www.childrenscliniceast.com",3,0,0,2,0,0,1,0,"Childrens Clinic East PC",6215,1
+"http://www.chs.net/",2,0,0,2,0,1,3,0,"Community Health Systems, Inc",5614,1
+"http://www.cigna.com",77,10,0,19,0,0,0,0,"CIGNA HEALTHCARE OF TENNESSEE, INC.",5241,1
+"http://www.cigna.com/medicare/cigna-healthspring",40,0,0,227,0,0,0,0,"Healthspring, Inc.",5614,1
+"http://www.citadelosg.com/",0,0,0,1,0,0,0,0,"Citadel Outsource Group LLC",5412,1
+"http://www.clcpas.com/",0,0,0,0,0,0,0,0,"Carter, Lankford Cpa's, P.C.",5412,1
+"http://www.clinixmis.com/",3,0,0,5,0,0,4,0,"CLINIX MEDICAL INFORMATION SERVICES, LLC",5415,1
+"http://www.comdata.com/",4,0,0,1,0,0,0,0,"COMDATA NETWORK, INC.",5182,1
+"http://www.concentra.com",54,0,0,9,0,0,3,0,"Concentra Network Services",5242,1
+"http://www.concepttechnologyinc.com/",0,0,0,0,0,0,0,0,"Concept Technology, Inc.",5182,0
+"http://www.crackerbarrel.com/",0,0,0,0,0,0,0,0,"CRACKER BARREL OLD COUNTRY STORE, INC.",5614,0
+"http://www.crosslinpc.com/",8,0,0,0,0,0,3,0,"Crosslin & Associates, P.C.",5412,1
+"http://www.dataium.com/",0,0,0,0,0,0,0,0,"Dataium LLC",5191,0
+"http://www.decisionsource.com/",0,0,0,0,0,0,0,0,"Decision Source Inc",5112,0
+"http://www.delekus.com/",0,0,0,0,0,0,0,0,"Delek US Holdings, Inc.",5614,0
+"http://www.deltadentaltn.com",0,4,0,0,0,0,0,0,"Delta Dental of Tennessee",5241,1
+"http://www.design3000plus.com/",0,0,0,0,0,0,0,0,"Design/3000, Inc",5112,0
+"http://www.dglfcpa.com/",0,0,0,0,0,0,0,0,"Davidson, Golden & Lundy PC",5412,0
+"http://www.directgeneral.com",0,0,0,0,0,0,0,0,"DIRECT INSURANCE COMPANY, INC",5241,0
+"http://www.discipleshistory.org/",0,0,0,0,0,0,0,0,"Disciples of Christ Historical Society Inc",5191,0
+"http://www.dollargeneral.com/home/index.jsp",2,0,0,0,0,0,0,0,"Dollar General Corp",5614,0
+"http://www.dvf-pllc.com/",0,0,0,0,0,0,0,0,"Dempsey Vantrease & Follis Pllc",5412,0
+"http://www.efcsystems.com/main/",0,0,0,0,0,0,0,0,"EFC Systems, Inc.",5415,0
+"http://www.ehdtech.com/home/",0,0,0,0,0,0,0,0,"Ehd Technologies, LLC",5416,0
+"http://www.elizabrocksoftware.com/",0,0,0,0,0,0,0,0,"BROCK ELIZA SOFTWARE LLC",5112,0
+"http://www.emdeon.com/",6,0,0,0,0,0,5,0,"EMDEON INC.",5182,1
+"http://www.emids.com/",0,0,0,0,0,0,0,0,"Emids Technologies",5415,1
+"http://www.esoterix.com",0,0,0,2,0,0,2,0,"Esoterix Oncology, Inc",6215,1
+"http://www.fbitn.com",0,0,0,0,0,0,0,0,"Tennessee Farmers Assurance Company",5242,0
+"http://www.fdhcpa.com/our-valued-clients.php",0,0,0,0,0,0,0,0,"Frasier, Dean & Howard Cpas",5412,0
+"http://www.fdrsafety.com/",2,0,0,0,0,0,0,0,"Fdrsafety LLC",5416,0
+"http://www.financialguide.com",0,0,0,0,0,0,0,0,"CAPITAL FINANCIAL GROUP, LLC",5242,0
+"http://www.firstacceptancecorp.com",0,0,0,0,0,0,0,0,"FIRST ACCEPTANCE CORPORATION",5241,0
+"http://www.fisglobal.com/",0,0,0,0,0,0,0,0,"Valutec Card Solutions, Inc.",5182,0
+"http://www.fivestonestudios.com/",2,0,0,0,0,0,0,0,"Fivestone Studios, Inc.",5182,0
+"http://www.fl.jacksonville.local.directgeneral.com",0,0,0,0,0,0,0,0,"DIRECT GENERAL AGENCY OF KENTUCKY, INC",5242,0
+"http://www.fmccpa.com/firmprofile_general.asp",0,0,0,0,0,0,0,0,"FAULKNER MACKIE & COCHRAN, P C",5412,0
+"http://www.formco.net/",0,0,0,0,0,0,0,0,"Formco, Inc",5419,1
+"http://www.fortierdrugtesting.com/",1,0,0,0,0,0,0,0,"FORTIER LOSS CONTROL CONSULTANTS INC",5419,1
+"http://www.foxfireprinting.com/",0,0,0,0,0,0,0,0,"Pinnacle Business Products, LLC",5419,0
+"http://www.genesco.com/",0,0,0,0,0,0,0,0,"GENESCO INC.",5614,0
+"http://www.geneticassays.com",2,0,0,0,0,1,0,0,"Genetic Assays, Inc",6215,1
+"http://www.geneticsassociates.com",0,0,0,0,0,0,1,0,"Genetics Associates, Inc.",6215,1
+"http://www.ghp1.com/",1,0,0,1,0,0,0,0,"Hays Gobbell Partners Inc",5416,1
+"http://www.goabs.net/",0,0,0,1,0,0,0,0,"Nashville Anesthsia Billing Services",5412,1
+"http://www.haukkruse.com/",0,0,0,0,0,0,0,0,"Kruse & Associates, P.C.",5412,0
+"http://www.hcamidwest.com/",138,0,0,30,5,1,41,0,"Hercules Holdings",5614,1
+"http://www.healthspring.com",40,0,0,227,0,0,0,0,"Healthspring, Inc.",5241,1
+"http://www.healthstream.com/",55,0,0,2,0,2,4,3,"DATA MANAGEMENT & RESEARCH INC",5182,1
+"http://www.healthtechholdings.com/",0,0,0,0,0,0,0,0,"MEDHOST OF TENNESSEE, INC.",5415,1
+"http://www.hillsboroanimalhospital.net/",3,1,0,1,0,0,0,0,"Hillsboro Animal Hospital",5419,0
+"http://www.hiscall.com/",0,0,0,0,0,0,0,0,"HISCALL, INC.",5419,0
+"http://www.hollandsquare.com/",0,0,0,0,0,0,0,0,"Holland Square Group, LLC",5415,1
+"http://www.hylant.com",7,1,0,5,0,0,0,0,"Hylant Group",5241,0
+"http://www.iasishealthcare.com/",135,0,0,22,0,0,7,0,"IASIS Healthcare LLC",5614,1
+"http://www.ica-onramp.com/",0,0,0,0,0,0,0,0,"INFRASTRUCTURE CORPORATION OF AMERICA",5416,0
+"http://www.iconplc.com",0,0,0,4,0,0,0,0,"Icon Clinical Research Inc",6215,1
+"http://www.ictnorthamerica.com/",0,0,0,0,0,0,0,0,"INTERNATIONAL TECHNOLOGY CONSORTIUM, LLC",5419,0
+"http://www.infoworks-tn.com/",5,0,0,2,0,0,0,0,"Infoworks, Inc.",5416,1
+"http://www.inovapayroll.com/",4,1,0,1,0,0,0,0,"Inova Payroll Inc.",5412,1
+"http://www.inphact.com/",0,0,0,1,0,0,0,0,"EVOLVED DIGITAL SOLUTIONS, INC.",5182,1
+"http://www.integra-online.com/",0,0,0,0,0,0,0,0,"Integra Software Systems, LLC",5112,0
+"http://www.iostudio.com/",0,0,0,0,0,0,0,0,"Iostudio, LLC",5182,0
+"http://www.ironsolutions.com/",0,0,0,0,0,0,0,0,"Iron Solutions, Inc.",5191,0
+"http://www.jacksonhewitt.com/",7,0,0,0,0,0,0,0,"JACKSON HEWITT TAX SERVICE",5412,0
+"http://www.jobehastings.com/",0,0,0,0,0,0,0,0,"Jobe Hastings & Associates CPA",5412,0
+"http://www.kraftcpas.com/",1,0,0,0,0,0,0,0,"Kraft Cpas, Pllc",5412,1
+"http://www.labcorp.com",6,0,0,0,0,6,0,0,"HOME HEALTHCARE LABORATORY OF AMERICA INC",6215,1
+"http://www.lbmc.com/",17,0,0,1,0,0,0,0,"LATTIMORE BLACK MORGAN & CAIN, PC",5412,1
+"http://www.lbmctech.com/",1,0,0,1,0,0,0,0,"Lbmc Financial Services, LLC",5415,1
+"http://www.lifepointhospitals.com/",3,0,0,1,0,0,10,0,"Lifepoint Hospitals, Inc.",5614,1
+"http://www.lincor.com/",7,0,0,2,1,1,0,0,"LINCOR, INC.",5415,1
+"http://www.localgovernmentcorporation.com/drupal7/",0,0,0,0,0,0,0,0,"Local Government Data Processing Corporation",5182,0
+"http://www.lpcorp.com/",0,0,0,0,0,0,0,0,"Louisiana-Pacific Corporation",5614,0
+"http://www.maggartpc.com/",0,0,0,0,0,0,0,0,"Maggart & Associates PC",5412,0
+"http://www.magneticdreams.com/",0,0,0,0,0,0,0,0,"Magnetic Dreams Incorporated",5182,0
+"http://www.mankinmedia.com/",0,0,0,0,0,0,0,0,"Mankin Media Systems, Inc",5415,0
+"http://www.manta.com/c/mb4s04s/chsw-llc",0,0,0,0,0,0,0,0,"Chsw, LLC",5416,1
+"http://www.mauryregional.com",6,0,0,14,0,0,1,0,"SPRING HILL FAMILY HEALTH GROUP",6215,1
+"http://www.maysandassociates.com",0,0,0,0,0,1,0,0,"BURKE L. MAYS AND ASSOCIATES, INC.",6215,0
+"http://www.mc.vanderbilt.edu/",28,0,0,3,0,0,0,0,"VANDERBILT UNIVERSITY MEDICAL CENTER",5614,1
+"http://www.medhost.com/",5,0,0,0,0,0,1,0,"Patient Logic, Inc.",5415,1
+"http://www.medicaldataservices.com/",19,0,0,9,2,0,0,0,"Medical Data Services, LLC",5182,1
+"http://www.medicaldirectclub.com",1,0,0,107,0,0,1,0,"Medical Direct Club, LLC",6215,1
+"http://www.medsolutions.com",2,0,0,2,0,0,0,0,"MEDSOLUTIONS, INC.",5241,1
+"http://www.mid10.com/",0,0,0,2,0,0,0,0,"Mid10 Marketing LLC",5191,0
+"http://www.mjca.org/",0,0,0,0,0,0,0,0,"Mt Juliet Christian Academy",5419,0
+"http://www.mmc.edu/education/library/",0,0,0,1,0,0,1,0,"KRESGE LEARNING RESOURCE CENTER",5191,1
+"http://www.mmodal.com/",1,0,0,1,0,0,7,0,"Mmodal Services, Ltd., Inc.",5419,1
+"http://www.mobleyveterinaryclinic.com/",6,2,0,4,1,0,0,0,"MOBLEY VETERINARY CLINIC PC",5419,0
+"http://www.moderntechmech.com/",0,0,0,0,0,0,0,0,"Moderntech Corporation",5415,0
+"http://www.ms.mccomb.local.directgeneral.com",0,0,0,0,0,0,0,0,"Direct General Insurance Agency of Mississippi, Inc",5242,0
+"http://www.murphyroadvet.com/",9,4,0,7,1,4,0,0,"Murphy Road Animal Clinic Co",5419,0
+"http://www.myfsi.net/",0,0,0,0,0,0,0,0,"Fsi, Incorporated",5419,1
+"http://www.naa-lp.com",3,0,0,0,0,0,0,0,"North America Administrators LP",5241,1
+"http://www.nashville.gov/",0,0,0,0,0,0,0,0,"TENNESSEE D O T INFO TECH",5182,1
+"http://www.nashvillepetemergency.com/",1,0,0,2,1,3,0,0,"Nashville Pet Emergency Clinic Inc",5419,0
+"http://www.nctsolution.com/",0,0,0,0,0,0,0,0,"New Century Technologies, Inc",5415,0
+"http://www.netcentral.com",0,0,0,0,0,0,0,0,"Netcentral, Inc.",5191,0
+"http://www.opko.com",0,0,0,2,0,7,3,0,"PROST-DATA, INC.",6215,1
+"http://www.optimum-solutions.com/",4,0,0,0,0,0,0,0,"Optimum Solutions, Incorporated",5415,0
+"http://www.oraldna.com",1,4,0,1,1,8,1,0,"Oraldna Labs, Inc.",6215,1
+"http://www.paskr.com/",0,0,0,0,0,0,0,0,"Paskr, LLC",5112,0
+"http://www.passporthealth.com/index.aspx",16,0,0,0,0,0,0,0,"PASSPORT HEALTH COMMUNICATIONS, INC.",5415,1
+"http://www.pathgroup.com",14,0,0,1,0,4,8,0,"PATHGROUP LABS, LLC",6215,1
+"http://www.peak10.com/",2,0,0,0,0,0,0,0,"Peak 10, Inc.",5191,0
+"http://www.petmedvet.com/",2,2,0,3,3,2,0,0,"Mark Girone Dvm",5419,0
+"http://www.pgac.com",0,0,0,0,0,0,0,0,"Permanent General Assurance Corporation",5241,0
+"http://www.phhw.com/",1,0,0,0,0,0,0,0,"Puryear Hamiton Hauseman Wood PLC",5412,1
+"http://www.phydata.com/",0,0,0,0,0,0,0,0,"Phydata",5412,0
+"http://www.picagroup.com",0,0,0,0,0,0,2,0,"PODIATRY INSURANCE COMPANY OF AMERICA, A MUTUAL COMPANY",5241,1
+"http://www.pmresearch.com/",3,0,0,0,0,0,0,0,"PRINCE MARKET RESEARCH INC",5419,1
+"http://www.premier-system.com/",0,0,0,0,0,0,0,0,"Premier System Integrators, Inc.",5415,0
+"http://www.proclaiminc.com",0,0,0,0,0,0,0,0,"Pro Claim Inc",5242,1
+"http://www.puritydairies.com/",2,0,0,0,0,0,0,0,"Purity Dairies, LLC",5614,0
+"http://www.qhr.com/",12,0,0,0,0,0,5,0,"Quorum Health Resources, LLC",5416,1
+"http://www.qualifacts.com/",7,0,0,0,0,0,0,0,"Qualifacts Systems, Inc",5415,1
+"http://www.qualityxray.com",0,0,0,0,0,2,0,0,"Quality Mobile X Ray Services Inc",6215,1
+"http://www.rbbpccpa.com/",0,0,0,0,0,0,0,0,"RAYBURN BETTS & BATES PC",5412,1
+"http://www.readypointsystems.com/",0,0,0,0,0,0,0,0,"Readypoint Health, Inc.",5112,1
+"http://www.richardsandsouthern.com/",0,0,0,0,1,0,0,0,"Richards & Southern, Inc.",5416,0
+"http://www.rutherfordcountylibrary.org/",3,0,0,0,0,0,0,0,"RUTHERFORD COUNTY LIBRARY SYSTEM",5191,0
+"http://www.sds-inc.com/",0,0,0,0,0,0,0,0,"SMART DATA STRATEGIES, INC.",5415,0
+"http://www.setech.com/",0,0,0,0,0,0,0,0,"Setech, Inc.",5416,0
+"http://www.setechindia.com/",0,0,0,0,0,0,0,0,"Glomac Technology Inc",5112,0
+"http://www.sitehawk.com/",0,0,0,0,0,0,0,0,"SITEHAWK LLC",5191,0
+"http://www.southernhills.com",13,0,0,17,1,4,21,0,"Southern Hills Mri Associates, L.P.",6215,1
+"http://www.specialtycare.net",1,0,0,0,0,0,0,0,"Specialty Care Services Group LLC",6215,1
+"http://www.statementrendering.com/",0,0,0,0,0,0,0,0,"Statement Rendering Solutions, LLC",5412,1
+"http://www.stratasan.com/",10,0,0,0,0,0,1,0,"Stratasan, LLC",5112,0
+"http://www.strategycorps.com/",0,0,0,0,0,0,0,0,"Strategy Corps, LLC",5416,0
+"http://www.strglobal.com/",0,0,0,0,0,0,0,0,"Smith Travel Research, Inc.",5419,0
+"http://www.subway.com/subwayroot/default.aspx",0,0,0,0,0,0,0,0,"Blue Oasis LLC",5112,0
+"http://www.sussmanandassociates.com/",0,0,0,0,0,0,0,0,"Sussman & Associates",5412,0
+"http://www.svmic.com",0,0,0,1,0,0,2,0,"STATE VOLUNTEER MUTUAL INSURANCE COMPANY",5241,1
+"http://www.symphonycare.com/",13,0,0,3,0,0,2,0,"Symphony Home Care Services",5419,1
+"http://www.synaxis.com",0,0,0,0,0,0,0,0,"Brown & Brown of Tennessee, Inc.",5242,0
+"http://www.sys-int.com/",3,0,0,0,0,0,0,0,"Systems Integration Inc",5415,0
+"http://www.takecarehealth.com",94,0,0,4,3,1,0,0,"Take Care Employer Solutions, Llc.",5241,1
+"http://www.tbr.edu/",0,0,0,0,0,0,0,0,"Tennessee Board of Regents",5614,0
+"http://www.teaminteractions.com/",0,0,0,0,0,0,0,0,"Team Interactions, Inc.",5112,1
+"http://www.teddybearportraits.com/",0,0,0,0,0,0,0,0,"NATIONWIDE STUDIOS INC.",5419,0
+"http://www.tenco.com",0,0,0,0,0,0,0,0,"TENCO SERVICES, INC",5242,0
+"http://www.tenethealth.com/",21,0,0,0,0,0,4,0,"Vanguard Health Systems, Inc.",5614,1
+"http://www.tennesseefarmers.com",0,0,0,0,0,0,0,0,"TENNESSEE FARMERS MUTUAL INSURANCE COMPANY",5241,0
+"http://www.thecrichtongroup.com",2,0,0,0,0,0,0,0,"Crichton, Brandon, Jackson & Ward, Inc.",5242,0
+"http://www.thegeneral.com",0,0,0,0,0,0,0,0,"PERMANENT GENERAL COMPANIES, INC.",5242,0
+"http://www.tnagc.org/",0,0,0,0,0,0,0,0,"Middle TN Branch of The AGC of Tennessee Inc",5191,0
+"http://www.tnfarmbureau.org/",1,0,0,0,0,0,0,0,"FARMERS' SERVICE, INC",5182,0
+"http://www.tractorsupply.com/",15,0,0,0,0,0,0,0,"Tractor Supply Company",5614,0
+"http://www.transpecinc.com",0,0,0,0,0,0,0,0,"PINSON & ASSOCIATES INSURANCE AGENCY INC",5242,0
+"http://www.trinisys.com/",4,0,0,1,0,0,0,0,"Trinisys, LLC",5112,0
+"http://www.uhc.com",51,1,0,5,0,0,2,0,"UNITED HEALTHCARE OF TENNESSEE, INC.",5241,1
+"http://www.uniguest.com/en/",0,0,0,0,0,0,0,0,"U.S. HOSPITALITY PUBLISHERS, INC.",5415,1
+"http://www.unitekglobalservices.com/our-business/fts-usa/",0,0,0,0,0,0,0,0,"Fts USA LLC",5416,0
+"http://www.vanderbilt.edu/",6,0,0,5,1,0,0,0,"THE VANDERBILT UNIVERSITY",5614,1
+"http://www.wcah.org/",3,1,0,0,0,0,0,0,"WILLIAMSON COUNTY ANIMAL HOSPITAL",5419,0
+"http://www.wdschockco.com/",0,0,0,0,0,0,0,0,"W. D. Schock Co., Inc.",5416,0
+"http://www.wellsfargo.com/com/retirement-employee-benefits/bpsm",1,0,0,0,0,0,0,0,"Bryan, Pendleton, Swats & McAllister-Wells Fargo, LLC",5416,0
+"http://www.willis.com",1,0,0,0,0,0,0,0,"Willis North America Inc.",5242,1
+"http://www.workinstitute.com/",0,0,0,0,0,0,0,0,"The Work Institute LLC",5416,0
+"http://www.workwithpcs.com/",0,0,0,0,0,0,0,0,"PROGRESSIVE COMMUNICATION SERVICES, INC.",5416,0
+"http://www.zanderins.com",3,0,0,0,0,0,0,0,"THE ZANDER INSURANCE GROUP LLC",5242,1
+"http://www2.deloitte.com/us/en/services/financial-advisory.html",4,0,0,0,0,0,0,0,"Deloitte Financial Advisory Services LLP",5412,0
+"http://www.ahg.org",6,0,0,0,0,0,7,0,"Baptist Health",622110,1
+"http://www.att.com",0,0,0,0,0,0,0,0,"BELLSOUTH CORPORATION",541690,0
+"http://www.bacar.com",3,0,0,0,0,0,0,0,"Cadence Constructors, LLC",236220,1
+"http://www.backintouchwellness.com",0,0,0,0,0,0,0,0,"Blissful Heart",621111,1
+"http://www.backuptelecom.com",0,0,0,0,0,0,0,0,"Backup Telecom Consulting LLC",541618,0
+"http://www.baconmdlaser.com",0,0,0,0,6,0,0,0,"Bacon Laser and Skincare MD",621111,1
+"http://www.baileysouthwell.com",6,0,0,0,0,0,0,0,"Bailey Southwell",541611,1
+"http://www.balfourbeattyus.com",2,0,0,1,4,0,0,0,"BALFOUR BEATTY CONSTRUCTION, LLC",541611,0
+"http://www.ballardvision.net",3,0,1,2,0,1,0,0,"BALLARD, ALAN & ASSOC",621111,1
+"http://www.balp.com",3,0,0,0,0,0,0,0,"Bell & Associates Construction LP",236220,0
+"http://www.bamsocialbusiness.com",0,0,0,0,0,0,0,0,"Bam Social Business, LLC",541613,0
+"http://www.baptistasc.com",1,0,0,0,0,0,2,0,"BAPTIST AMBULATORY SURGERY CENTER",621493,1
+"http://www.baptisthospital.com",20,0,0,4,0,0,0,0,"Baptist Health Care Group",622110,1
+"http://www.baptistplaza-sc.com",1,0,0,1,0,0,2,0,"Baptist Plaza Surgicare, L.P.",621493,1
+"http://www.baptistsportsmedicine.com",22,0,0,6,1,2,1,0,"Baptist Sports Medicine",621340,1
+"http://www.barfieldclinic.com",5,0,0,1,1,1,0,0,"Barfield Clinic LLC",621111,1
+"http://www.barker-christol.com",0,0,0,0,0,0,0,0,"Barker & Christol LLC",541613,1
+"http://www.barryomohundrodds.com",1,9,0,0,3,0,0,0,"Barry Omohundro DDS PC",621210,1
+"http://www.bartonhomeinspections.net",0,0,0,0,0,0,0,0,"Barton Home Inspections LLC",623110,0
+"http://www.bas-solutions.com",0,0,0,0,0,0,0,0,"B A S Solutions",541511,0
+"http://www.batesfamilydentistry.com",1,0,0,0,0,0,0,0,"Bates Family Dentistry Inc",621210,1
+"http://www.batsonchirowellness.com",4,0,0,1,1,0,0,0,"Batson Family Chiropracti",621310,1
+"http://www.batteryshop.com",0,0,0,0,0,0,0,0,"BATTERY SHOP, L.L.C.",335911,0
+"http://www.bbbsmt.org",0,0,0,0,0,0,0,0,"Big Brothers/Big Sisters of Middle Tennessee",624190,1
+"http://www.bca-corp.com",86,0,0,0,11,0,2,0,"BEHAVIORAL CENTERS OF AMERICA LLC",622210,1
+"http://www.bcdgrantconsulting.com",0,0,0,0,0,0,0,0,"Bcd Consulting",541618,0
+"http://www.bcitn.org",0,0,0,0,0,0,0,0,"Black Children's Institute of Tennessee Inc",624110,0
+"http://www.bd.com",4,0,0,7,0,2,0,0,"BECTON, DICKINSON AND COMPANY",325412,1
+"http://www.bdo.com",12,0,0,0,0,0,0,0,"Bdo Usa, LLP",541611,0
+"http://www.bearingpoint.com",3,0,0,0,0,0,0,0,"Bearingpoint, Inc.",541618,0
+"http://www.bearmarketing.org",0,0,0,0,0,0,0,0,"Bear Marketing Group Inc",541613,0
+"http://www.bearwebdesign.com",0,0,0,0,0,0,0,0,"Beareware",541512,0
+"http://www.beasleysyard.net",0,0,0,0,0,0,0,0,"BEASLEY & BEASLEY CONSTRUCTION INC",236220,0
+"http://www.becknerclevypartners.com",0,0,0,0,0,0,0,0,"Beckner Clevy Partners",541611,0
+"http://www.beelchiropractic.com",0,0,0,0,0,0,0,0,"Beel Chiropractic Center",621310,1
+"http://www.bellavitamedicalcenter.com",0,0,0,81,2,0,0,0,"BELLA VITA MEDICAL CENTER LLC",621112,1
+"http://www.bellemeadechiro.com",11,0,0,1,1,0,0,0,"BELLE MEADE CHIROPRACTIC CENTER, PC",621310,1
+"http://www.bellemeadedermatology.com",0,0,0,5,7,2,0,0,"Belle Meade Dermatology",621111,1
+"http://www.bellemeadeumc.org",0,0,0,0,0,0,0,0,"BELLE MEADE UNITED METHODIST CHURCH",624410,0
+"http://www.bellevuechirocenter.com",14,0,0,2,2,0,0,0,"Bellevue Chiropractic Center",621310,1
+"http://www.bellfamilymedicalcenters.com",0,0,0,0,0,0,0,0,"Bell Family Medical Center",621111,1
+"http://www.bellwoodassistedliving.com",0,0,0,0,0,0,0,0,"Bellwood Assisted Living, LLC",623990,1
+"http://www.belmont-ss.com",0,0,0,0,0,0,0,0,"Belmont Software Services, LLC",541512,0
+"http://www.belmontvillage.com",0,0,0,0,0,0,0,0,"BELMONT VILLAGE GREEN HILLS TENANT, LLC",623312,1
+"http://www.belosouthconsulting.com",2,0,0,1,0,0,6,0,"Belo South Consulting LLC",541618,1
+"http://www.belva.net",1,0,0,0,0,0,0,0,"Belva Cunningham Lmt",621399,1
+"http://www.benfouts.com",0,0,0,0,0,0,0,0,"Benjamin F Fouts PC",541219,0
+"http://www.bensonorthodontics.com",2,0,0,0,10,0,0,0,"Benson Orthodontics",621210,1
+"http://www.berryhillchiropractic.com",11,0,0,1,2,0,4,0,"Berry Hill Chiropractic",621310,1
+"http://www.bethany.org",0,0,0,0,0,0,0,0,"Bethany Christian Services",624190,0
+"http://www.bethanyhrc.com",0,0,0,1,0,0,1,0,"Bethany Health Care Center, Inc.",623110,1
+"http://www.bethesdaworkshops.org",0,0,0,1,1,0,0,0,"Bethesda Work Shops",624190,1
+"http://www.bethlehemcenters.org",1,0,0,0,0,0,0,0,"Bethlehem Centers of Nashville",624190,0
+"http://www.bewellspringhill.com",2,0,0,0,0,0,0,0,"Bewell Chiropractic",621310,1
+"http://www.beyond-therapy.org",1,0,0,0,0,0,0,0,"Beyond Therapy A Shephered Center Program",621498,1
+"http://www.bgbook.com",0,0,0,0,0,0,0,0,"B-G Real Business Systems Publishing",541690,0
+"http://www.bgcmt.org",2,0,0,0,0,0,0,0,"BOYS & GIRLS CLUBS MIDDLE TN INC",624110,1
+"http://www.bgcrc.net",1,0,0,0,0,0,0,0,"Boys & Girls Clubs of Rutherford County, Inc",624110,0
+"http://www.bhodgedds.com",1,1,0,0,1,0,0,0,"Brandon Hodge",621210,1
+"http://www.bi-inform.us",0,0,0,0,0,0,0,0,"BI INFORM INC.",541618,0
+"http://www.bigeframe.com",0,0,0,0,0,0,0,0,"Bigeframe",334513,0
+"http://www.bigeventswedding.com",0,0,0,0,0,0,0,0,"BIG EVENTS INC.",541611,0
+"http://www.billeasterly.com",0,0,0,0,0,0,0,0,"Bill Easterly Associates",541611,0
+"http://www.billrobertsondds.com",1,1,0,0,3,0,0,0,"Bill Robertson DDS",621210,1
+"http://www.billscontracting.net",0,0,0,0,0,0,0,0,"Bills Contracting & Remodeling",517919,0
+"http://www.biomatusa.grifols.com",0,0,0,0,0,0,0,0,"Biomat Usa, Inc.",621991,1
+"http://www.bioscorp.com",0,0,0,0,0,0,0,0,"Bios of TN LLC",624120,1
+"http://www.biovane.com",0,0,0,0,0,0,0,0,"Biovane Inc",541611,0
+"http://www.bioventures.com",0,0,0,0,0,0,0,0,"Bioventures, Inc",325412,0
+"http://www.biowastetn.com",3,0,0,25,0,0,1,0,"Biowaste, LLC",621112,1
+"http://www.bipbtp.com",0,0,0,0,2,0,0,0,"Behavioral Treatment Providers LLC",624190,1
+"http://www.bkjdds.com",3,8,0,0,2,0,0,0,"Ben Jamison DDS",621210,1
+"http://www.blackmanfamilydental.com",0,30,0,0,6,0,0,0,"BLACKMAN FAMILY DENTAL",621210,1
+"http://www.blackmangrovedental.com",7,60,0,0,0,0,0,0,"Blackman Grove Dental, Pllc",621210,1
+"http://www.blakefordathome.com",0,0,0,0,0,0,0,0,"Blakeford At Home",621610,1
+"http://www.blankenshipcpagroup.com",0,0,0,0,0,0,0,0,"Blankenship CPA Group Pllc",541211,0
+"http://www.blessedbeginningsclc.org",1,0,0,0,0,0,0,0,"BLESSED BEGINNINGS",624410,1
+"http://www.blessedhomecare.org",0,0,0,0,0,0,0,1,"Blessed Home Care, LLC",621610,1
+"http://www.blsolutions.org",5,0,0,0,0,0,0,0,"Bl Solutions LLC",541611,1
+"http://www.bluebayautomation.com",0,0,0,0,0,0,0,0,"Bluebay Automation, LLC",541611,0
+"http://www.bluecoretech.com",0,0,0,0,0,0,0,0,"Bluecore Technologies, LLC",541512,0
+"http://www.bluegrassbaptistchurch.com",0,0,0,0,0,0,0,0,"BLUEGRASS BAPTIST WEEKDAY EARLY EDUCATION",624410,0
+"http://www.bluegrassdentistry.net",0,0,0,0,0,0,0,0,"Bluegrass Dentistry PLC",621210,1
+"http://www.bluegrassobgyn.com",37,0,0,6,0,0,12,0,"Bluegrass Womens Health Group",621511,1
+"http://www.blueoasispethospital.com",3,0,0,0,0,0,0,0,"Blue Oasis Pet Hospital",622110,1
+"http://www.boblyonsandassociates.com",0,0,0,0,0,0,0,0,"Bob Lyons & Assoc LLC",541611,0
+"http://www.bodiflo.com",1,0,0,1,1,0,0,0,"Bodiflo, LLC",541711,1
+"http://www.bodylogicmd.com",4,0,0,2,3,0,11,0,"Bodylogicmd, Inc.",621111,1
+"http://www.bodyworksmassages.com",2,0,0,2,0,0,0,0,"Bodyworks Massage Therapy",621498,1
+"http://www.boldplanning.com",5,0,0,0,0,0,0,0,"Boldplanning, Inc.",541611,0
+"http://www.bollsmedia.com",0,0,0,0,0,0,0,0,"Bolls Media",517919,0
+"http://www.boltonmusictherapy.com",0,0,0,0,0,0,0,0,"Bolton Music Therapy",621498,1
+"http://www.bondware.com",0,0,0,0,0,0,0,0,"BONDWARE, INC.",541511,0
+"http://www.bonitron.com/contact.html",0,0,0,1,0,0,0,0,"Bonitron, Inc.",335999,0
+"http://www.bookerbusiness.com",0,0,0,0,0,0,0,0,"Booker Business Services, Inc.",541219,0
+"http://www.borderjump.com",0,0,0,0,0,0,0,0,"Borderjump, LLC",541613,0
+"http://www.boson.com",0,0,0,0,0,0,0,0,"Boson Software LLC",511210,0
+"http://www.boulevardterrace.com",0,0,0,0,0,0,0,0,"Boulevard Terrace Rehab and Nursing Center",623110,1
+"http://www.boyens.com",0,0,0,0,0,0,0,0,"BOYENS GROUP INC",541611,0
+"http://www.bpgweb.com",0,0,0,0,0,0,0,0,"Brentwood Psychiatric Group",624190,1
+"http://www.bracesbydrruth.com",1,2,0,0,2,0,0,0,"Braces By Dr Ruth Pllc",621210,1
+"http://www.bradleyejollydds.com",1,7,0,0,2,1,0,0,"Bradley E Jolly DDS",621210,1
+"http://www.bradshawbookkeeping.com",0,0,0,0,0,0,0,0,"Bradshaw Bookkeeping",541219,0
+"http://www.bradyfamilydentistry.com",0,0,0,0,0,0,0,0,"BRADY FAMILY DENTAL CARE",621210,1
+"http://www.brandbeaconconsulting.com",0,0,0,0,0,0,0,0,"Brand Beacon Consulting",541618,0
+"http://www.brandjournalists.com",0,0,0,0,0,0,0,0,"Brand Journalists",541690,0
+"http://www.brandlab.com",0,0,0,0,0,0,0,0,"Brandlab LLC",541511,0
+"http://www.brandontci.com",0,0,0,0,0,0,0,0,"Brandon Technology Consultant",541618,1
+"http://www.brasfieldgorrie.com",7,0,0,0,1,0,0,0,"Brasfield & Gorrie, L.L.C.",236220,1
+"http://www.bravomarketinggroup.com",0,0,0,0,0,0,0,0,"Bravo Marketing Group",541820,0
+"http://www.breakstationcreative.com",0,0,0,0,0,0,0,0,"Breakstation Creative",541511,0
+"http://www.breatheamerica.com",0,0,0,2,17,2,2,0,"Breatheamerica, Inc.",621111,1
+"http://www.brentwood.com",1,0,0,0,0,0,0,0,"Brentwood Associates",541611,0
+"http://www.brentwoodchildrens.com",0,0,0,0,0,0,4,0,"Brentwood Children's Clinic Inc",621111,1
+"http://www.brentwooddentalarts.com",6,40,0,0,0,0,0,0,"Brentwood Dental Arts",339116,1
+"http://www.brentwooddentalcentertn.com",1,98,0,0,1,0,0,0,"Brentwood Dental Center",621210,1
+"http://www.brentwooddentalpediatrics.com",8,15,0,0,0,0,0,0,"Brentwood Dental Pediatrics P.C.",621210,1
+"http://www.brentwooddentalspecialists.com",0,5,0,0,0,0,0,0,"Brentwood Dental Specialists, LLC",621210,1
+"http://www.brentwoodderm.com",0,0,0,1,2,0,0,0,"Brentwood Dermatology",621111,1
+"http://www.brentwoodeast.com",5,0,0,2,0,0,0,0,"Brentwood East Pediatrics",621111,1
+"http://www.brentwoodeyeclinic.com",0,0,0,2,3,1,0,0,"Brentwood Eye Clinic",621320,1
+"http://www.brentwoodprimarycare.com",0,0,0,0,0,0,0,0,"Brentwood Primary Care",621111,1
+"http://www.briancarden.com",0,0,0,0,0,0,0,0,"Brian E Carden",541611,0
+"http://www.bridgemoresolutions.net",0,0,0,0,0,0,0,0,"Bridgemore Solutions LLC",621610,1
+"http://www.bridgestonearena.com",0,0,0,0,0,0,0,0,"Bridgestone Arena",236220,0
+"http://www.brightbeginningsptc.com",0,0,0,0,3,0,0,0,"Bright Beginnings",624410,1
+"http://www.brighthorizonsfoundation.org",0,0,0,0,0,0,0,0,"Bright Horizons Foundation For Children",624410,1
+"http://www.brightstarcare.com",8,0,0,25,0,0,0,0,"Brightstar Care",621999,1
+"http://www.brightstone.org",0,0,0,0,0,0,0,0,"Bright Stone Inc",624310,1
+"http://www.bristoldevelopment.com",0,0,0,0,0,0,0,0,"Bristol Germantown Partners, LLC",541611,1
+"http://www.brmcmillan.com",0,0,0,0,0,0,0,0,"B.R. McMillan & Associates, Inc.",236220,0
+"http://www.broadbandtechnologycorp.com",0,0,0,2,0,0,0,0,"Broadband Technology Corporation",541690,0
+"http://www.brookdaleliving.com",0,0,0,0,0,0,0,0,"BROOKDALE SENIOR LIVING COMMUNITIES INC",623311,1
+"http://www.brownandmaguire.com",0,0,0,0,0,0,0,0,"Brown & Maguire Cpas, Pllc",541211,0
+"http://www.brucegust.com",0,0,0,0,0,0,0,0,"Brucegust.com",518210,0
+"http://www.bryndaquinn.com",0,0,0,0,0,0,0,0,"Brynda Quinn",621330,1
+"http://www.bsh-cpa.com",0,0,0,0,0,0,0,0,"BAKER SULLIVAN & HOOVER",541219,0
+"http://www.bsinet.us",2,0,0,0,0,0,0,0,"Batten & Shaw, Inc.",236220,1
+"http://www.bti.tv",0,0,0,0,0,0,0,0,"BUSINESS TECHNOLOGY, INC.",541511,0
+"http://www.bubbleup.net",5,0,0,0,0,0,0,0,"Bubbleup",517110,0
+"http://www.buddymondlock.com",0,0,0,0,0,0,0,0,"Bob Doyle & Associates Inc",541618,0
+"http://www.buffalovalley.org",1,0,0,1,8,0,0,0,"Buffalo Valley Inc",621498,1
+"http://www.burksdentistrymadison.com",2,6,0,0,0,0,0,0,"BURKS III, JAMES W DDS",621210,1
+"http://www.businessresourcellc.com",0,0,0,0,0,0,0,0,"Business Resource Group, LLC",541618,0
+"http://www.businesssynergetics.com",0,0,0,0,0,0,0,0,"BUSINESS SYNERGETICS INTERNATIONAL LLC",541611,1
+"http://www.butlerspestsolutions.com",1,0,0,0,0,0,0,0,"Butler's Pest Solutions",541618,0
+"http://www.buzzplant.com",0,0,0,0,0,0,0,0,"Buzzplant LLC",541511,0
+"http://www.bythenumbers.com",0,0,0,0,0,0,0,0,"BY THE NUMBERS",541611,0
+"http://www.c3-consult.com",2,0,0,0,0,0,0,0,"C3 Consulting LLC",541618,0
+"http://www.cabedge.com",0,0,0,0,0,0,0,0,"Cabedgecom",517919,1
+"http://www.cadprodinc.com",1,0,0,0,0,0,0,0,"Cad Productivity Inc",541611,0
+"http://www.caldwellpediatricdentistry.com",0,2,0,0,0,0,0,0,"Caldwell Pediatric Dentistry",621111,1
+"http://www.calvaryumc.com",0,0,0,0,0,0,0,0,"CALVARY WEEKDAY MINISTRIES FOR YOUNG CHILDREN",624410,0
+"http://www.cambridgeacademypreschool.com",0,0,0,0,0,0,0,0,"Cambridge Academy",624410,0
+"http://www.candlconsultants.com",2,0,0,0,0,0,0,0,"C and L Consultants",541618,0
+"http://www.ccisinc.com",0,0,0,0,0,0,0,0,"C and C Industrial Sales LLC",541618,0
+"http://www.chgcenter.com",0,0,0,4,1,1,1,0,"Baptist Healthcare Group",621111,1
+"http://www.ciac-cert.org",0,0,0,0,0,0,0,0,"Call Center Industry Advisory Council",541690,0
+"http://www.costcontrol.com",0,0,0,0,0,0,0,0,"B & L CORP",541611,0
+"http://www.crbard.com",4,0,0,7,0,2,0,0,"C. R. Bard, Inc.",423450,1
+"http://www.cumberlandbrainandspine.com",0,0,0,0,0,0,0,0,"Brian and Spine Cumberland",621111,1
+"http://www.dentists.lebanontn.ypeek.com",0,0,0,0,0,0,0,0,"Brian Adkison DDS",621210,1
+"http://www.dicksonmd.com",1,0,0,2,0,0,2,0,"Bryant Tiffany MD",621111,1
+"http://www.doctorbailey.com",0,0,0,0,0,0,0,0,"Bailey Chiropractic",621310,1
+"http://www.donnellypt.com",6,1,0,0,6,0,1,0,"Bunny Donnelly Physical Therapy",621340,1
+"http://www.drbiesman.com",0,0,0,0,1,0,0,0,"Brian S Biesman MD",621111,1
+"http://www.drbrianfann.net",0,0,0,0,0,0,0,0,"BRIAN FANN",621210,1
+"http://www.elyssebeasley.com",0,0,0,0,0,0,0,0,"Beasley, Elysse Lpe",624190,1
+"http://www.enrichmentbhse.com",0,0,0,0,0,0,0,0,"Bellevue Home School Enrichment",624410,1
+"http://www.faulknerandpollei.com",0,0,0,0,0,0,0,0,"Baird R Faulkner DMD",621210,1
+"http://www.fmcna.com",33,0,0,24,6,0,10,0,"Bio-Medical Applications of Rhode Island, Inc.",621492,1
+"http://www.fredkaufman.com",12,0,0,0,1,1,0,0,"Biogenyx",541611,1
+"http://www.goldenliving.com",15,0,0,1,1,0,0,0,"Beverly Enterprises, Inc.",623110,1
+"http://www.greatdecisionmaking.net",0,0,0,0,0,0,0,0,"Bauer Ethics Seminars",541618,0
+"http://www.howellallen.com",0,0,0,0,0,0,0,0,"Brian Oshaughnessy MD",621111,1
+"http://www.hylant.com",4,1,0,5,0,0,0,0,"Benefit Consulting Alliance LLC",541618,1
+"http://www.inglewoodfamilydentistry.com",2,7,0,0,0,0,0,0,"BAKER CURTIS DMD, KAREN",621210,1
+"http://www.jameslbushdds.com",2,9,0,0,2,0,0,0,"BUSH FAMILY MOBILE DENTISTRY",621210,1
+"http://www.jamiegrossdentistry.com",0,38,0,0,0,0,0,0,"Bellevue Dental Care",621210,1
+"http://www.jenkinschiropracticonline.com",0,0,0,0,0,0,0,0,"Brandon Jenkins DC",621310,1
+"http://www.julieburnscpa.com",0,0,0,0,0,0,0,0,"Burns Julie CPA",541211,0
+"http://www.kbrbuildinggroup.com",1,0,0,0,0,0,0,0,"BE&k Building Group, Inc",236220,0
+"http://www.kidsfirstfoundation.net",0,0,0,0,0,0,0,0,"BROAD HORIZONS OF RAMONA",623990,1
+"http://www.kingtechsolutions.com",0,0,0,0,0,0,0,0,"Brad King",518210,0
+"http://www.lightarian.com",0,0,0,0,1,0,0,0,"Basic Page",517110,1
+"http://www.maysandassociates.com",0,0,0,0,0,1,0,0,"BURKE L. MAYS AND ASSOCIATES, INC.",621511,1
+"http://www.mbs-intl.com",0,0,0,0,0,0,0,0,"BRENT WOOD COUNCELING ASSOCIATION",624190,1
+"http://www.mbutterfieldallergy.com",0,0,0,0,0,0,0,0,"Brentwood Allergy & Asthma",621111,1
+"http://www.mentorakid.org",0,0,0,0,0,0,0,0,"Big Brothers/Big Sisters of Middle Tennessee",624190,1
+"http://www.middletnplasticsurgery.com",4,0,0,2,3,0,0,0,"Burgdorf Michael R MD MPH",621111,1
+"http://www.mmclinic.com",0,0,0,2,0,0,3,0,"Brenna Green",621111,1
+"http://www.mtbj.net",1,0,0,0,0,0,12,0,"C. Wilburn",621111,1
+"http://www.murfreesborodiabetes.com",2,0,0,2,0,0,1,0,"B. Paul Turpin, M.D., Pllc",621111,1
+"http://www.mybackinbalance.massagetherapy.com",2,0,0,0,2,0,0,0,"Back In Balance",621399,1
+"http://www.nashvillefootgroup.com",3,0,0,1,8,0,0,0,"BERKELEY H NICHOLLS DPM",621391,1
+"http://www.nashvillemedicalgroup.com",3,0,0,5,2,0,5,0,"Baptist Sports Medicine of South Nashville",621999,1
+"http://www.nguyenoms.com",2,12,0,0,0,1,0,0,"Brian P Nguyen DMD Pllc Oral and Maxillo",621210,1
+"http://www.ohmyachingfeet.com",0,0,0,0,0,0,0,0,"Brian D Jackson DPM",621391,1
+"http://www.omspartners.com",0,7,0,0,1,1,0,1,"Bruce C McLeod",621210,1
+"http://www.physicians.brentwood.ypeek.com",0,0,0,0,0,0,1,0,"Brentwood Neurology PLC",621111,1
+"http://www.premierradiology.com",0,0,0,2,0,0,2,0,"BIOIMAGING AT COOL SPRINGS",339112,1
+"http://www.provcorp.com",1,0,0,0,0,0,0,0,"Camelot Care Centers Inc",621991,1
+"http://www.shopabckids.com",0,0,0,0,0,0,0,0,"Berry's Chapel Church of Christ",624410,0
+"http://www.smithdentalcenter.com",4,15,0,0,0,0,0,0,"BOBBI SMITH",621210,1
+"http://www.springhilltndentist.com",0,2,0,0,0,0,0,0,"Brandon C Birdwell",621210,1
+"http://www.stonecrestfp.com",13,0,0,5,2,0,24,0,"Bryan J Kozinski MD",621111,1
+"http://www.strangebirdmedia.com",0,0,0,0,0,0,0,0,"Bird Strange Media",517919,0
+"http://www.thebelmontpetresort.com",1,0,0,0,0,0,0,0,"Belmont At Resort and Daycare",624410,0
+"http://www.theblessedrevelations.com",0,0,0,0,0,0,0,0,"BLESSED REVELATIONS",624190,0
+"http://www.thebrowncenter.org",1,0,0,0,5,1,0,0,"Brown Center For Autism",621111,1
+"http://www.thecamelotdifference.com",0,0,0,0,0,0,0,0,"Camelot Care Centers",623990,1
+"http://www.tierneymd.com",0,0,0,0,13,0,0,0,"Brian Tierney",621111,1
+"http://www.tn-watertown.doctors.at",51,0,0,82,5,2,5,0,"Barbara Corlew, Fnp",621111,1
+"http://www.tnretina.com",0,0,0,1,1,0,1,0,"Brandon Busbee",621111,1
+"http://www.toa.com",1,0,0,3,2,0,8,0,"BURRUS DANIEL S",621111,1
+"http://www.tristarbrentwoodeast.com",21,0,0,6,0,0,7,0,"Brentwood East Clinic",621999,1
+"http://www.twcpc.net",19,0,0,3,4,2,0,0,"C WADE DAVIDSON MD",621111,1
+"http://www.usawaterways.com",0,0,0,0,0,0,0,0,"Bob Keim CPA",541211,0
+"http://www.vanderbilthealth.com",18,0,0,1,0,3,0,0,"Bill Wilkerson Center",621498,1
+"http://www.vibro-acoustics.com",0,0,0,0,0,0,0,0,"Bva Systems (tennessee) Inc",334515,0
+"http://www.wmt.com",0,0,0,0,0,0,0,0,"Biomimetic Therapeutics, LLC",339112,1
