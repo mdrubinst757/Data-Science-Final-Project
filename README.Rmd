@@ -21,4 +21,4 @@ We then use the AdHocAnalysis.R and CVVarSelectandTests.R scripts to run differe
 
 Finally, Final Results.R merges these two csvs together and outputs a final table called finalresults.csv. It also generates a plot of the data, results.png. 
 
-The final write-up of this project is Final Report.pdf. There are also files in this folder associated with our presentation. These include DSPresentation.R, DSPresentation.html, and several images.
+The final write-up of this project is Final Report.pdf. The files associated with our presentation are in the Presentation folder and include DSPresentation.R, DSPresentation.html, and several images.
